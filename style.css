@@ -1,0 +1,40 @@
+/*ESTeban Velo*/
+
+/*home*/
+.rotar{
+	transform: rotate(90deg);
+}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #ebebeb;
+}
+.sidebar-menu>li {
+    border: solid 1px #d9d9d9;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a {
+    color: #fff;
+    background: url(img/liston.png) center center no-repeat;
+    background-size: cover;
+}
+.skin-blue .sidebar a {
+    color: #4d4e4e;
+}
+.sidebar-menu>li>a>.fa, .sidebar-menu>li>a>.glyphicon, .sidebar-menu>li>a>.ion {
+    color: #2d99d5;
+}
+.sidebar-menu>li:hover>a>.fa, .sidebar-menu>li>a>.glyphicon, .sidebar-menu>li>a>.ion {
+    color: #fff;
+}
+.skin-blue .sidebar-form input[type="text"], .skin-blue .sidebar-form .btn {
+    background-color: #fff;
+}
+.skin-blue .sidebar-form {
+    border-radius: 0px;
+    border: 1px solid #cecece;
+}
+.skin-blue .main-header .logo {
+    background-color: #fff;
+}
+.skin-blue .main-header .logo:hover {
+    background-color: #fff;
+}
+/*fin*/
