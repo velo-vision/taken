@@ -14,16 +14,16 @@ getAside();
           <thead>
             <tr class="strong-td padding-size">
                 <td class="centers border-usuario">
-                  <strong>Nombre</strong>
+                  <strong>Fecha</strong>
                 </td>
                 <td class="centers border-usuario">
-                  <strong>Tags Vinculados</strong>
+                  <strong>ID</strong>
                 </td>
                 <td class="centers border-usuario">
-                   <strong>Saldo Actual</strong>
+                   <strong>Tags</strong>
                 </td>
                 <td class="centers border-usuario">
-                   <strong>RFC</strong>
+                   <strong>Monto</strong>
                 </td>
               </tr>
           </thead>
