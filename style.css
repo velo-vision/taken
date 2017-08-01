@@ -1,4 +1,4 @@
-/*ESTeban Velo*/
+ESTeban Velo*/
 
 /*home*/
 body, p, span, ul, li{
@@ -181,6 +181,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-size: cover;*/
     background:#f3c200 ;
 }
+.once{
+    background: #f36a5a;
+}
+.doce{
+    background: #32c4d2;
+}
 table.dataTable {
     white-space: pre;
 }
@@ -245,6 +251,17 @@ div.dataTables_wrapper div.dataTables_paginate {
     font-size: 17px;
 }
 /**/
+
+/*TAG2*/
+
+.id{
+    color: #2d99d5;
+    font-weight: 700;
+    padding: 21px 0 10px 20px;
+}
+.size{
+    min-height: initial;
+}
 /*medias*/
 @media only screen and (min-width: 1200px) and (max-width: 1300px){
 
@@ -291,4 +308,4 @@ div.dataTables_wrapper div.dataTables_paginate {
 /*fin*/
 }
 
-/*fin*/
+/*fin

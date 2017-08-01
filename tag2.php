@@ -2,7 +2,9 @@
 include('funtions.php');
 getHeader();
 getAside(); 
+
 ?>
+
 <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -10,7 +12,60 @@ getAside();
       <h1 class="linea">
         <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Tag <span class="mayor"> > </span> <span class="r">Resumen</span>
       </h1>
-      <div class="form-group linea2">        
+      <h4 class="id">
+        ID: 2910384562
+      </h4>    
+    </section>
+    <!-- Main content -->
+    <section class="content size">
+      <!-- Small boxes (Stat box) -->
+      <div class="row">
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-aqua">
+            <div class="inner once">
+            <img src="img/index/img-1.png" class="resumen">
+              <h3>$100,000</h3>
+              <p>SALDO ACTUAL</p>
+            </div>                        
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-aqua">
+            <div class="inner doce">
+            <img src="img/index/img-2.png" class="resumen">
+              <h3>$25,000</h3>
+              <p>SALDO PROMEDIO MENSUAL</p>
+            </div>                        
+          </div>
+        </div>        
+      <!-- /.row -->     
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          
+        </div>
+        <div class="col-lg-4">
+          
+        </div>
+        <div class="col-lg-4">
+          
+        </div>
+        <div class="col-lg-4">
+          
+        </div>
+      </div>
+
+    </section>
+        <!-- /.Left col -->
+       <section class="content"> 
+      <!-- Main row -->
+      <div class="row">
+        <!-- Left col -->
+        <section class="col-lg-12 connectedSortable">
+        <div class="form-group linea2">        
         <select class="form-control">
           <option>MONTO</option>r
           <option>option 2</option>
@@ -27,19 +82,11 @@ getAside();
           <option>option 4</option>
           <option>option 5</option>
         </select>
-      </div>    
-    </section>
-    <!-- Main content -->
-    <section class="content"> 
-      <!-- Main row -->
-      <div class="row">
-        <!-- Left col -->
-        <section class="col-lg-12 connectedSortable">
- 
+      </div>
           <!-- tablas -->
-      <div class="row">
+      <div class="row">      
         <div class="col-xs-12">
-          <div class="box no">            
+          <div class="box no">         
             <!-- /.box-header -->
             <div class="box-body table-responsive no-padding">
               <table id="example2" class="table table-hover">
@@ -95,8 +142,9 @@ getAside();
       <!-- /.row (main row) -->
 
     </section>
-    <!-- /.content -->
   </div>
+      <!-- /.row (main row) -->
+
   <!-- /.content-wrapper -->
 
-<?php getFooter(); ?>
+  <?php getFooter(); ?>

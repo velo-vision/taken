@@ -1,10 +1,3 @@
- <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b></b> 
-    </div>
-    
-  </footer>
-
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Create the tabs -->
