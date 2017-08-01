@@ -1,8 +1,8 @@
-ESTeban Velo*/
+/*ESTeban Velo*/
 
 /*home*/
-body {
-    font-family: 'Source Sans Pro','Helvetica Neue', 'Open Sans',Helvetica,Arial,sans-serif;
+body, p, span, ul, li{
+    font-family:'Open Sans' ,sans-serif;
     font-weight: 400;
     overflow-x: hidden;
     overflow-y: auto;
@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
     background-color: #ebebeb;
+    overflow-y: hidden;
 }
 .sidebar-menu>li {
     border: solid 1px #d9d9d9;
@@ -216,7 +217,34 @@ div.dataTables_wrapper div.dataTables_paginate {
 .small-box h3 {
     font-size: 36px;
 }
-
+/*tags*/
+.linea{
+    display: inline-block;
+}
+.linea2{
+    display: inline-block;
+    float: right;
+    margin: 0 10px;
+    width: 15%;
+}
+.form-control {
+    border-color: #2d99d5;
+}
+.no{
+    border-top: none;
+}
+.separacion tr th{
+    border-right: solid 2px #ccc;
+}
+.r{
+    font-size: 15px;
+    color: #000;
+}
+.mayor{
+    color: #3ea1d8;
+    font-size: 17px;
+}
+/**/
 /*medias*/
 @media only screen and (min-width: 1200px) and (max-width: 1300px){
 
