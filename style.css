@@ -15,6 +15,10 @@
     background: url(img/liston.png) center center no-repeat;
     background-size: cover;
 }
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a i{
+    color: #fff;
+}
+
 .skin-blue .sidebar a {
     color: #4d4e4e;
 }
