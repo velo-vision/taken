@@ -244,6 +244,14 @@
       'ordering'    : true,
       'info'        : false,
       'autoWidth'   : false
+    }),
+    $('#example3').DataTable({
+      'paging'      : true,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : false,
+      'autoWidth'   : false
     })
   })
 </script>

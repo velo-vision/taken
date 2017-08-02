@@ -29,8 +29,6 @@
   <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
    <!-- DataTables -->
   <link rel="stylesheet" href="bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
-  <!-- taps -->
-  <link rel="stylesheet" type="text/css" href="css/style3.css" />
     <!-- style jorge -->
   <link rel="stylesheet" href="style-2.css">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

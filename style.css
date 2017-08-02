@@ -1,9 +1,9 @@
-ESTeban Velo*/
+/*ESTeban Velo*/
 
 /*home*/
-body, p, span, ul, li{
+body, p, span, ul, li, nav,a{
     font-family:'Open Sans' ,sans-serif;
-    font-weight: 400;
+   /* font-weight: 400;*/
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -131,54 +131,34 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     top: 21px;
 }
 .uno{
-   /* background: url('img/img_prueba.png') no-repeat;
-    background-size: cover;*/
     background:#578ebe;
 }
 .dos{
-    /*background: url('img/img-2.png') no-repeat;
-    background-size: cover;*/
     background: #f36a5a;
 }
 .tres{
-    /*background: url('img/img-3.png') no-repeat;
-    background-size: cover;*/
     background:#32c5d2 ;
 }
 .cuatro{
-    /*background: url('img/img-4.png') no-repeat;
-    background-size: cover;*/
     background:#8775a7 ;
 }
 .cinco{
-    /*background: url('img/img-5.png') no-repeat;
-    background-size: cover;*/
     background:#3598dc ;
 }
 .seis{
-    /*background: url('img/img-6.png') no-repeat;
-    background-size: cover;*/
     background:#e87e04 ;
 }
 .siete{
-    /*background: url('img/img-7.png') no-repeat;
-    background-size: cover;*/
     background:#1bbc9b ;
 }
 .ocho{
-    /*background: url('img/img-8.png') no-repeat;
-    background-size: cover;*/
     background:#9b59b6 ;
 }
 
 .nueve{
-    /*background: url('img/img-9.png') no-repeat;
-    background-size: cover;*/
     background:#578ebe ;
 }
 .diez{
-    /*background: url('img/img-10.png') no-repeat;
-    background-size: cover;*/
     background:#f3c200 ;
 }
 .once{
@@ -262,6 +242,55 @@ div.dataTables_wrapper div.dataTables_paginate {
 .size{
     min-height: initial;
 }
+.sin-espacio ul{
+    -webkit-padding-start: 2px;
+    padding-left: 1px !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #2d99d5;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.nav>li>a:hover, .nav>li>a:active, .nav>li>a:focus {
+    color: #fff;
+    background: #2d99d5;
+}
+.enlinea li{
+    display: inline-block;
+    font-weight: 700;
+    border-right: solid 1px gray;
+    padding: 21px;
+    width: 23%;
+    text-align: center;
+}
+.enlinea li:last-child{
+    border-right: none;
+}
+.enlinea li span{
+    font-weight: 500;
+}
+.tag2{
+    position: relative;
+    top: 0px;
+}
+
+
+/*finanzas*/
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    margin: 0 1px;
+    background: none;
+}
+.skin-blue .sidebar-menu .treeview-menu>li>a {
+    color: #505050;
+    background: #f9f9f9;
+}
+.skin-blue .sidebar-menu .treeview-menu>li.active>a, .skin-blue .sidebar-menu .treeview-menu>li>a:hover {
+    color: #fff;
+    background: #145572;
+}
+
 /*medias*/
 @media only screen and (min-width: 1200px) and (max-width: 1300px){
 
@@ -271,6 +300,11 @@ div.dataTables_wrapper div.dataTables_paginate {
     font-size: 35px;
 
 }
+.enlinea li {
+    padding: 16px 0px;
+    width: 45%;
+}
+/*fin*/
 }
 
 @media only screen and (min-width:768px) and (max-width:992px){
@@ -280,6 +314,21 @@ div.dataTables_wrapper div.dataTables_paginate {
 .resumen {
     height: 80px;
     top: 18px;
+}
+
+/*tag2*/
+.enlinea li {
+    display: inline-block;
+    font-weight: 700;
+    border-right: solid 1px gray;
+    padding: 11px 0px;
+    width: 48%;
+    text-align: left;
+}
+.tag2 {
+    position: relative;
+    top: 0px;
+    width: 30%;
 }
 /*fin*/
 }
@@ -291,6 +340,19 @@ div.dataTables_wrapper div.dataTables_paginate {
 .resumen {
     height: 60px;
     top: 33px;
+}
+.enlinea li {
+    display: inline-block;
+    border-right: none;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+}
+.tag2 {
+    position: initial;
+    width: 47%;
+    float: none;
+    margin: 0 2px;
 }
 /*fin*/
 }
@@ -304,6 +366,20 @@ div.dataTables_wrapper div.dataTables_paginate {
 }
 .resumen {
     display: none;
+}
+
+/*tag 2*/
+.enlinea li {
+    border-right: none;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+}
+.tag2 {
+    position: initial;
+    width: 47%;
+    float: none;
+    margin: 0 2px;
 }
 /*fin*/
 }
