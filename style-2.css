@@ -28,4 +28,53 @@
   color:#2d99d5;
   font-family: 'Open Sans', sans-serif;
 }
+.morado{
+  background: #8775a7;
+}
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+  border-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+.color-blue {
+  color: #2d99d5;
+  font-size: 16px;
+  padding-top: 0px;
+  margin: 0 5px;
+}
+.usuario-size{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+.margin-usuario{
+  padding-top: 35px;
+}
+.mayor-usuario {
+  color: #3ea1d8;
+  font-size: 17px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.nav-tabs>li>a {
+  color: #000;
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid #d3dbdf;
+  border-radius: 0;
+}
+.size-tags a{
+  padding: 0 20px;
+}
+/*.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    padding: 10px 40px;
+    cursor: default;
+    background-color: #2d99d5;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}*/
 /*Fin Usuarios -1*/
