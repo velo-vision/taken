@@ -16,54 +16,67 @@
       </form>
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul class="sidebar-menu" data-widget="tree">
-       
-        <li class="treeview">
+      <ul id="negro" class="sidebar-menu" data-widget="tree">
+       <li>
+          <a href="index.php">
+            <i class="fa fa-home" aria-hidden="true"></i> <span>Home</span> 
+          </a>
+        </li>
+        <li>
           <a href="#">
-            <i class="fa fa-home" aria-hidden="true"></i> <span>Home</span>            
-          </a>          
+            <i class="fa fa-users" aria-hidden="true"></i> <span>Usuarios</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-truck" aria-hidden="true"></i> <span>Gasolinera</span>      
+          </a>
+        </li>
+        <li>
+          <a href="tag.php">
+            <i class="fa fa-credit-card" aria-hidden="true"></i> <span>Tag</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-file-text-o" aria-hidden="true"></i> <span>Facturación</span>    
+          </a>
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-users" aria-hidden="true"></i> <span>Usuarios</span>            
-          </a>          
+            <i class="fa fa-usd" aria-hidden="true"></i> <span>Finanzas</span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#"><img src="img/index/punto.png"> Gastos diarios</a></li>
+            <li><a href="#"><img src="img/index/punto.png"> Gastos por gasolinera</a></li>
+            <li><a href="#"><img src="img/index/punto.png"> Gastos por usuarios</a></li>
+            <li><a href="#"><img src="img/index/punto.png"> Gastos por tag</a></li>
+          </ul>
         </li>
-        <li class="treeview">
-          <a href="#">
-            <span> <img src="img/gas.png"> Gasolinera</span>            
-          </a>          
+        <li>
+          <!-- <a href="#">
+            <i class="fa fa-usd" aria-hidden="true"></i> <span>Finanzas</span> 
+          </a> -->
         </li>
-        <li class="treeview">
+        <li>
           <a href="#">
-            <i class="fa fa-credit-card" aria-hidden="true"></i> <span>Tag</span>            
-          </a>          
+           <i class="fa fa-exchange rotar" aria-hidden="true"></i> <span>Altas y bajas</span>
+          </a>
         </li>
-        <li class="treeview">
+        <li>
           <a href="#">
-            <i class="fa fa-file-text-o" aria-hidden="true"></i> <span>Facturación</span>            
-          </a>          
+            <i class="fa fa-cog" aria-hidden="true"></i> <span>Configuración</span>  
+          </a>
         </li>
-        <li class="treeview">
+        <li>
           <a href="#">
-            <i class="fa fa-usd" aria-hidden="true"></i> <span>Finanzas</span>            
-          </a>          
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-exchange rotar" aria-hidden="true"></i> <span>Altas y bajas</span>            
-          </a>          
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-cog" aria-hidden="true"></i> <span>Configuración</span>            
-          </a>          
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-shopping-bag" aria-hidden="true"></i> <span>Promociones</span>            
-          </a>          
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i> <span>Promociones</span>    
+          </a>
         </li>
       </ul>
     </section>
     <!-- /.sidebar -->
   </aside>
+
+
+   
