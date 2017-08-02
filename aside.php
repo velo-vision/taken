@@ -47,7 +47,7 @@
             <i class="fa fa-usd" aria-hidden="true"></i> <span>Finanzas</span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><img src="img/index/punto.png"> Gastos diarios</a></li>
+            <li><a href="finanzas-1.php"><img src="img/index/punto.png"> Gastos diarios</a></li>
             <li><a href="#"><img src="img/index/punto.png"> Gastos por gasolinera</a></li>
             <li><a href="#"><img src="img/index/punto.png"> Gastos por usuarios</a></li>
             <li><a href="#"><img src="img/index/punto.png"> Gastos por tag</a></li>

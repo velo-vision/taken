@@ -128,44 +128,56 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .resumen{
     position: absolute;
     left: 0px;
-    top: 21px;
+    top: 10px;
 }
 .uno{
     background:#578ebe;
+    height: 110px;
 }
 .dos{
     background: #f36a5a;
+    height: 110px;
 }
 .tres{
     background:#32c5d2 ;
+    height: 110px;
 }
 .cuatro{
     background:#8775a7 ;
+    height: 110px;
 }
 .cinco{
     background:#3598dc ;
+    height: 110px;
 }
 .seis{
     background:#e87e04 ;
+    height: 110px;
 }
 .siete{
     background:#1bbc9b ;
+    height: 110px;
 }
 .ocho{
     background:#9b59b6 ;
+    height: 110px;
 }
 
 .nueve{
     background:#578ebe ;
+    height: 110px;
 }
 .diez{
     background:#f3c200 ;
+    height: 110px;
 }
 .once{
     background: #f36a5a;
+    height: 110px;
 }
 .doce{
     background: #32c4d2;
+    height: 110px;
 }
 table.dataTable {
     white-space: pre;
@@ -290,6 +302,13 @@ div.dataTables_wrapper div.dataTables_paginate {
     color: #fff;
     background: #145572;
 }
+.grafica1{
+   height: 50vh; 
+   /*width: 100%;*/
+}
+#container1 div, canvas {
+    width: 100% !important;
+}
 
 /*medias*/
 @media only screen and (min-width: 1200px) and (max-width: 1300px){
@@ -330,6 +349,45 @@ div.dataTables_wrapper div.dataTables_paginate {
     top: 0px;
     width: 30%;
 }
+
+/*home*/
+.uno{
+   height: 100px;
+}
+.dos{
+    height: 100px;
+}
+.tres{
+    height: 100px;
+}
+.cuatro{
+    height: 100px;
+}
+.cinco{
+    height: 100px;
+}
+.seis{
+    height: 100px;
+}
+.siete{
+    height: 100px;
+}
+.ocho{
+    height: 100px;
+}
+
+.nueve{
+    height: 100px;
+}
+.diez{
+    height: 100px;
+}
+.once{
+    height: 100px;
+}
+.doce{
+    height: 100px;
+}
 /*fin*/
 }
 
@@ -367,7 +425,44 @@ div.dataTables_wrapper div.dataTables_paginate {
 .resumen {
     display: none;
 }
+/*home*/
+.uno{
+   height: 90px;
+}
+.dos{
+    height: 90px;
+}
+.tres{
+    height: 90px;
+}
+.cuatro{
+    height: 90px;
+}
+.cinco{
+    height: 90px;
+}
+.seis{
+    height: 90px;
+}
+.siete{
+    height: 90px;
+}
+.ocho{
+    height: 90px;
+}
 
+.nueve{
+    height: 90px;
+}
+.diez{
+    height: 90px;
+}
+.once{
+    height: 90px;
+}
+.doce{
+    height: 90px;
+}
 /*tag 2*/
 .enlinea li {
     border-right: none;
@@ -380,6 +475,12 @@ div.dataTables_wrapper div.dataTables_paginate {
     width: 47%;
     float: none;
     margin: 0 2px;
+}
+
+/*grafica*/
+.grafica1 {
+    height: 40vh;
+    /*width: 100%;*/
 }
 /*fin*/
 }
