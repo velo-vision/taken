@@ -7,7 +7,7 @@
   background-color: #ffffff;
 }
 .border-usuario{
-  border-right: 1px solid;
+  border-right: 1px solid #cccccc;
 }
 .text-usuario p{
   font-family: 'Open Sans', sans-serif;

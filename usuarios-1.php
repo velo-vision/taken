@@ -12,7 +12,7 @@ getAside();
         <div class="table-responsive mailbox-messages">
           <table class="sortable table table-hover tabla-completa">
           <thead>
-            <tr class="strong-td padding-size">
+            <tr class="padding-size">
                 <td class="centers border-usuario">
                   <strong>Nombre</strong>
                 </td>

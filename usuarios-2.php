@@ -30,10 +30,10 @@ getAside();
             <tbody class="table-point">
               <?php for ($i=0; $i <10 ; $i++) { ?>
                <tr class="hover-registro" onCLick="document.location='usuarios-2.php'">
-                <td class="centers"><span>50</span></td>
+                <td class="centers"><span>30/09/2012</span></td>
+                <td class="centers"><span>291038402</span></td>
+                <td class="centers"><span>Lorem Ipsum Dolor</span></td>
                 <td class="centers"><span>$25,000</span></td>
-                <td class="centers"><span>$70,000</span></td>
-                <td class="centers"><span>150</span></td>
               </tr>
               <?php } ?>
             </tbody>
