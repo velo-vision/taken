@@ -38,22 +38,22 @@ getAside();
                 <tbody class="mytabs">
                 <?php for ($i=0; $i <5 ; $i++) { ?>
                   <tr class="hover-registro" onCLick="document.location='usuario2.php'">
-                    <td class="centers text-color"><span>Lorem Ipsum Dolor Sit S. A. de C.V. </span></td>
-                    <td class="centers"><span>50</span></td>
-                    <td class="centers"><span>$25,000</span></td>
-                    <td class="centers"><span>$70,000</span></td>
-                    <td class="centers"><span>MOMD821206HR01</span></td>
-                    <td class="centers"><span>70</span></td>
+                    <td class="centers text-color">Lorem Ipsum Dolor Sit S. A. de C.V. </td>
+                    <td class="centers">50</td>
+                    <td class="centers">$25,000</td>
+                    <td class="centers">$70,000</td>
+                    <td class="centers">MOMD821206HR01</td>
+                    <td class="centers">70</td>
                   </tr>
                 <?php } ?>
                 <?php for ($x=0; $x <5 ; $x++) { ?>
                   <tr class="hover-registro" onCLick="document.location='usuario2.php'">
                     <td class="centers text-color"><span>Lorem Ipsum Dolor</span></td>
-                    <td class="centers"><span>50</span></td>
-                    <td class="centers"><span>$25,000</span></td>
-                    <td class="centers"><span>$70,000</span></td>
-                    <td class="centers"><span>MOMD821206HR01</span></td>
-                    <td class="centers"><span>150</span></td>
+                    <td class="centers">50</td>
+                    <td class="centers">$25,000</td>
+                    <td class="centers">$70,000</td>
+                    <td class="centers">MOMD821206HR01</td>
+                    <td class="centers">150</td>
                   </tr>
                 <?php } ?>
                 </tbody>

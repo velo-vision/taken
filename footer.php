@@ -268,21 +268,47 @@
       'ordering'    : true,
       'info'        : false,
       'autoWidth'   : false
-    }),$('#example6').DataTable({
+    }),
+    $('#example6').DataTable({
       'paging'      : false,
       'lengthChange': false,
       'searching'   : false,
       'ordering'    : true,
       'info'        : false,
       'autoWidth'   : false
-    }),$('#example7').DataTable({
+    }),
+    $('#example7').DataTable({
       'paging'      : false,
       'lengthChange': false,
       'searching'   : false,
       'ordering'    : true,
       'info'        : false,
       'autoWidth'   : false
-    }),$('#example8').DataTable({
+    }),
+    $('#example8').DataTable({
+      'paging'      : false,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : false,
+      'autoWidth'   : false
+    }),
+    $('#example9').DataTable({
+      'paging'      : false,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : false,
+      'autoWidth'   : false
+    }),$('#example10').DataTable({
+      'paging'      : false,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : false,
+      'autoWidth'   : false
+    }),
+  }),$('#example11').DataTable({
       'paging'      : false,
       'lengthChange': false,
       'searching'   : false,
