@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .rotar{
 	transform: rotate(90deg);
 }
+/*menu*/
 .color-azul{
     color:#2d99d5;
     font-size: 20px;
@@ -111,8 +112,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .color-span{
     color: #989799;
 }
-
-
+.align-text{
+    padding-left: 23px;
+}
+.sidebar-mini.sidebar-collapse .sidebar-menu>li:not(.treeview)>a>span span{
+    display: none;
+}
 /*index*/
 .small-box>.inner {
     padding: 10px;
@@ -189,11 +194,15 @@ table.dataTable {
     font-size: 15px;
     font-weight: 600;
 }
-.mytabs tr th{
+.mytabs tr th,a{
     font-weight: 400;
     color: #808080;
 }
 .mytabs tr th:first-child{
+    color: #3598dc;
+    font-weight: 400;
+}
+.mytabs tr th a:first-child{
     color: #3598dc;
     font-weight: 400;
 }
@@ -306,7 +315,7 @@ div.dataTables_wrapper div.dataTables_paginate {
    height: 50vh; 
    /*width: 100%;*/
 }
-#container1 div, canvas {
+#container1 div canvas {
     width: 100% !important;
 }
 
