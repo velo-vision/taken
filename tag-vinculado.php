@@ -57,13 +57,11 @@ getAside();
               <table id="example2" class="table table-hover">
                 <thead class="separacion">
                   <tr>
-                    <th> 
-                    <div class="checkbox checkbox-success" id="seleccionartodos">
+                     <th><div class="checkbox checkbox-success" id="seleccionartodos">
                         <input id="checkTodos" type="checkbox">
-                        <label for="checkTodos"></label>
-                    </div>
+                        <label for="checkTodos">ID de Tag</label>
+                    </div>                    
                     </th>
-                     <th>ID de Tag</th>
                      <th>Nombre / Alias</th>
                      <th>Creación</th>
                      <th>Saldo Total</th>
@@ -73,14 +71,13 @@ getAside();
                 </thead>
                 <tbody class="mytabs">               
                <?php for ($x=1; $x <10 ; $x++) { ?>
-                <tr>               
-                  <th class="segund">
+                <tr>
+                  <th>
                   	<div class="checkbox checkbox-success">
                         <input id="<?php echo $x; ?>" type="checkbox" name="option[]">
-                        <label for="<?php echo $x; ?>"></label>
+                        <label for="<?php echo $x; ?>">2910384561V</label>
                     </div>
                   </th>
-                  <th>2910384561V</th>
                   <th>Adrian Rofriguez</th>
                   <th>20/09/2017</th>                  
                   <th>$340,000</th>

@@ -7,8 +7,8 @@ $('document').ready(function(){
   });
 });
 
-
- $(function () {
+// tablas
+$(function () {
     $('#example1').DataTable()
     $('#example2').DataTable({
       'paging'      : true,
