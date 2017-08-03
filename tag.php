@@ -37,11 +37,48 @@ getAside();
         <section class="col-lg-12 connectedSortable">
  
           <!-- tablas -->
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="box no">            
-            <!-- /.box-header -->
+        <div class="row">      
+          <div class="col-xs-12">
+            <div class="box no"> 
             <div class="box-body table-responsive no-padding">
+                          <table id="example2" class="table table-hover">
+                            <thead class="separacion">
+                              <tr>
+                                <th>ID</th>
+                                  <th>TAG</th>
+                                  <th>FECHA</th>
+                                  <th>SALDO</th>                     
+                              </tr>
+                            </thead>
+                            <tbody class="mytabs">
+                           <!--  <?php //for ($i=0; $i <10 ; $i++) { ?>
+                               <tr>
+                                  <th> 
+                                  <a href="tag2.php">2910384561V</a></th>
+                                  <th>
+                                  <a href="tag2.php">Lorem ipsum Dolor</a>
+                                  </th>
+                                  <th>
+                                  <a href="tag2.php">30/05/2017</a>
+                                  </th>                  
+                                  <th>
+                                  <a href="tag2.php">$540,000</a>
+                                  </th>
+                                </tr>
+                           <?php //} ?> -->
+                           <?php for ($x=0; $x <10 ; $x++) { ?>
+                            <tr>
+                              <th><a href="tag2.php">2910384561V</a></th></th>
+                              <th>ipsum Dolor</th>
+                              <th>20/09/2017</th>                  
+                              <th>$340,000</th>
+                            </tr>
+                           <?php } ?>                          
+                            </tbody> 
+                          </table>
+                        </div>           
+            <!-- /.box-header -->
+           <!--  <div class="box-body table-responsive no-padding">
               <table id="example2" class="table table-hover">
                 <thead class="separacion">
                   <tr>
@@ -52,7 +89,7 @@ getAside();
                   </tr>
                 </thead>
                 <tbody class="mytabs">
-                <?php for ($i=0; $i <10 ; $i++) { ?>
+                <?php //for ($i=0; $i <10 ; $i++) { ?>
                    <tr>
                     <th> 
                     <a href="tag2.php">2910384561V</a></th>
@@ -66,20 +103,20 @@ getAside();
                     <a href="tag2.php">$540,000</a>
                     </th>
                   </tr>
-               <?php } ?>
+               <?php //} ?>
 
-               <?php for ($x=0; $x <10 ; $x++) { ?>
+               <?php //for ($x=0; $x <10 ; $x++) { ?>
                 <tr>
                   <th><a href="tag2.php">2356874561</a></th>
                   <th><a href="tag2.php">ipsum Dolor</a></th>
                   <th><a href="tag2.php">20/09/2017</a></th>                  
                   <th><a href="tag2.php">$340,000</a></th>
                 </tr>
-               <?php } ?>
+               <?php // } ?>
               
                 </tbody> 
               </table>
-            </div>
+            </div> -->
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
