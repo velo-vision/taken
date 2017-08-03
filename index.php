@@ -177,21 +177,6 @@ getAside();
                   <th>$540,000</th>
                 </tr>
                <?php } ?>
-
-               <?php for ($x=0; $x <10 ; $x++) { ?>
-                <tr>
-                  <th>ipsum Dolor sir S:A de CV</th>
-                  <th>400</th>
-                  <th>5,300</th>
-                  <th>30,000</th>
-                  <th>$645,000</th>
-                  <th>20,000</th>
-                  <th>$400,000</th>
-                  <th>$80,000</th>
-                  <th>$740,000</th>
-                </tr>
-               <?php } ?>
-              
                 </tbody> 
               </table>
             </div>
