@@ -89,5 +89,13 @@ $(function () {
       'ordering'    : true,
       'info'        : false,
       'autoWidth'   : false
+    }),
+    $('#example12').DataTable({ //home
+      'paging'      : false,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : false,
+      'autoWidth'   : false
     })
   })

@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     top: 10px;
 }
 .uno{
-    background:#578ebe;
+    background:#29a8df;
     height: 110px;
 }
 .dos{
@@ -144,11 +144,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     height: 110px;
 }
 .tres{
-    background:#32c5d2 ;
+    background:#33c5d2 ;
     height: 110px;
 }
 .cuatro{
-    background:#8775a7 ;
+    background:#8f44ad ;
     height: 110px;
 }
 .cinco{
@@ -197,6 +197,7 @@ table.dataTable {
 .mytabs tr th,a{
     font-weight: 400;
     color: #808080;
+    text-align: center;
 }
 .mytabs tr th:first-child{
     color: #3598dc;
@@ -211,7 +212,17 @@ div.dataTables_wrapper div.dataTables_paginate {
     white-space: nowrap;
     text-align: inherit;
 }
-
+.botonActividad{
+    background: #2d9ad5;
+    color: #fff;
+    padding: 7px;
+    border: solid 1px #2d9ad5;
+    margin: 20px 0;
+}
+.botonActividad:hover{
+     background: #fff;
+    color: #2d9ad5;
+}
 
 .sidebar-collapse #negro li:hover>a{
     color: #fff;
@@ -223,6 +234,10 @@ div.dataTables_wrapper div.dataTables_paginate {
 }
 .small-box h3 {
     font-size: 36px;
+}
+.puntoAzul{
+    height: 50px
+    width:50px;
 }
 /*tags*/
 .linea{
@@ -573,6 +588,10 @@ th.segundo + th{
 .resumen {
     display: none;
 }
+.size-titulo{
+    font-size: 20px;
+}
+
 /*home*/
 .uno{
    height: 90px;

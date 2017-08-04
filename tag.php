@@ -7,27 +7,33 @@ getAside();
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header margin-usuario">
-      <h1 class="linea">
-        <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Tag <span class="mayor"> > </span> <span class="r">Resumen</span>
-      </h1>
-      <div class="form-group linea2">
-        <select class="form-control">
-          <option>MONTO</option>r
-          <option>option 2</option>
-          <option>option 3</option>
-          <option>option 4</option>
-          <option>option 5</option>
-        </select>
-      </div>
-      <div class="form-group linea2">
-        <select class="form-control">
-          <option>FECHA</option>
-          <option>option 2</option>
-          <option>option 3</option>
-          <option>option 4</option>
-          <option>option 5</option>
-        </select>
-      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 separacion-tag sin-padding"> 
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <h3 class="size-titulo">
+                <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Tag <span class="mayor"> > </span> <span class="r">Resumen</span>
+              </h3>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-lg-offset-2">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 form-group listas-fij">        
+                <select class="form-control texto-res">
+                  <option>FECHA</option>
+                  <option>option 2</option>
+                  <option>option 3</option>
+                  <option>option 4</option>
+                  <option>option 5</option>
+                </select>
+              </div>
+                <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-6 form-group listas-fij">        
+                  <select class="form-control texto-res">
+                    <option>MONTO</option>r
+                    <option>option 2</option>
+                    <option>option 3</option>
+                    <option>option 4</option>
+                    <option>option 5</option>
+                  </select>
+                </div>
+              </div>        
+        </div>
     </section>
     <!-- Main content -->
     <section class="content">
@@ -113,7 +119,7 @@ getAside();
                   <th><a href="tag2.php">20/09/2017</a></th>
                   <th><a href="tag2.php">$340,000</a></th>
                 </tr>
-               <?php } ?>
+               <?php //} ?>
 
                 </tbody>
               </table>

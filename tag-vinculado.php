@@ -7,7 +7,7 @@ getAside();
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header ">
-      <h3 class="linea">
+      <h3 class="linea size-titulo">
         <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Administrador de perfiles / Tag vinculados
       </h3>
       <div class="row">

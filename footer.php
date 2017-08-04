@@ -43,6 +43,7 @@
 <script src="dist/js/demo.js"></script>
 <script src="js/myjs.js"></script>
 <script src="js/finanzas.js"></script>
+<script src="js/Chart.js"></script>
 
 </body>
 </html>
