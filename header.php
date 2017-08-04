@@ -31,6 +31,7 @@
   <link rel="stylesheet" href="bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
   <!-- cheched -->
     <!-- style jorge -->
+  <link rel="stylesheet" href="css/mapa.css">
     <!-- chars -->
 <!--     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts-all-3.js"></script>
    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
@@ -39,7 +40,7 @@
    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script> -->
-       
+
   <link rel="stylesheet" href="style-2.css">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -99,9 +100,9 @@
                     <a href="#">
                       <span><img src="img/recarga.png" class="user-image" alt="User Image"></span> Recarga <span class="notificaciones-all">1 min.</span>
                     </a>
-                  </li>                  
+                  </li>
                 </ul>
-              </li>            
+              </li>
             </ul>
           </li>
           <!-- Messages: style can be found in dropdown.less-->
@@ -181,7 +182,7 @@
               <li class="footer"><a href="#">See All Messages</a></li>
             </ul>
           </li>
-         
+
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -197,7 +198,7 @@
                   Admin
                   <small>Member since Nov. 2012</small>
                 </p>
-              </li>              
+              </li>
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->

@@ -110,7 +110,7 @@ getAside();
             </div>
             <!-- /.box -->
           </div>
-          <div class="col-md-12">
+          <div class="col-md-12 col-xs-12">
             PERIODO
             <div class="form-group select-tanken tag2">
               <select class="form-control">
@@ -124,27 +124,13 @@ getAside();
             <div class="form-group select-tanken tag2">
               <select class="form-control">
                 <option>Mapa de estaciones actuales</option>
-                <option>option 2</option>
-                <option>option 3</option>
-                <option>option 4</option>
-                <option>option 5</option>
+                <option>Mapa de mayor cargas</option>
               </select>
             </div>
           </div>
-          <div class="col-md-12">
-            <div id="googleMap" style="width:100%;height:400px;"></div>
-
-              <script>
-              function myMap() {
-              var mapProp= {
-                  center:new google.maps.LatLng(19.4153106,-99.1848389),
-                  zoom:15,
-              };
-              var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-              }
-              </script>
-
-              <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+          <!-- mapa -->
+          <div class="col-md-12" style="margin-top:10px;">
+            <div id="map" class="container-fluid restaurant-locator">
           </div>
       </div>
       <!-- /.row (main row) -->
