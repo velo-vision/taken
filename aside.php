@@ -33,7 +33,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="historial-cargas.php">
            <i class="fa fa-exchange" aria-hidden="true"></i> <span id="#historial">Historial de Cargas<br><span class="align-text">de gasolina</span></span>
           </a>
         </li>

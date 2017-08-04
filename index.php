@@ -249,7 +249,7 @@ getAside();
       </div>
       <!--fin segunda tabla -->
       <!-- mapa   -->
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 separacion-tag sin-padding"> 
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 separacion-tag sin-padding"> 
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
             <h3 class="size-titulo">
               <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Estaciones utilizadas
@@ -267,6 +267,8 @@ getAside();
             </div>
             </div>        
         </div>
+        <div id="map" class="container-fluid restaurant-locator">
+          </div>
 
       <!-- fin mapa -->
           <!-- /.box -->
