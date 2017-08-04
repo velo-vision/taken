@@ -50,11 +50,24 @@
 <script src="js/mapa.js"></script>
 <script src="js/mapahome.js"></script>
 <!-- grafica4 -->
+  <script src="js/grafica4.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js'></script>
 <script src='http://cdn.jsdelivr.net/angular.chartjs/latest/angular-chart.min.js'></script>
-<script src="js/grafica4.js"></script>
-
-
+  <!-- grafica1 -->
+  <script src="js/grafica1.js"></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://code.highcharts.com/highcharts.js'></script>
+<script src='https://code.highcharts.com/modules/exporting.js'></script>
+<!-- grafica3 -->
+  <script src="js/grafica3.js"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://code.highcharts.com/highcharts.js'></script>
+<!-- grafica2 -->
+  <script src="js/grafica2.js"></script>
+<script src='https://code.jquery.com/jquery-1.11.2.min.js'></script>
+<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="https://www.amcharts.com/lib/3/serial.js"></script>
+<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
 </body>
 </html>
