@@ -43,7 +43,17 @@
 <script src="dist/js/demo.js"></script>
 <script src="js/myjs.js"></script>
 <script src="js/finanzas.js"></script>
-<script src="js/Chart.js"></script>
+
+<!-- <script src="js/Chart.js"></script> -->
+<!-- jorge -->
+<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPgz-jeUPH4f_M0oWtlhe8Xw-DPwDf7bo&callback=initMap"></script>
+<script src="js/mapa.js"></script>
+<!-- grafica4 -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js'></script>
+<script src='http://cdn.jsdelivr.net/angular.chartjs/latest/angular-chart.min.js'></script>
+<script src="js/grafica4.js"></script>
+
 
 </body>
 </html>

@@ -197,7 +197,7 @@ table.dataTable {
 .mytabs tr th,a{
     font-weight: 400;
     color: #808080;
-    text-align: center;
+    /*text-align: center;*/
 }
 .mytabs tr th:first-child{
     color: #3598dc;
