@@ -4,10 +4,13 @@
 body, p, span, ul, li, nav,a, button{
     font-family:'Open Sans' ,sans-serif;
    /* font-weight: 400;*/
-    overflow-x: hidden;
-    overflow-y: auto;
+   /* overflow-x: hidden;*/
+   /* overflow-y: auto;*/
 }
-
+.mylisti ul li{
+    overflow-y: inherit;
+    overflow-x: initial;
+}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Open Sans', sans-serif;
 }
@@ -235,9 +238,25 @@ div.dataTables_wrapper div.dataTables_paginate {
 .small-box h3 {
     font-size: 36px;
 }
-.puntoAzul{
-    height: 50px
-    width:50px;
+.absoluto{
+    /*position: absolute;*/
+}
+.punto{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+    right: 31px;
+    top: 22px;
+}
+.Azul{
+    background: #2d9ad5;
+}
+.Rojo{
+    background: #e74f5b;
+}
+.Verde{
+    background: #33c5d2;
 }
 /*tags*/
 .linea{

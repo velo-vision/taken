@@ -10,7 +10,7 @@ getAside();
     <!-- Content Header (Page header) -->
     <section class="content-header margin-usuario">
       <h1 class="linea">
-        <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Balance <span class="mayor">
+        <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Finanzas <span class="mayor">
       </h1>
     </section>
     <!-- Main content -->
@@ -21,7 +21,7 @@ getAside();
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner once">
-            <img src="img/index/img-1.png" class="resumen">
+            <img src="img/index/img-2.png" class="resumen">
               <h3>$3,200,000</h3>
               <p>SALDO TOTAL ACTUAL</p>
             </div>

@@ -23,7 +23,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="usuario1.php">
             <i class="fa fa-user-circle-o" aria-hidden="true"></i> <span>Perfil del usurario</span> 
           </a>
         </li>
@@ -43,7 +43,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="tag-vinculado.php"><img src="img/index/punto.png"> Tag vinculados</a></li>
-            <li><a href="#"><img src="img/index/punto.png"> Agregar Tag</a></li>            
+            <li><a href="admin-perfiles.php"><img src="img/index/punto.png"> Agregar Tag</a></li>            
           </ul>
         </li>        
         <li>
@@ -66,10 +66,10 @@
             <i class="fa fa-usd" aria-hidden="true"></i> <span>Saldos iniciales</span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="finanzas-1.php"><img src="img/index/punto.png"> Gastos diarios</a></li>
-            <li><a href="#"><img src="img/index/punto.png"> Gastos por gasolinera</a></li>
-            <li><a href="#"><img src="img/index/punto.png"> Gastos por usuarios</a></li>
-            <li><a href="#"><img src="img/index/punto.png"> Gastos por tag</a></li>
+            <li><a href="grafica1.php"><img src="img/index/punto.png"> Gastos diarios</a></li>
+            <li><a href="grafica2.php"><img src="img/index/punto.png"> Gastos por gasolinera</a></li>
+            <li><a href="grafica3.php"><img src="img/index/punto.png"> Gastos por usuarios</a></li>
+            <li><a href="grafica4.php"><img src="img/index/punto.png"> Gastos por tag</a></li>
           </ul>
         </li>
         <li>

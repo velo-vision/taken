@@ -4,36 +4,36 @@ $(function() {
       zoomType: 'xy'
     },
     title: {
-      text: "Average Monthly Temperature and Rainfall in          Tokyo"
+      text: ""
     },
     subtitle: {
-      text: "Source: WorldClimate.com"
+      text: ""
     },
     xAxis: [{
-      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May',                  'Jun','Jul', 'Aug', 'Sep', 'Oct',                    'Nov', 'Dec']
+      categories: ['20/09/2012', '21/09/2013', '22/09/2012', '23/09/2012', '24/09/2012', '25/09/2012']
     }],
     yAxis: [{ //Primary yAxis
       labels: {
-        format: '{value}°C',
+        format: '$ {value}',
         style: {
           color: '#89A54E'
         }
       },
       title: {
-        text: 'Temperature',
+        text: '',
         style: {
           color: '#89A54E'
         }
       }
     }, {//Secondary yAxis
       title: {
-        text: 'Rainfall',
+        text: '',
         style: {
           color: '#4572A7'
         }
       },
       labels: {
-        format: '{value} mm',
+        format: '$ {value}',
         style: {
           color: '#4572A7'
         }
@@ -46,29 +46,29 @@ $(function() {
     legend: {
       layout: 'vertical',
       align: 'left',
-      x: 120,
+      x: 0,
       verticalAlign: 'top',
-      y: 100,
+      y: 0,
       floating: true,
       backgroundColor: '#FFFFFF'
     },
     series: [{
-      name: 'Rainfall',
-      color: '#4572A7',
+      name: 'serie 1',
+      color: '#76bddf',
       type: 'column',
       yAxis: 1,
-      data: [49.9, 71.5, 106.4, 129.2, 144.0, 176.0,              135.6, 148.5, 216.4, 194.1, 95.6, 54.4],
+      data: [80000, 80000, 80000, 80000, 80000, 90000],
       tooltip: {
-        valueSuffix: ' mm'
+        valueSuffix: ''
       }
     }, {
-      name: 'Temperature',
-      color: '#89A54E',
+      name: 'serie 2',
+      color: '#f36a5a',
       type: 'spline',
       yAxis: 0,
-      data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5,        23.3, 18.3, 13.9, 9.6],
+      data: [51000, 70000, 78000, 69000, 70000, 90000],
       tooltip: {
-        valueSuffix: '°C'
+        valueSuffix: ''
       }
    }]
   });

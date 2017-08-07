@@ -256,14 +256,14 @@ getAside();
             </h3>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 form-group listas-fij">        
-              <div class="puntoAzul"></div> <span>Estación disponible</span>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 form-group listas-fij absoluto">        
+              <div class="punto Azul"></div> <span>Estación disponible</span>
             </div>
-              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 form-group listas-fij">        
-              <div class="puntoRojo"></div> <span>Cargando gasolina</span>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 form-group listas-fij absoluto">        
+              <div class="punto Rojo"></div> <span>Cargando gasolina</span>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 form-group listas-fij">        
-              <div class="puntoVerde"></div> <span>Recarga recientes</span>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 form-group listas-fij absoluto">        
+              <div class="punto Verde"></div> <span>Recarga recientes</span>
             </div>
             </div>        
         </div>

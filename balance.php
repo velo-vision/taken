@@ -80,10 +80,10 @@ getAside();
               <!-- Nav tabs -->
               <ul class="nav nav-tabs color-tabs" role="tablist">
                 <li role="presentation" class="active">
-                  <a href="#A" aria-controls="A" role="tab" data-toggle="tab">Abonos a cuenta</a>
+                  <a href="#A" aria-controls="A" role="tab" data-toggle="tab">Abono a cuenta</a>
                 </li>
                 <li role="presentation">
-                  <a href="#B" aria-controls="B" role="tab" data-toggle="tab">Disperíon de Saldo</a>
+                  <a href="#B" aria-controls="B" role="tab" data-toggle="tab">Dispersíon de Saldo</a>
                 </li>
               </ul>
               <!-- Tab panes -->

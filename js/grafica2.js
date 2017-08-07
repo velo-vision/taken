@@ -104,8 +104,9 @@ var chartData = [{
   "year": 2012,
   "value": 1159
 }];
+var lugar = getElementById("divuno");
 
-var chart = AmCharts.makeChart("chartdiv", {
+var chart = AmCharts.makeChart(lugar, {
   "type": "serial",
   "theme": "light",
   "dataProvider": chartData,
