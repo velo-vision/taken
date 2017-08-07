@@ -42,12 +42,11 @@
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
 <script src="js/myjs.js"></script>
-<script src="js/finanzas.js"></script>
-
-<!-- <script src="js/Chart.js"></script> -->
+<!-- <script src="js/finanzas.js"></script> -->
 <!-- jorge -->
 <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPgz-jeUPH4f_M0oWtlhe8Xw-DPwDf7bo&callback=initMap"></script>
 <script src="js/mapa.js"></script>
+<script src="js/mapahome.js"></script>
 <!-- grafica4 -->
   <script src="js/grafica4.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js'></script>
@@ -55,18 +54,26 @@
 <script src='http://cdn.jsdelivr.net/angular.chartjs/latest/angular-chart.min.js'></script>
   <!-- grafica1 -->
   <script src="js/grafica1.js"></script>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://code.highcharts.com/highcharts.js'></script>
-<script src='https://code.highcharts.com/modules/exporting.js'></script>
+<!--   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
+<script src='js/highcharts.js'></script>
+<!-- <script src='https://code.highcharts.com/modules/exporting.js'></script> -->
 <!-- grafica3 -->
   <script src="js/grafica3.js"></script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='https://code.highcharts.com/highcharts.js'></script>
+  <script src="js/Chart.js"></script>
+<!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script> -->
+<!-- <script src='https://code.highcharts.com/highcharts.js'></script> -->
 <!-- grafica2 -->
   <script src="js/grafica2.js"></script>
-<script src='https://code.jquery.com/jquery-1.11.2.min.js'></script>
+<!-- <script src='https://code.jquery.com/jquery-1.11.2.min.js'></script> -->
 <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 <script src="https://www.amcharts.com/lib/3/serial.js"></script>
 <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+<!-- index-grafica -->
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.0/morris.min.js'></script>
+
+  <script src="js/index-grafica.js"></script>
+  <script src="js/index-grafica2.js"></script>
 </body>
 </html>

@@ -90,18 +90,23 @@ getAside();
       <!-- FIN -->
       <!-- /.row -->
       <!-- Main row -->
+
+
+
       <div class="row">
         <!-- Left col -->
         <div class="col-lg-12">
-          <div class="col-lg-6">
-            <div>
-              
-            </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 text-center borde-index">
+            <h3 class="linea border-abajo">
+              <i class="fa fa-sort-asc rotar color-azul1" aria-hidden="true"></i> Historico de consumo <span class="flotilla">x flotilla</span>
+            </h3>
+            <div id="area-chart" ></div>
           </div>
-          <div class="col-lg-6">
-             <div>
-
-            </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 text-center borde-index">
+            <h3 class="linea border-abajo">
+              <i class="fa fa-sort-asc rotar color-azul1" aria-hidden="true"></i> Balance <span class="flotilla">x flotilla</span> <span class="saldo-promedio">saldo promedio $3000</span>
+            </h3>
+            <div id="area2-chart" ></div>
           </div>
           </div>
           <section class="col-lg-12 connectedSortable">
@@ -256,17 +261,19 @@ getAside();
             </h3>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 form-group listas-fij">
-              <div class="puntoAzul"></div> <span>Estación disponible</span>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 form-group listas-fij absoluto">
+              <div class="punto Azul"></div> <span>Estación disponible</span>
             </div>
-              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 form-group listas-fij">
-              <div class="puntoRojo"></div> <span>Cargando gasolina</span>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 form-group listas-fij absoluto">
+              <div class="punto Rojo"></div> <span>Cargando gasolina</span>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 form-group listas-fij">
-              <div class="puntoVerde"></div> <span>Recarga recientes</span>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 form-group listas-fij absoluto">
+              <div class="punto Verde"></div> <span>Recarga recientes</span>
             </div>
             </div>
         </div>
+        <div id="map" class="container-fluid restaurant-locator">
+          </div>
 
       <!-- fin mapa -->
           <!-- /.box -->

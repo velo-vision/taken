@@ -10,7 +10,7 @@ getAside();
     <!-- Content Header (Page header) -->
     <section class="content-header margin-usuario">
       <h1 class="linea">
-        <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Balance <span class="mayor">
+        <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Finanzas <span class="mayor">
       </h1>
     </section>
     <!-- Main content -->
@@ -32,7 +32,7 @@ getAside();
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner doce">
-            <img src="img/index/img-11.png" class="resumen" style="opacity: .7;">
+            <img src="img/index/img-2.png" class="resumen" style="opacity: .7;">
               <h3>$1,000,000</h3>
               <p>SALDO PROMEDIO MENSUAL</p>
             </div>
@@ -49,7 +49,7 @@ getAside();
         <!-- Left col -->
         <div class="col-md-12">
           <h3 class="linea">
-            <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Balance <span class="mayor">
+            <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Gastos diarios <span class="mayor">
           </h3>
         </div>
         <div class="col-md-10 col-md-offset-1">

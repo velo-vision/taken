@@ -10,7 +10,7 @@ getAside();
     <!-- Content Header (Page header) -->
     <section class="content-header margin-usuario">
       <h1 class="linea">
-        <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Balance <span class="mayor">
+        <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Finanzas <span class="mayor">
       </h1>
     </section>
     <!-- Main content -->
@@ -32,7 +32,7 @@ getAside();
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner doce">
-            <img src="img/index/img-11.png" class="resumen" style="opacity: .7;">
+            <img src="img/index/img-2.png" class="resumen" style="opacity: .7;">
               <h3>$1,000,000</h3>
               <p>SALDO PROMEDIO MENSUAL</p>
             </div>
@@ -49,11 +49,12 @@ getAside();
         <!-- Left col -->
         <div class="col-md-12">
           <h3 class="linea">
-            <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Balance <span class="mayor">
+            <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Gastos x usuario <span class="mayor">
           </h3>
         </div>
         <div class="col-md-10 col-md-offset-1">
-          <div id="graficaPAA211" style="height: 400px"></div>
+         <!--  <div id="graficaPAA211" style="height: 400px"></div> -->
+          <canvas id="canvas" height="250" width="600"></canvas>
         </div>
         <!-- /.Left col -->
       </div>
@@ -64,5 +65,35 @@ getAside();
       <!-- /.row (main row) -->
 
   <!-- /.content-wrapper -->
+<script>
+  var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
 
+  var barChartData = {
+    labels : ["Lorem ipsum","Lorem ipsum","Lorem ipsum","Lorem ipsum","Lorem ipsum"],
+    datasets : [
+      {
+        fillColor : "rgba(142,204,244,0.5)",
+        strokeColor : "rgba(142,204,244,0.8)",
+        highlightFill: "rgba(142,204,244,0.75)",
+        highlightStroke: "rgba(142,204,244,1)",
+        data : [10000,20000,40000,20000,30000]
+      },
+      {
+        fillColor : "rgba(50,197,210,0.5)",
+        strokeColor : "rgba(50,197,210,0.8)",
+        highlightFill : "rgba(50,197,210,0.75)",
+        highlightStroke : "rgba(50,197,210,1)",
+        data : [20000,25000,25000,25000,25000]
+      }
+    ]
+
+  }
+  window.onload = function(){
+    var ctx = document.getElementById("canvas").getContext("2d");
+    window.myBar = new Chart(ctx).Bar(barChartData, {
+      responsive : true
+    });
+  }
+
+  </script>
   <?php getFooter(); ?>

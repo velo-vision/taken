@@ -32,7 +32,7 @@ getAside();
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner doce">
-            <img src="img/index/img-11.png" class="resumen" style="opacity: .7;">
+            <img src="img/index/img-2.png" class="resumen" style="opacity: .7;">
               <h3>$1,000,000</h3>
               <p>SALDO PROMEDIO MENSUAL</p>
             </div>
@@ -53,7 +53,8 @@ getAside();
           </h3>
         </div>
         <div class="col-md-10 col-md-offset-1">
-          <div id="chartdiv"></div>
+          <div id="divuno"></div>
+           <div id="graficaPAA211" style="height: 400px"></div>
         </div>
         <!-- /.Left col -->
       </div>
