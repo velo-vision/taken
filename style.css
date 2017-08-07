@@ -517,6 +517,32 @@ th.segundo + th{
   padding: 10px 20px;
   background: #29a8df;
 }
+/*perfil uno*/
+.bloque-perfil{
+    display: inline-grid;
+}
+
+.bloque-perfil .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a{
+    color: #2b98d3;
+    cursor: default;
+    background-color: #d5ebf8;
+    border: 1px solid #ddd;
+    border-left: #2b98d3 solid 3px;
+}
+.bloque-perfil >li>a:hover, .bloque-perfil>li>a:active, .bloque-perfil>li>a:focus {
+    color: #2b98d3;
+    background: #d5ebf8;
+    border-left: #2b98d3 solid 3px;
+}
+
+.bloque-perfil>li.active>a, .bloque-perfil>li.active>a:focus, .bloque-perfil>li.active>a:hover {
+    color: #2b98d3;
+    cursor: default;
+    background-color: #d5ebf8;
+    border-left: #2b98d3 solid 3px;
+    border-bottom-color: transparent;
+}
+/*fin*/
 
 /*medias*/
 @media only screen and (min-width: 1200px) and (max-width: 1300px){
@@ -640,42 +666,8 @@ th.segundo + th{
 }
 
 /*home*/
-.uno{
+.uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve, .diez, .once, .doce{
    height: 90px;
-}
-.dos{
-    height: 90px;
-}
-.tres{
-    height: 90px;
-}
-.cuatro{
-    height: 90px;
-}
-.cinco{
-    height: 90px;
-}
-.seis{
-    height: 90px;
-}
-.siete{
-    height: 90px;
-}
-.ocho{
-    height: 90px;
-}
-
-.nueve{
-    height: 90px;
-}
-.diez{
-    height: 90px;
-}
-.once{
-    height: 90px;
-}
-.doce{
-    height: 90px;
 }
 /*tag 2*/
 .enlinea li {

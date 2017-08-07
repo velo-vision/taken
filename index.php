@@ -213,7 +213,7 @@ getAside();
           <div class="box">
             <!-- /.box-header -->
             <div class="box-body table-responsive no-padding">
-              <table id="example12" class="table table-hover">
+              <table id="example13" class="table table-hover">
                 <thead>
                   <tr>
                     <th>ID de Tag</th>
@@ -272,7 +272,7 @@ getAside();
             </div>
             </div>
         </div>
-        <div id="map" class="container-fluid restaurant-locator">
+        <div id="mapahome" class="container-fluid restaurant-locator">
           </div>
 
       <!-- fin mapa -->
