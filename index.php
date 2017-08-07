@@ -208,7 +208,7 @@ getAside();
           <div class="box">            
             <!-- /.box-header -->
             <div class="box-body table-responsive no-padding">
-              <table id="example12" class="table table-hover">
+              <table id="example13" class="table table-hover">
                 <thead>
                   <tr>
                     <th>ID de Tag</th>
