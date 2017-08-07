@@ -267,7 +267,7 @@ getAside();
             </div>
             </div>        
         </div>
-        <div id="map" class="container-fluid restaurant-locator">
+        <div id="mapahome" class="container-fluid restaurant-locator">
           </div>
 
       <!-- fin mapa -->
