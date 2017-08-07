@@ -23,7 +23,7 @@
           </a>
         </li>
         <li>
-          <a href="usuario1.php">
+          <a href="perfilUno.php">
             <i class="fa fa-user-circle-o" aria-hidden="true"></i> <span>Perfil del usurario</span> 
           </a>
         </li>
@@ -88,7 +88,7 @@
           </a>
         </li>  
         <li>
-          <a href="#">
+          <a href="usuario1.php">
             <i class="fa fa-user " aria-hidden="true"></i> <span>Moviminetos individuales</span>  
           </a>
         </li>

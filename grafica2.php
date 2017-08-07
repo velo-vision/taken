@@ -56,6 +56,18 @@ getAside();
           <div id="divuno"></div>
            <div id="graficaPAA211" style="height: 400px"></div>
         </div>
+        <div ng-app="app" ng-controller="BaseCtrl">
+          <canvas id="base"
+                  class="chart-base"
+                  chart-type="type"
+                  chart-series="series"
+                  chart-data="data"
+                  chart-options="options"
+                  chart-labels="labels"
+                  chart-dataset-override="datasetOverride">
+          </canvas>
+
+        </div>
         <!-- /.Left col -->
       </div>
       <!-- /.row (main row) -->
