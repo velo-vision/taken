@@ -487,8 +487,32 @@ th.segundo + th{
 #container1 div canvas {
     width: 100% !important;
 }
+/*perfil uno*/
+.bloque-perfil{
+    display: inline-grid;
+}
 
+.bloque-perfil .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a{
+    color: #2b98d3;
+    cursor: default;
+    background-color: #d5ebf8;
+    border: 1px solid #ddd;
+    border-left: #2b98d3 solid 3px;
+}
+.bloque-perfil >li>a:hover, .bloque-perfil>li>a:active, .bloque-perfil>li>a:focus {
+    color: #2b98d3;
+    background: #d5ebf8;
+    border-left: #2b98d3 solid 3px;
+}
 
+.bloque-perfil>li.active>a, .bloque-perfil>li.active>a:focus, .bloque-perfil>li.active>a:hover {
+    color: #2b98d3;
+    cursor: default;
+    background-color: #d5ebf8;
+    border-left: #2b98d3 solid 3px;
+    border-bottom-color: transparent;
+}
+/*fin*/
 
 /*medias*/
 @media only screen and (min-width: 1200px) and (max-width: 1300px){
