@@ -28,7 +28,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="balance.php">
             <i class="fa fa-balance-scale " aria-hidden="true"></i> <span>Balance</span>
           </a>
         </li>
