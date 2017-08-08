@@ -130,9 +130,24 @@ getAside();
           </div>
           <!-- mapa -->
           <div class="col-md-12" style="margin-top:10px;">
-            <div id="map" class="container-fluid restaurant-locator">
+            <div id="mapahome" class="container-fluid restaurant-locator">
           </div>
       </div>
+
+
+      <!-- <div id="mapas" style="height: 300px"></div>
+    <script>
+      var mapas;
+      function initMap() {
+        mapas = new google.maps.Map(document.getElementById('mapas'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPgz-jeUPH4f_M0oWtlhe8Xw-DPwDf7bo&callback=initMap"
+    async defer></script> -->
+
       <!-- /.row (main row) -->
 
     </section>

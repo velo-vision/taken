@@ -172,7 +172,7 @@ getAside();
         </div>
         <div class="col-xs-12 col-md-12 col-lg-12">
           <div class="col-xs-4 col-md-4 col-lg-5"></div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2 centrado">
               <a href="#"><p class="botonActividad">VER TODA LA ACTIVIDAD</p></a>
             </div>
           <div class="col-xs-4 col-md-4 col-lg-5"></div>
@@ -246,7 +246,7 @@ getAside();
         </div>
         <div class="col-xs-12 col-md-12 col-lg-12">
           <div class="col-xs-4 col-md-4 col-lg-5"></div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2 centrado">
               <a href="#"><p class="botonActividad">VER TODA LA ACTIVIDAD</p></a>
             </div>
           <div class="col-xs-4 col-md-4 col-lg-5"></div>
