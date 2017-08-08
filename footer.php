@@ -44,10 +44,9 @@
 <script src="js/myjs.js"></script>
 <!-- <script src="js/finanzas.js"></script> -->
 <!-- jorge -->
-<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPgz-jeUPH4f_M0oWtlhe8Xw-DPwDf7bo&callback=initMap"></script>
-<script src="js/mapahome.js"></script>
 
-<!-- <script src="js/mapa.js"></script> -->
+
+
 <!-- grafica4 -->
   <script src="js/grafica4.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js'></script>
