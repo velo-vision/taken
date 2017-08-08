@@ -3,6 +3,16 @@ include('funtions.php');
 getHeader();
 getAside();
 ?>
+<style>
+#ndos a{
+    color: #fff;
+    background: url(img/liston.png) center center no-repeat;
+    background-size: cover;
+}
+.ndos i{
+  color: #fff !important;
+}
+</style>
 <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -33,7 +43,7 @@ getAside();
                   </li>
                 </ul>
             </div>
-            
+
               <!-- Tab panes -->
               <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="A">
@@ -43,7 +53,7 @@ getAside();
               </div>
           </div>
           <div class="col-lg-8">
-            
+
           </div>
         </div>
           <!-- tablas -->

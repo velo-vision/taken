@@ -3,7 +3,18 @@ include('funtions.php');
 getHeader();
 getAside();
 ?>
+<style>
+#ntrece a{
+    color: #fff;
+    background: url(img/liston.png) center center no-repeat;
+    background-size: cover;
+}
+.ntrece i{
+  color: #fff !important;
+}
+</style>
 <!-- Content Wrapper. Contains page content -->
+
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header margin-usuario">

@@ -3,6 +3,16 @@ include('funtions.php');
 getHeader();
 getAside();
 ?>
+<style>
+#nquince a{
+    color: #fff;
+    background: url(img/liston.png) center center no-repeat;
+    background-size: cover;
+}
+.nquince i{
+  color: #fff !important;
+}
+</style>
 <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->

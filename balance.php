@@ -4,6 +4,17 @@ getHeader();
 getAside();
 
 ?>
+<!-- menu activo -->
+<style>
+#ntres a{
+    color: #fff;
+    background: url(img/liston.png) center center no-repeat;
+    background-size: cover;
+}
+.ntres i{
+  color: #fff !important;
+}
+</style>
 
 <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
