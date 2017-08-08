@@ -221,6 +221,7 @@ div.dataTables_wrapper div.dataTables_paginate {
     padding: 7px;
     border: solid 1px #2d9ad5;
     margin: 20px 0;
+    text-align: center;
 }
 .botonActividad:hover{
      background: #fff;

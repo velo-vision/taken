@@ -47,15 +47,24 @@ getAside();
       <!-- Main row -->
       <div class="row">
         <!-- Left col -->
-        <div class="col-md-12">
+        <div class="col-xs-12 col-md-10 col-md-offset-1 grafica-center">
           <h3 class="linea">
-            <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Gastos x usuario <span class="mayor">
+            <i class="fa fa-sort-asc rotar color-azul1" aria-hidden="true"></i> Gastos x usuario <span class="mayor">
           </h3>
+          <div class="col-md-12">
+            <div class="col-xs-12 col-sm-6 col-md-6 grafica-color">
+              <span class="color-grafica">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span> &nbsp;Movimientos</span>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 grafica-color1">
+              <span class="color-grafica1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span> &nbsp;Cargas de gasolina</span>
+            </div>
+          </div>
+          <canvas id="canvas" height="250" width="600" class="height-grafica"></canvas>
         </div>
-        <div class="col-md-10 col-md-offset-1">
+        <!-- <div class="col-md-10 col-md-offset-1"> -->
          <!--  <div id="graficaPAA211" style="height: 400px"></div> -->
-          <canvas id="canvas" height="250" width="600"></canvas>
-        </div>
+          <!-- <canvas id="canvas" height="250" width="600"></canvas>
+        </div> -->
         <!-- /.Left col -->
       </div>
       <!-- /.row (main row) -->

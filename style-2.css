@@ -214,6 +214,24 @@
     margin: 0 10px;
     width: 15%;
 }
+.bg-grafica{
+  background: #000;
+  height: 16px;
+  width: 35px;
+}
+.color-grafica{
+  background:#32c5d2;
+  height:5px;
+  width:20px;
+}
+.color-grafica1{
+  background:#8eccf4;
+  height:5px;
+  width:20px;
+}
+.grafica-color{
+  text-align:right;
+}
 /*****************Medias query********************/
 @media only screen and (min-width:992px) and (max-width:1200px){
 .box-balance {
@@ -234,6 +252,13 @@
 }
 }
 @media only screen and (min-width:600px) and (max-width:768px){
+.grafica-color{
+  text-align:center;
+}
+.grafica-color1{
+  text-align:center;
+  margin-top: 10px;
+}
 .rights {
   text-align: center;
 }
@@ -264,6 +289,20 @@
 }
 }
 @media only screen and (min-width:200px) and (max-width:600px){
+.grafica-center{
+  text-align: center;
+}
+.height-grafica {
+  width: 310px !important;
+  height: 240px !important;
+}
+.grafica-color{
+  text-align:center;
+}
+.grafica-color1{
+  margin-top: 10px;
+  text-align:center;
+}
 .rights {
   text-align: left;
 }

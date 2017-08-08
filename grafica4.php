@@ -45,7 +45,7 @@ getAside();
         <!-- /.Left col -->
        <section class="content">
       <!-- Main row -->
-      <div class="row">
+      <div class="row grafica-center">
         <!-- Left col -->
         <div class="col-md-12">
           <h3 class="linea">
@@ -53,7 +53,7 @@ getAside();
           </h3>
         </div>
         <div class="col-md-10 col-md-offset-1">
-          <canvas id="canvas" height="250" width="600"></canvas>
+          <canvas id="canvas" class="height-grafica"></canvas>
         </div>
         <!-- /.Left col -->
       </div>

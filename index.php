@@ -156,11 +156,11 @@ getAside();
                 <tbody class="mytabs">
                 <?php for ($i=0; $i <10 ; $i++) { ?>
                    <tr>
-                  <th>2910384561258</th>
-                  <th>Nemo en emouy</th>
-                  <th>30/09/2017</th>
-                  <th>25,000</th>
-                  <th>$25,000</th>
+                  <th class="centers">2910384561258</th>
+                  <th class="centers">Nemo en emouy</th>
+                  <th class="centers">30/09/2017</th>
+                  <th class="centers">25,000</th>
+                  <th class="centers">$25,000</th>
                 </tr>
                <?php } ?>
                 </tbody>
@@ -227,15 +227,15 @@ getAside();
                 </thead>
                 <tbody class="mytabs">
                 <?php for ($i=0; $i <10 ; $i++) { ?>
-                   <tr>
-                  <th>2910384561258</th>
-                  <th>Nemo en emouy</th>
-                  <th>$25,000</th>
-                  <th>10 L</th>
-                  <th>30/09/2012</th>
-                  <th>Nemo enim ipsan #32,5  Voluptament CDMX</th>
-                  <th>29103</th>
-                </tr>
+                 <tr>
+                  <th class="centers">2910384561258</th>
+                  <th class="centers">Nemo en emouy</th>
+                  <th class="centers">$25,000</th>
+                  <th class="centers">10 L</th>
+                  <th class="centers">30/09/2012</th>
+                  <th class="centers">Nemo enim ipsan #32,5  Voluptament CDMX</th>
+                  <th class="centers">29103</th>
+                 </tr>
                <?php } ?>
                 </tbody>
               </table>
