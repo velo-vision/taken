@@ -539,35 +539,128 @@ th.segundo + th{
   background: #29a8df;
 }
 /*perfil uno*/
-/*.bloque-perfil{
+.bloque-perfil{
     display: inline-grid;
 }
-
-.bloque-perfil .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a{
-    color: #2b98d3;
-    cursor: default;
-    background-color: #d5ebf8;
-    border: 1px solid #ddd;
-    border-left: #2b98d3 solid 3px;
+.bloque-perfil li{
+    width: 100%;
 }
-.bloque-perfil >li>a:hover, .bloque-perfil>li>a:active, .bloque-perfil>li>a:focus {
-    color: #2b98d3;
-    background: #d5ebf8;
-    border-left: #2b98d3 solid 3px;
+.centrado-usu{
+    text-align: center;
 }
 
-.bloque-perfil>li.active>a, .bloque-perfil>li.active>a:focus, .bloque-perfil>li.active>a:hover {
-    color: #2b98d3;
+.centrado-usu p{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.centrado-usu p span{
+    color:#2d99d7;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 2px #3a9fd5;    
+    margin: 27px;
+}
+.cuadro{
+    border: solid 2px #cacaca;
+    padding: 0 0 80px 0; 
+} 
+.top{
+    border-top: none;
+}
+
+div.tab {
+    padding: 0px;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    color:#7f7f7f;
+    text-align: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+    background: #fff;
+    width: 100%;
+}
+
+div.tab button i{
+    color:#2d9ad5;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover, button:focus {
+     color: #2e98d2;
     cursor: default;
     background-color: #d5ebf8;
-    border-left: #2b98d3 solid 3px;
-    border-bottom-color: transparent;
-}*/
-/*fin*/
+    /*border: 1px solid #ddd;
+    border-bottom-color: transparent;*/
+    border-left: solid 3px #2e98d2;
+
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+     color: #2e98d2;
+    cursor: default;
+    background-color: #d5ebf8;
+   /* border: 1px solid #ddd;
+    border-bottom-color: transparent;*/
+    border-left: solid 3px #2e98d2;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    /*padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;*/
+   -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.pad_top{
+    padding-top: 0px;
+}
+.resumen2{
+    top: 33px;
+}
+
+ .mytabs2 tr th:first-child {
+    text-align: left;
+}
+
+
+.scroll{
+    height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/*fin
 
 /*medias*/
-@media only screen and (min-width: 1200px) and (max-width: 1300px){
-
+@media only screen and (min-width: 1200px) and (max-width: 1500px){
+.circle {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px;
+}
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px){
 .small-box h3 {
@@ -577,6 +670,13 @@ th.segundo + th{
 .enlinea li {
     padding: 16px 0px;
     width: 45%;
+}
+
+.pading_cero{
+    padding: 0px;
+}
+.titulos_perfil{
+    font-size: 20px !important;
 }
 /*fin*/
 }
@@ -606,45 +706,17 @@ th.segundo + th{
 }
 
 /*home*/
-.uno{
+.uno, .dos, .tres,.cuatro, .cinco, .seis, .siete, .ocho, .nueve, .diez, .once, .doce{
    height: 100px;
 }
-.dos{
-    height: 100px;
-}
-.tres{
-    height: 100px;
-}
-.cuatro{
-    height: 100px;
-}
-.cinco{
-    height: 100px;
-}
-.seis{
-    height: 100px;
-}
-.siete{
-    height: 100px;
-}
-.ocho{
-    height: 100px;
-}
-
-.nueve{
-    height: 100px;
-}
-.diez{
-    height: 100px;
-}
-.once{
-    height: 100px;
-}
-.doce{
-    height: 100px;
-}
 /*vinculado*/
-
+/*perfil*/
+.sinpaddig-perfil{
+    padding: 0px;
+}
+.margen_top{
+    margin-top: 15px;
+}
 /*fin*/
 }
 
@@ -668,6 +740,14 @@ th.segundo + th{
     width: 47%;
     float: none;
     margin: 0 2px;
+}
+
+/*perfil*/
+.sinpaddig-perfil{
+    padding: 0px;
+}
+.margen_top{
+    margin-top: 15px;
 }
 /*fin*/
 }
@@ -709,6 +789,14 @@ th.segundo + th{
     height: 40vh;
     /*width: 100%;*/
 }
+/*perfil*/
+.sinpaddig-perfil{
+    padding: 0px;
+}
+.margen_top{
+    margin-top: 15px;
+}
+
 /*fin*/
 }
 

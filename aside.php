@@ -16,7 +16,7 @@
       </form>
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul id="negro" class="sidebar-menu" data-widget="tree">
+      <ul id="negro" class="sidebar-menu selector-menu" data-widget="tree">
        <li id="nuno">
           <a href="index.php">
             <i class="fa fa-home fa-lg" aria-hidden="true"></i> <span>Home</span>
