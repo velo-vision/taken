@@ -290,5 +290,6 @@ getAside();
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-
+<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPgz-jeUPH4f_M0oWtlhe8Xw-DPwDf7bo&callback=initMap"></script>
+<script src="js/mapahome.js"></script>
   <?php getFooter(); ?>

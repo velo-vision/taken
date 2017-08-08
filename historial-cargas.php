@@ -130,7 +130,7 @@ getAside();
           </div>
           <!-- mapa -->
           <div class="col-md-12" style="margin-top:10px;">
-            <div id="mapahome" class="container-fluid restaurant-locator">
+            <div id="mapa" class="container-fluid restaurant-locator">
           </div>
       </div>
 
@@ -155,5 +155,6 @@ getAside();
       <!-- /.row (main row) -->
 
   <!-- /.content-wrapper -->
-
+<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPgz-jeUPH4f_M0oWtlhe8Xw-DPwDf7bo&callback=initMap"></script>
+<script src="js/mapa.js"></script>
   <?php getFooter(); ?>

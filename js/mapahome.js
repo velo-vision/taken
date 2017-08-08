@@ -224,50 +224,7 @@ function initMap() {
       }
     ]
   }
-            // {elementType: 'geometry', stylers: [{color: '#e7e8ea'}]},
-            // {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-            // {elementType: 'labels.text.fill', stylers: [{color: '#ffffff'}]},
-            // {
-            //   featureType: 'administrative.locality',
-            //   elementType: 'labels.text.fill',
-            //   stylers: [{color: '#ffffff'}]
-            // },
-            // {
-            //   featureType: 'poi',
-            //   elementType: 'labels.text.fill',
-            //   stylers: [{color: '#ffffff'}]
-            // },
-            // {
-            //   featureType: 'road',
-            //   elementType: 'geometry',
-            //   stylers: [{color: '#ffffff'}]
-            // },
-            // {
-            //   featureType: 'road',
-            //   elementType: 'geometry.stroke',
-            //   stylers: [{color: '#546cf2'}]
-            // },
-            // {
-            //   featureType: 'road.highway',
-            //   elementType: 'geometry',
-            //   stylers: [{color: '#000'}]
-            // },
-            // {
-            //   featureType: 'road.highway',
-            //   elementType: 'geometry.stroke',
-            //   stylers: [{color: '#dbbad3'}]
-            // },
-            // {
-            //   featureType: 'water',
-            //   elementType: 'geometry',
-            //   stylers: [{color: '#c8dfef'}]
-            // },
-            // {
-            //   featureType: 'water',
-            //   elementType: 'labels.text.fill',
-            //   stylers: [{color: '#515c6d'}]
-            // }
-          ]
+ ]
   });
   var marker = new google.maps.Marker({
 	position: {lat: 19.4153107, lng: -99.1804722},
@@ -293,12 +250,6 @@ function initMap() {
   icon: "img/azul.png",
 	title: 'Monks Café'
   });
-  var marker4 = new google.maps.Marker({
-	position: {lat: 19.4003107, lng: -99.1238722},
-	map: map,
-  icon: "img/azul.png",
-	title: 'Monks Café'
-  });
   var marker5 = new google.maps.Marker({
 	position: {lat: 19.4193107, lng: -99.1258722},
 	map: map,
@@ -315,12 +266,6 @@ function initMap() {
 	position: {lat: 19.4173107, lng: -99.1558722},
 	map: map,
   icon: "img/verde.png",
-	title: 'Monks Café'
-  });
-  var marker7 = new google.maps.Marker({
-	position: {lat: 19.4043107, lng: -99.1508722},
-	map: map,
-  icon: "img/azul.png",
 	title: 'Monks Café'
   });
   var marker8 = new google.maps.Marker({
