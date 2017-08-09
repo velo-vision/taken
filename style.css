@@ -1,7 +1,7 @@
 /*ESTeban Velo*/
 
 /*home*/
-body, p, span, ul, li, nav,a, button{
+body, p, span, ul, li, nav,a, button, input{
     font-family:'Open Sans' ,sans-serif;
    /* font-weight: 400;*/
    /* overflow-x: hidden;*/
@@ -651,16 +651,244 @@ div.tab button.active {
     overflow: scroll;
     overflow-x: hidden;
 }
+/*segundas taps*/
+.linea_Cuenta{
+    border-bottom: solid 1px #a6a6a6;
+}
 
+.nopadding_tabs{
+    padding: 0px;
+}
+
+.sinpadding2{
+    padding: 0px;
+}
+/*segundos botone*/
+
+div.tab2 button {
+    color:#7f7f7f;
+    text-align: left;
+    border: solid 3px transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+}
+/* Change background color of buttons on hover */
+div.tab2 button:hover, button:focus {
+    color: #2e98d2;
+    cursor: default;
+    background-color: none;
+    /*border: 1px solid #ddd;
+    border-bottom-color: transparent;*/
+    /*border-left: solid 3px #2e98d2;*/
+
+}
+
+/* Create an active/current tablink class */
+div.tab2 button.active {
+    color: #2e98d2;
+    cursor: default;
+    background-color:none;
+   /* border: 1px solid #ddd;
+    border-bottom-color: transparent;*/
+    border-bottom: solid 3px #2e98d2;
+}
+
+
+.tabsC{
+    display: none;
+    /*padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;*/
+   -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.bottom-line{
+    position:relative;
+    cursor:pointer;
+}
+.bottom-line::after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    bottom: -4PX;
+    left: 0px;
+    background-color: #2d9ad5;
+    transform: scaleX(0.0);
+   /* opacity: .8;*/
+    width:100%;
+    transition: all .3s ease-in-out 0s;
+}
+.bottom-line:hover::after{
+    transform:scaleX(1.0);
+}
+/*Styling to shape layout page*/
+.formulario_uno{
+    color: #7f7f7f;
+    margin-top: 30px;
+}
+.formulario_uno div{
+    margin: 10px 0;
+}
+.formulario_uno p{
+    color: #7f7f7f;
+    text-align: right;
+}
+.formulario_uno input[type="text"]{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+}
+.formulario_uno button{
+    color: #fff;
+    padding: 5px 30px;
+    border: 1px solid transparent;
+}
+.colorboton1{
+    background: #2d9ad5;
+}
+.colorboton2{
+    background: #808080;
+}
+
+.formulario_uno button:hover{
+    color: #2d9ad5;
+    border-color:#2d9ad5;
+    background: transparent;;
+}
+.img_avatar{
+    text-align: center;
+    border:solid 1px #bfbfbf;
+    margin: 10px 0 10px 0;
+}
+/*previsualizacion*/
+.thumb{
+    width: 100%;
+    border:solid 1px #bfbfbf;
+    margin: 10px 0;
+}
+/**/
+.btn-tertiary {
+    color: #fff;
+    padding: 0;
+    line-height: 40px;
+    width: 100%;
+    margin: 0;
+    display: block;
+    border: 2px solid #2d9ad5;
+    background: #2d9ad5;
+}
+.btn-tertiary:hover, .btn-tertiary:focus {
+  color: #2d9ad5;
+  background: #fff;
+}
+
+/* input file style */
+.input-file {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.input-file + .js-labelFile {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0px;
+  cursor: pointer;
+}
+.input-file + .js-labelFile .icon:before {
+  content: "\f093";
+}
+.input-file + .js-labelFile.has-file .icon:before {
+  content: "\f00c";
+  color: #5AAC7B;
+}
+
+.btn_avatar{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    border: solid 1px transparent;
+}
+.btn_avatar:hover{
+    background: #fff;
+    color: #2d9ad5;
+}
+.btn_avatar_rojo{
+    background: #e74f5b;
+}.btn_avatar_rojo:hover{
+    border-color:  #e74f5b;
+}
+.btn_avatar_gris{
+    background: #808080;
+}
+.btn_avatar_gris:hover{
+    border-color: #808080;
+}
+.padding-no{
+    padding: 0px;
+}
+
+.padding-derecho{
+    padding: 0 6px 0 0;
+}
+.padding-dizquierdo{
+    padding: 0 0 6px 0;
+}
 /*fin
 
 /*medias*/
-@media only screen and (min-width: 1200px) and (max-width: 1500px){
+@media only screen and (min-width: 1600px) and (max-width: 1700px){
 .circle {
     width: 100px;
     height: 100px;
     margin: 20px 0px;
 }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px){
+.circle {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px;
+}
+}
+@media only screen and (min-width: 1300px) and (max-width: 1400px){
+.circle {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px;
+}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1300px){
+.circle {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px;
+}
+
+.pading_cero{
+    padding: 0px;
+}
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px){
 .small-box h3 {
@@ -796,7 +1024,17 @@ div.tab button.active {
 .margen_top{
     margin-top: 15px;
 }
+/*perfil*/
+.formulario_uno p {
+    text-align: center;
+}
+.formulario_uno div {
+    margin: 1px 0;
+}
 
+.pading_ceroP{
+    padding: 0px;
+}
 /*fin*/
 }
 
