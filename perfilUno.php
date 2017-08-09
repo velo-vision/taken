@@ -18,7 +18,7 @@ getAside();
         <!-- Left col -->
         <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 connectedSortable pading_cero">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pading_cero pading_ceroP">
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2 pading_ceroP">
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 pading_ceroP">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 cuadro">
               <div class="col-lg-12 centrado-usu">
               
@@ -34,7 +34,7 @@ getAside();
                 </div>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-10 pading_cero pading_ceroP">
+          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9 pading_cero pading_ceroP">
             <!-- Tab panes -->
             <!-- notificacion -->
             <div id="Notificacion" class="tabcontent">
@@ -177,88 +177,87 @@ getAside();
                     <!-- Main row -->
                     <div class="row">
                       <!-- Left col -->
-                        <section class="col-xs-12 col-lg-12">                         
+                        <section class="col-xs-12 col-sm-12 col-lg-12">                         
                         <!-- tabs -->
                           <div class="row">
-                            <div class=" col-xs-12 col-lg-12 tab2 linea_Cuenta">
-                              <div class="col-xs-12 col-lg-6">
+                            <div class=" col-xs-12 col-sm-12 col-lg-12 tab2 linea_Cuenta">
+                              <div class="col-xs-12 col-sm-12 col-lg-5">
                                 <h4 class="linea">
                                   <span class="usuario-size">Cuenta De Perfil</span>
                                 </h4>
                               </div>
-                              <div class="col-xs-12 col-lg-6 nopadding_tabs">
-                                <div class="col-xs-4 col-lg-4">
+                              <div class="col-xs-12 col-sm-12 col-lg-7 nopadding_tabs">
+                                <div class="col-xs-4 col-sm-4 col-lg-4 pading_ceroP">
                                   <button class="links bottom-line" onclick="openCity(event, 'Info')" id="defaultOpen">Información personal</button>
                                 </div>
-                                <div class="col-xs-4 col-lg-4">
+                                <div class="col-xs-4 col-sm-4 col-lg-4 pading_ceroP">
                                   <button class="links bottom-line" onclick="openCity(event, 'Cambiar_avatar')">Cambiar avatar</button>
                                 </div>
-                                <div class="col-xs-4 col-lg-4">
+                                <div class="col-xs-4 col-sm-4 col-lg-4 pading_ceroP">
                                   <button class="links bottom-line" onclick="openCity(event, 'Password')">Cambiar la contraseña</button>
                                 </div>                                
                               </div>
                             </div>
                           </div>
                           <div class="row">
-                            <div id="Info" class=" col-xs-12 col-lg-12 tabsC">
-                              <div class="col-xs-12 col-lg-8 col-lg-offset-1">
+                            <div id="Info" class=" col-xs-12 col-sm-12 col-lg-12 tabsC">
+                              <div class="col-xs-12 col-sm-12 col-lg-8 col-lg-offset-1 sinpaddig-perfil">
                               <form class="formulario_uno">
-                              <div class="col-xs-12 col-lg-12">
-                                  <div class="col-lg-3">
+                                <div class="col-xs-12 col-sm-12 col-lg-12 sinpaddig-perfil">
+                                  <div class="col-xs-12 col-sm-4 col-lg-3 sinpaddig-perfil">
                                     <p>Nombre o Negocio</p>
                                   </div>
-                                  <div class="col-lg-6">
+                                  <div class="col-xs-12 col-sm-8 col-lg-6">
                                     <input type="text" name="nombre">
                                   </div>
                                 </div>
-                                <div class="col-xs-12 col-lg-12">
-                                  <div class="col-lg-3">
+                                <div class="col-xs-12 col-lg-12 sinpaddig-perfil">
+                                  <div class="col-xs-12 col-sm-4 col-lg-3 sinpaddig-perfil">
                                     <p>Dirección</p>
                                   </div>
-                                  <div class="col-lg-6">
+                                  <div class="col-xs-12 col-sm-8 col-lg-6">
                                     <input type="text" name="direccion">
                                   </div>
                                 </div>
-                                <div class="col-xs-12 col-lg-12">
-                                  <div class="col-lg-3">
+                                <div class="col-xs-12 col-lg-12 sinpaddig-perfil">
+                                  <div class="col-xs-12 col-sm-4 col-lg-3 sinpaddig-perfil">
                                     <p>Razón Social</p>
                                   </div>
-                                  <div class="col-lg-6">
+                                  <div class="col-xs-12 col-sm-8 col-lg-6">
                                     <input type="text" name="social">
                                   </div>
                                 </div>
-                                <div class="col-xs-12 col-lg-12">
-                                  <div class="col-lg-3">
+                                <div class="col-xs-12 col-lg-12 sinpaddig-perfil">
+                                  <div class="col-xs-12 col-sm-4 col-lg-3 sinpaddig-perfil">
                                     <p>RFC</p>
                                   </div>
-                                  <div class="col-lg-6">
+                                  <div class="col-xs-12 col-sm-8 col-lg-6">
                                     <input type="text" name="rfc">
                                   </div>
                                 </div>
-                                <div class="col-xs-12 col-lg-12">
-                                  <div class="col-lg-3">
+                                <div class="col-xs-12 col-lg-12 sinpaddig-perfil">
+                                  <div class="col-xs-12 col-sm-4 col-lg-3 sinpaddig-perfil">
                                     <p>Numero de teléfono</p>
                                   </div>
-                                  <div class="col-lg-6">
+                                  <div class="col-xs-12 col-sm-8 col-lg-6">
                                     <input type="text" name="tel">
                                   </div>
                                 </div>
-                                <div class="col-xs-12 col-lg-12">
-                                  <div class="col-lg-3">
+                                <div class="col-xs-12 col-lg-12 sinpaddig-perfil">
+                                  <div class="col-xs-12 col-sm-4 col-lg-3 sinpaddig-perfil">
                                     <p>Correo</p>
                                   </div>
-                                  <div class="col-lg-6">
+                                  <div class="col-xs-12 col-sm-8 col-lg-6">
                                     <input type="text" name="email">
                                   </div>
                                 </div>
-                                <div class="col-xs-12 col-lg-12">
-                                  <div class="col-lg-3">                                    
-                                  </div>
-                                  <div class="col-xs-12 col-lg-6">
-                                    <div class="col-xs-6 col-lg-6">
+                                <div class="col-xs-12 col-sm-12 col-lg-12 sinpaddig-perfil">
+                                <div class="col-lg-3"></div>                                  
+                                  <div class="col-xs-12 col-sm-12 col-lg-6 ">                                    
+                                    <div class="col-xs-12 col-sm-6 col-lg-6 ">
                                       <button class="colorboton1 ">Guardar</button>
                                     </div>
-                                     <div class="col-xs-6 col-lg-6">
+                                     <div class="col-xs-12 col-sm-6 col-lg-6">
                                       <button class="colorboton2">Cancelar</button>
                                     </div>
                                   </div>
@@ -268,15 +267,15 @@ getAside();
                             </div>
 
                             <div id="Cambiar_avatar" class="col-xs-12 col-lg-12 tabsC">
-                              <div class="col-lg-3 col-lg-offset-4">
+                              <div class="col-xs-12 col-lg-6 col-lg-offset-3">
                                 <!-- <div class="col-lg-12"> -->
                                   <form>
-                                    <div id="list" class="col-lg-12 img_avatar" >
+                                    <div id="list" class="col-xs-12 col-lg-12 img_avatar" >
                                      <!--  <output  class=""> -->
-                                        <img src="img/avatar.png" width="100%">
+                                        <img src="img/avatar.png" class="avatar-img">
                                       <!-- </output> -->
                                     </div>                                    
-                                    <div class="col-lg-12 sinpadding2">
+                                    <div class="col-xs-12 col-lg-12 sinpadding2">
                                       <div class="form-group">
                                         <input type="file" name="files[]" id="file" class="input-file">
                                         <label for="file" class="btn btn-tertiary js-labelFile">
@@ -285,11 +284,11 @@ getAside();
                                         </label>
                                       </div>
                                     </div>
-                                    <div class="col-lg-12 padding-no">
-                                      <div class="col-lg-6 padding-derecho">
+                                    <div class="col-xs-12 col-lg-12 padding-no">
+                                      <div class="col-xs-12 col-lg-6 padding-derecho">
                                         <button class="btn_avatar btn_avatar_rojo">Enviar</button>
                                       </div>
-                                      <div class="col-lg-6 padding-dizquierdo">
+                                      <div class="col-xs-12 col-lg-6 padding-dizquierdo">
                                         <button class="btn_avatar btn_avatar_gris">Cancelar</button>
                                       </div>
                                     </div>
@@ -298,41 +297,40 @@ getAside();
                               </div>
                             </div>
 
-                            <div id="Password" class="col-xs-12 col-lg-12 tabsC">
-                              <div class="col-lg-8 col-lg-offset-1">
+                            <div id="Password" class="col-xs-12 col-sm-12 col-lg-12 tabsC">
+                              <div class="col-xs-12 col-sm-12 col-lg-8 col-lg-offset-1">
                               <form class="formulario_uno">
-                              <div class="col-lg-12">
-                                  <div class="col-lg-3">
+                              <div class="col-xs-12 col-sm-12 col-lg-12">
+                                  <div class="col-xs-12 col-sm-4 col-lg-3 sinpaddig-perfil">
                                     <p>Contraseña Actual</p>
                                   </div>
-                                  <div class="col-lg-6">
+                                  <div class="col-xs-12 col-sm-8 col-lg-6">
                                     <input type="text" name="passActual">
                                   </div>
                                 </div>
-                                <div class="col-lg-12">
-                                  <div class="col-lg-3">
+                                <div class="col-xs-12 col-sm-12 col-lg-12">
+                                  <div class="col-xs-12 col-sm-4 col-lg-3 sinpaddig-perfil">
                                     <p>Escriba su nueva constraseña</p>
                                   </div>
-                                  <div class="col-lg-6">
+                                  <div class="col-xs-12 col-sm-8 col-lg-6">
                                     <input type="text" name="new_pass">
                                   </div>
                                 </div>
-                                <div class="col-lg-12">
-                                  <div class="col-lg-3">
+                                <div class="col-xs-12 col-sm-12 col-lg-12">
+                                  <div class="col-xs-12 col-sm-4 col-lg-3 sinpaddig-perfil">
                                     <p>Confirmar contraseña</p>
                                   </div>
-                                  <div class="col-lg-6">
+                                  <div class="col-xs-12 col-sm-8 col-lg-6">
                                     <input type="text" name="confirm">
                                   </div>
                                 </div>                                
-                                <div class="col-lg-12">
-                                  <div class="col-lg-3">                                    
-                                  </div>
-                                  <div class="col-lg-6">
-                                    <div class="col-lg-6">
+                                <div class="col-xs-12 col-sm-12 col-lg-12">
+                                     <div class="col-lg-3"></div>                              
+                                  <div class="col-xs-12 col-lg-6">
+                                    <div class="col-xs-12 col-sm-6 col-lg-6">
                                       <button class="colorboton1 ">Guardar</button>
                                     </div>
-                                     <div class="col-lg-6">
+                                     <div class="col-xs-12 col-sm-6 col-lg-6">
                                       <button class="colorboton2">Cancelar</button>
                                     </div>
                                   </div>

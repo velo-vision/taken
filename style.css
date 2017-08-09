@@ -906,6 +906,13 @@ div.tab2 button.active {
 .titulos_perfil{
     font-size: 20px !important;
 }
+.colorboton2, .colorboton1 {
+    width: 100%;
+    margin: 6px 0 0 0;
+}
+.padding-derecho {
+    padding: 0px 0px 10px 0;
+}
 /*fin*/
 }
 
@@ -945,6 +952,14 @@ div.tab2 button.active {
 .margen_top{
     margin-top: 15px;
 }
+.colorboton2, .colorboton1 {
+    width: 100%;
+    margin: 6px 0 0 0;
+}
+.padding-derecho {
+    padding: 0px 0px 10px 0;
+}
+
 /*fin*/
 }
 
@@ -976,6 +991,24 @@ div.tab2 button.active {
 }
 .margen_top{
     margin-top: 15px;
+}
+
+.formulario_uno p {
+    text-align: center;
+}
+.formulario_uno div {
+    margin: 1px 0;
+}
+
+.pading_ceroP{
+    padding: 0px;
+}
+.colorboton2, .colorboton1 {
+    width: 100%;
+    margin: 6px 0 0 0;
+}
+.padding-derecho {
+    padding: 0px 0px 10px 0;
 }
 /*fin*/
 }
@@ -1034,6 +1067,16 @@ div.tab2 button.active {
 
 .pading_ceroP{
     padding: 0px;
+}
+.colorboton2, .colorboton1 {
+    width: 100%;
+    margin: 6px 0 0 0;
+}
+.padding-derecho {
+    padding: 0px 0px 10px 0;
+}
+.avatar-img{
+    width: 200px;
 }
 /*fin*/
 }
