@@ -11,7 +11,7 @@ getAside();
         <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Transferir Saldo
       </h3>
     </section>
-    <section class="content size">
+    <section class="content size margin-select">
       <!-- Small boxes (Stat box) -->
       <div class="row">
         <div class="col-lg-3 col-xs-6">
