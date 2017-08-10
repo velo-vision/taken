@@ -240,8 +240,9 @@ div.dataTables_wrapper div.dataTables_paginate {
     text-align: center;
 }
 .botonActividad:hover{
-     background: #fff;
+    background: #fff;
     color: #2d9ad5;
+    cursor: pointer;
 }
 
 .sidebar-collapse #negro li:hover>a{
@@ -650,6 +651,13 @@ div.tab button.active {
     height: 500px;
     overflow: scroll;
     overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background-color: #fff; background-color: rgba(105,105,105,0.5); }
+.mCS-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{ background-color: rgba(105,105,105,0.8); }
+.ocultar-flow{
+    overflow: hidden;
 }
 /*segundas taps*/
 .linea_Cuenta{
@@ -855,7 +863,48 @@ div.tab2 button.active {
 .padding-dizquierdo{
     padding: 0 0 6px 0;
 }
-/*fin
+
+/*parametro control*/
+.pad_diez{
+    padding-left: 10px;
+}
+.modal_parametros{
+    background: #fff;
+    width: 500px;
+    margin-left: 0%;
+    margin-top: 10%;
+    height: auto;
+}
+
+.boton-parametro{
+    height: 32px;
+    width: 230px;
+}
+
+.btn_cancel{
+    color: #fff;
+    background-color: #145372;
+    border-color: #145372;
+}
+.btn_cancel:hover{
+    background: #fff;
+    color: #145372
+}
+.btn-acep{
+    color: #fff;
+    background: #53a5d7;
+    border-color: #53a5d7;
+}
+.btn-acep:hover{
+    background: #fff;
+    color: #53a5d7;
+}
+.calendario_fechas{
+    margin-bottom: 0px;
+    padding: 0 20px;
+}
+
+/*fin*/
 
 /*medias*/
 @media only screen and (min-width: 1600px) and (max-width: 1700px){
@@ -878,6 +927,11 @@ div.tab2 button.active {
     height: 100px;
     margin: 20px 0px;
 }
+.formulario_uno button {
+    padding: 5px 13px;
+    width: 100%;
+}
+
 }
 @media only screen and (min-width: 1200px) and (max-width: 1300px){
 .circle {
@@ -1011,6 +1065,10 @@ div.tab2 button.active {
 .padding-derecho {
     padding: 0px 0px 10px 0;
 }
+.modal_parametros {
+    margin: 24px 5% 0;
+    /* margin-top: 10%; */
+}
 /*fin*/
 }
 @media only screen and (min-width:200px) and (max-width:600px){
@@ -1078,6 +1136,19 @@ div.tab2 button.active {
 }
 .avatar-img{
     width: 200px;
+}
+/*modal*/
+.modal_parametros {
+    background: #fff;
+    width: 98%;
+    margin: 1%;
+    height: auto;
+}
+.menos-pad{
+    padding: 0px 0px 0 !important;
+}
+.menos-pad2{
+    padding: 10px 35px 5px;
 }
 /*fin*/
 }

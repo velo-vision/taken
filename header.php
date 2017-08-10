@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
    <!-- DataTables -->
   <link rel="stylesheet" href="bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
   <!-- cheched -->
     <!-- style jorge -->
   <link rel="stylesheet" href="css/mapa.css">

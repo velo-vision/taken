@@ -26,6 +26,14 @@
 <script src="bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
 <!-- datepicker -->
 <script src="bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<!-- Select2 -->
+<script src="bower_components/select2/dist/js/select2.full.min.js"></script>
+<!-- InputMask -->
+<script src="plugins/input-mask/jquery.inputmask.js"></script>
+<script src="plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+<script src="plugins/input-mask/jquery.inputmask.extensions.js"></script>
+<!-- date-range-picker -->
+
 <!-- Bootstrap WYSIHTML5 -->
 <script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
 <!-- Slimscroll -->
@@ -42,10 +50,9 @@
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
 <script src="js/myjs.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <!-- <script src="js/finanzas.js"></script> -->
 <!-- jorge -->
-
-
 
 <!-- grafica4 -->
   <script src="js/grafica4.js"></script>
@@ -77,3 +84,4 @@
   <script src="js/index-grafica2.js"></script>
 </body>
 </html>
+

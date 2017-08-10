@@ -43,6 +43,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="tag-vinculado.php"><img src="img/index/punto.png"> Tag vinculados</a></li>
+            <li><a href="parametro_control.php"><img src="img/index/punto.png"> Parametro de control</a></li>
             <li><a href="admin-perfiles.php"><img src="img/index/punto.png"> Agregar Tag</a></li>
           </ul>
         </li>

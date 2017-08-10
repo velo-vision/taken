@@ -49,7 +49,7 @@ getAside();
         <!-- Left col -->
         <div class="col-md-12">
           <h3 class="linea">
-            <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Balance <span class="mayor">
+            <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Gastos x tag <span class="mayor">
           </h3>
         </div>
         <div class="col-md-10 col-md-offset-1">
