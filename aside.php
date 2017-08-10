@@ -37,13 +37,18 @@
            <i class="fa fa-exchange" aria-hidden="true"></i> <span id="#historial">Historial de Cargas<br><span class="align-text">de gasolina</span></span>
           </a>
         </li>
+        <li id="ncuatro_doble" class="ncuatro_doble">
+          <a href="transferir-saldo.php">
+           <i class="fa fa-retweet" aria-hidden="true"></i> <span id="#historial">Transferir saldos</span>
+          </a>
+        </li>
         <li class="treeview ncinco" id="ncinco">
           <a href="#">
-            <i class="fa fa-users" aria-hidden="true"></i> <span>Administrador de perfiles</span>
+            <i class="fa fa-users" aria-hidden="true"></i> <span>Administrador de tag</span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="tag-vinculado.php"><img src="img/index/punto.png"> Tag vinculados</a></li>
-            <li><a href="parametro_control.php"><img src="img/index/punto.png"> Parametro de control</a></li>
+            <li><a href="tag-vinculados.php"><img src="img/index/punto.png"> Tag vinculados</a></li>
+            <li><a href="#"><img src="img/index/punto.png"> parametros de control</a></li>
             <li><a href="admin-perfiles.php"><img src="img/index/punto.png"> Agregar Tag</a></li>
           </ul>
         </li>

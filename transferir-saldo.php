@@ -3,6 +3,17 @@ include('funtions.php');
 getHeader();
 getAside();
 ?>
+<style>
+#ncuatro_doble a{
+    color: #fff;
+    background: url(img/liston.png) center center no-repeat;
+    background-size: cover;
+}
+.ncuatro_doble i{
+  color: #fff !important;
+}
+</style>
+
 <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -11,7 +22,7 @@ getAside();
         <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Transferir Saldo
       </h3>
     </section>
-    <section class="content size">
+    <section class="content size margin-select">
       <!-- Small boxes (Stat box) -->
       <div class="row">
         <div class="col-lg-3 col-xs-6">
