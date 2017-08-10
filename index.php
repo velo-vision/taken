@@ -107,7 +107,7 @@ getAside();
         <div class="col-lg-12">
           <div class="col-xs-12 col-sm-6 col-md-6 text-center borde-index">
             <h3 class="linea border-abajo">
-              <i class="fa fa-sort-asc rotar color-azul1" aria-hidden="true"></i> Historico de consumo <span class="flotilla">x flotilla</span>
+              <i class="fa fa-sort-asc rotar color-azul1" aria-hidden="true"></i> Histórico de consumo <span class="flotilla">x flotilla</span>
             </h3>
             <div id="area-chart" ></div>
           </div>

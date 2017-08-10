@@ -54,6 +54,7 @@ getAside();
         </div>
         <div class="col-md-10 col-md-offset-1">
           <div id="divuno"></div>
+
            <div id="graficaPAA211" style="height: 400px"></div>
         </div>
         <div ng-app="app" ng-controller="BaseCtrl">
@@ -77,5 +78,5 @@ getAside();
       <!-- /.row (main row) -->
 
   <!-- /.content-wrapper -->
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.0/morris.min.js'></script>
   <?php getFooter(); ?>
