@@ -63,7 +63,7 @@
   <script src="js/grafica1.js"></script>
 <!--   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
 <script src='js/highcharts.js'></script>
-<!-- <script src='https://code.highcharts.com/modules/exporting.js'></script> -->
+<script src='https://code.highcharts.com/modules/exporting.js'></script>
 <!-- grafica3 -->
   <script src="js/grafica3.js"></script>
   <script src="js/Chart.js"></script>
