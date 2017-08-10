@@ -676,6 +676,7 @@ div.tab2 button {
     background: #fff;
     width: 100%;
     text-align: center;
+    font-size: 12px;
 }
 /* Change background color of buttons on hover */
 div.tab2 button:hover, button:focus {

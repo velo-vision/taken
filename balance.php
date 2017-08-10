@@ -83,7 +83,7 @@ getAside();
                   <a href="#A" aria-controls="A" role="tab" data-toggle="tab">Abono a cuenta</a>
                 </li>
                 <li role="presentation">
-                  <a href="#B" aria-controls="B" role="tab" data-toggle="tab">Dispersíon de Saldo</a>
+                  <a href="#B" aria-controls="B" role="tab" data-toggle="tab">Dispersión de Saldo</a>
                 </li>
               </ul>
               <!-- Tab panes -->
@@ -99,7 +99,7 @@ getAside();
                             <thead class="separacion">
                               <tr>
                                 <th>Monto Abonado</th>
-                                <th>Fecha Ultimo Abono</th>
+                                <th>Fecha Último Abono</th>
                                 <th>Número de Transaccíon</th>
                                 <th>Saldo Total</th>
                               </tr>

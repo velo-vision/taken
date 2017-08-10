@@ -29,10 +29,10 @@ getAside();
                   <tr>
                     <th>Nombre</th>
                     <th>Tags Vinculados</th>
-                    <th>FECHA</th>
+                    <th>Fecha</th>
                     <th>Saldo Promedio Mensual</th>
                     <th>RFC</th>
-                    <th>Historíco Recargas</th>
+                    <th>Histórico Recargas</th>
                   </tr>
                 </thead>
                 <tbody class="mytabs">

@@ -45,7 +45,7 @@ getAside();
        <ul class="enlinea">
          <li><img src="img/index/punto.png">  Usuario: <span>Edmundo Rodirguez</span></li>
          <li><img src="img/index/punto.png">  Tag <span>Lorem ipsum dolor</span></li>
-         <li><img src="img/index/punto.png">  Vehiculo Asociado: <span>volkswagen</span></li>
+         <li><img src="img/index/punto.png">  Vehículo Asociado: <span>volkswagen</span></li>
          <li><img src="img/index/punto.png">  Placas: <span>71RNA</span></li>
        </ul>
         </div>

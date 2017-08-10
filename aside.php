@@ -79,7 +79,7 @@
         </li>
         <li class="nonce">
           <a href="#">
-           <i class="fa fa-line-chart " aria-hidden="true"></i> <span>Concialicacion de Edos.<br><span class="align-text">Financieros</span></span>
+           <i class="fa fa-line-chart " aria-hidden="true"></i> <span>Conciliación de Edos.<br><span class="align-text">Financieros</span></span>
           </a>
         </li>
         <li id="ndoce">
@@ -89,12 +89,12 @@
         </li>
         <li>
           <a href="usuario1.php">
-            <i class="fa fa-user " aria-hidden="true"></i> <span>Moviminetos individuales</span>
+            <i class="fa fa-user " aria-hidden="true"></i> <span>Movimientos individuales</span>
           </a>
         </li>
         <li id="ncatorce">
           <a href="#">
-            <i class="fa fa-cogs fa-lg" aria-hidden="true"></i> <span>Configurarar</span>
+            <i class="fa fa-cogs fa-lg" aria-hidden="true"></i> <span>Configurar</span>
           </a>
         </li>
         <li id="nquince">

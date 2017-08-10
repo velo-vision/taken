@@ -111,7 +111,7 @@ getAside();
             <!-- /.box -->
           </div>
           <div class="col-md-12 col-xs-12">
-            PERIODO
+            PERÍODO
             <div class="form-group select-tanken tag2">
               <select class="form-control">
                 <option>30/09/2012 | 30/10/2012</option>r

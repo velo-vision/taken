@@ -30,7 +30,7 @@ getAside();
                   <button class="tablinks perfil-n" onclick="perfilUno(event, 'Notificacion')" id="default">
                     <i class="fa fa-home fa-lg" aria-hidden="true"></i> Toda la actividad
                   </button><br>
-                  <button class="tablinks perfil-n" onclick="perfilUno(event, 'Cuenta')"><i class="fa fa-cog fa-lg" aria-hidden="true"></i> Configuracion de la cuenta</button>
+                  <button class="tablinks perfil-n" onclick="perfilUno(event, 'Cuenta')"><i class="fa fa-cog fa-lg" aria-hidden="true"></i> Configuración de la cuenta</button>
                 </div>
             </div>
           </div>
@@ -187,13 +187,13 @@ getAside();
                                 </h4>
                               </div>
                               <div class="col-xs-12 col-sm-12 col-lg-7 nopadding_tabs">
-                                <div class="col-xs-4 col-sm-4 col-lg-4 pading_ceroP">
+                                <div class="col-xs-4 col-sm-4 col-lg-4 pading_ceroP nopadding_tabs">
                                   <button class="links bottom-line" onclick="openCity(event, 'Info')" id="defaultOpen">Información personal</button>
                                 </div>
-                                <div class="col-xs-4 col-sm-4 col-lg-4 pading_ceroP">
+                                <div class="col-xs-4 col-sm-4 col-lg-4 pading_ceroP nopadding_tabs">
                                   <button class="links bottom-line" onclick="openCity(event, 'Cambiar_avatar')">Cambiar avatar</button>
                                 </div>
-                                <div class="col-xs-4 col-sm-4 col-lg-4 pading_ceroP">
+                                <div class="col-xs-4 col-sm-4 col-lg-4 pading_ceroP nopadding_tabs">
                                   <button class="links bottom-line" onclick="openCity(event, 'Password')">Cambiar la contraseña</button>
                                 </div>                                
                               </div>
@@ -201,7 +201,7 @@ getAside();
                           </div>
                           <div class="row">
                             <div id="Info" class=" col-xs-12 col-sm-12 col-lg-12 tabsC">
-                              <div class="col-xs-12 col-sm-12 col-lg-8 col-lg-offset-1 sinpaddig-perfil">
+                              <div class="col-xs-12 col-sm-12 col-lg-10 col-lg-offset-1 sinpaddig-perfil">
                               <form class="formulario_uno">
                                 <div class="col-xs-12 col-sm-12 col-lg-12 sinpaddig-perfil">
                                   <div class="col-xs-12 col-sm-4 col-lg-3 sinpaddig-perfil">
@@ -298,7 +298,7 @@ getAside();
                             </div>
 
                             <div id="Password" class="col-xs-12 col-sm-12 col-lg-12 tabsC">
-                              <div class="col-xs-12 col-sm-12 col-lg-8 col-lg-offset-1">
+                              <div class="col-xs-12 col-sm-12 col-lg-10 col-lg-offset-1">
                               <form class="formulario_uno">
                               <div class="col-xs-12 col-sm-12 col-lg-12">
                                   <div class="col-xs-12 col-sm-4 col-lg-3 sinpaddig-perfil">
