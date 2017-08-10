@@ -125,7 +125,7 @@ getAside();
              <!--COLLAPSER-->
                <div class="col-md-12">
                  <p class="text-sunumero centers">
-                   Su número de tag es
+                   SU NÚMERO DE TAG ES
                  </p>
                  <p class="text-numero centers">
                    123-kv
