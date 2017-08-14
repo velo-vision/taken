@@ -8,10 +8,9 @@
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link href="css/animsition.min.css" rel="stylesheet">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
-  <!-- Ionicons -->
-  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -30,6 +29,8 @@
    <!-- DataTables -->
   <link rel="stylesheet" href="bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+  <link href="css/sandbox.css" rel="stylesheet">
+  
   <!-- cheched -->
     <!-- style jorge -->
   <link rel="stylesheet" href="css/mapa.css">
@@ -56,7 +57,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
-<div class="wrapper">
+<div class="wrapper animsition">
 
   <header class="main-header">
     <!-- Logo -->

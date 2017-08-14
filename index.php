@@ -15,9 +15,9 @@ getAside();
 }
 </style>
 <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+  <div class="content-wrapper ">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
+    <section class="content-header ">
       <h1>
         <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Resumen de Actividad
       </h1>
