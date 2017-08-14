@@ -908,6 +908,17 @@ div.tab2 button.active {
 .texto-menu-lateral li a span{
     font-size: 13px;
 }
+
+.centrado-btn{
+    text-align: center;
+}
+.modal-parametros-internos{
+    background: #fff;
+    width: 700px;
+    margin-left: 0%;
+    margin-top: 10%;
+    height: auto;
+}
 /*medias*/
 @media only screen and (min-width: 1600px) and (max-width: 1700px){
 .circle {
@@ -1017,6 +1028,20 @@ div.tab2 button.active {
     padding: 0px 0px 10px 0;
 }
 
+.modal-parametros-internos {
+    background: #fff;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    height: auto;
+}
+.modal_parametros {
+    background: #fff;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: auto;
+}
 /*fin*/
 }
 
@@ -1068,9 +1093,20 @@ div.tab2 button.active {
     padding: 0px 0px 10px 0;
 }
 .modal_parametros {
-    margin: 24px 5% 0;
-    /* margin-top: 10%; */
+    background: #fff;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: auto;
 }
+.modal-parametros-internos {
+    background: #fff;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    height: auto;
+}
+
 /*fin*/
 }
 @media only screen and (min-width:200px) and (max-width:600px){
@@ -1153,6 +1189,9 @@ div.tab2 button.active {
     padding: 10px 35px 5px;
 }
 
+.modal-parametros-internos {
+    width: 100%;
+}
 /*fin*/
 }
 

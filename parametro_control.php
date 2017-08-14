@@ -151,7 +151,7 @@ getAside();
                Selecciona los días que quieres fijar
              </p>
            </div>
-           <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 centers">
+           <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 centers">
             <!-- Date range -->
               <div class="form-group calendario_fechas">
                 <div class="input-group">
@@ -195,14 +195,83 @@ getAside();
 
           <div class="form-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
             <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
-              <a data-toggle="modal" data-target="#realizar-traspaso" data-whatever="@mdo">
+              <!-- <a data-toggle="modal" data-target="#tope_fijado" data-whatever="@mdo">
+                <p class="botonActividad"><i class="fa fa-sliders rotar" aria-hidden="true"></i> FIJAR TOPE</p>
+              </a> -->
+              <a data-toggle="modal" data-target="#tope_fijado" data-whatever="@mdo">
                 <button type="submit" class="btn-aceptar-cancelar btn-acep" data-dismiss="modal" aria-label="Close">Aceptar</button>
               </a>
             </div>
             <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
-              <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+              <a data-toggle="modal" data-target="#" data-whatever="@mdo">
                 <button type="button" class="btn-aceptar-cancelar btn_cancel" data-dismiss="modal" aria-label="Close">
                   Cancelar
+                </button>
+              </a>
+            </div>
+          </div>
+         <!--COLLAPSER-->
+       </div>
+       </form>
+     </div>
+   </div>
+ </div>
+ <!--MODAL-->
+
+ <!-- modal 2 -->
+          <!--MODAL programar-->
+ <div class="modal fade" id="tope_fijado" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+     <div>
+       <form role="form">
+       <div class="modal-parametros-internos col-xs-12 col-md-12">
+         <div>
+           <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+             <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+           </button>
+         </div>
+         <!--COLLAPSER-->
+           <div class="col-xs-12 col-md-12 pad-monto menos-pad">
+             <p class="text-programar centers">
+               SE FIJO EL TOPE CORRECTAMENTE
+             </p>            
+           </div>
+           <!-- tabla -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo mCustomScrollbar ocultar-flow" data-mcs-theme="dark">
+              <div class="box no">
+                <div class="box-body table-responsive no-padding margin-transfer">
+                  <table id="example5" class="table table-hover">
+                    <thead class="separacion">
+                      <tr>
+                        <th class="pad-tabla no-border">ID de Tag</th>
+                        <th class="pad-tabla no-border">Monto</th>
+                        <th class="pad-tabla no-border">Litros</th>
+                        <th class="pad-tabla no-border">Días</th>
+                      </tr>
+                    </thead>
+                    <tbody class="mytabs">
+                      <?php for ($x=0; $x <10 ; $x++) { ?>
+                       <tr>
+                         <th class="centers pad-tabla">2910384561V</th>
+                         <th class="centers pad-tabla">Adrian Rofriguez</th>
+                         <th class="centers pad-tabla">10</th>
+                         <th class="centers pad-tabla">08/01/2017 - 08/17/2017</th>
+                       </tr>
+                      <?php } ?>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin tabla -->        
+
+          <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-tag margin-traspaso centrado-btn">            
+            <div class="col-xs-12 col-sm-12 margin-validar center-validar margin-10">
+              <a data-toggle="modal" data-target="#" data-whatever="@mdo">
+                <button type="button" class="btn-aceptar-cancelar btn-acep" data-dismiss="modal" aria-label="Close">
+                  Cerrar
                 </button>
               </a>
             </div>
