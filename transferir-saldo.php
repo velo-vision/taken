@@ -65,7 +65,7 @@ getAside();
         <section class="col-lg-12 connectedSortable">
           <!-- tablas -->
         <div class="row">
-          <div class="col-xs-12 scroll">
+          <div class="col-xs-12 scroll" >
             <div class="box no">
             <div class="box-body table-responsive no-padding margin-transfer">
               <table id="example5" class="table table-hover">
@@ -151,7 +151,7 @@ getAside();
            </div>
            <!-- tabla -->
           <div class="row">
-            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo mCustomScrollbar" data-mcs-theme="dark">
               <div class="box no">
                 <div class="box-body table-responsive no-padding margin-transfer">
                   <table id="example5" class="table table-hover">
@@ -230,7 +230,7 @@ getAside();
            </div>
            <!-- tabla -->
           <div class="row">
-            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo mCustomScrollbar" data-mcs-theme="dark">
               <div class="box no">
                 <div class="box-body table-responsive no-padding margin-transfer">
                   <table id="example5" class="table table-hover">
@@ -280,7 +280,7 @@ getAside();
          </div>
          <!-- tabla -->
         <div class="row">
-          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo mCustomScrollbar" data-mcs-theme="dark">
             <div class="box no">
               <div class="box-body table-responsive no-padding margin-transfer">
                 <table id="example5" class="table table-hover">
@@ -357,7 +357,7 @@ getAside();
          </div>
          <!-- tabla -->
         <div class="row">
-          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo mCustomScrollbar" data-mcs-theme="dark">
             <div class="box no">
               <div class="box-body table-responsive no-padding margin-transfer">
                 <table id="example5" class="table table-hover">
