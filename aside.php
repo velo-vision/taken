@@ -16,7 +16,7 @@
       </form>
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul id="negro" class="sidebar-menu" data-widget="tree">
+      <ul id="negro" class="sidebar-menu texto-menu-lateral" data-widget="tree">
        <li id="nuno" class="nuno">
           <a class="animsition-link" href="index.php">
             <i class="fa fa-home fa-lg" aria-hidden="true"></i> <span>Home</span>
@@ -24,7 +24,7 @@
         </li>
         <li id="ndos" class="ndos">
           <a href="perfilUno.php">
-            <i class="fa fa-user-circle-o" aria-hidden="true"></i> <span>Perfil del usurario</span>
+            <i class="fa fa-user-circle-o" aria-hidden="true"></i> <span>Perfil del usuario</span>
           </a>
         </li>
         <li id="ntres" class="ntres">
