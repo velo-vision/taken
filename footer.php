@@ -86,7 +86,7 @@
 
 <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script> -->
   <script src="js/animsition.min.js" charset="utf-8"></script>
-  <script>
+ <script>
   $(document).ready(function() {
     $('.animsition').animsition();
   });
