@@ -52,7 +52,7 @@ getAside();
 		          <option>option 5</option>
 		        </select>
 	      	</div>
-	      </div>	      	
+	      </div>
 	    </div>
       </div>
     </section>
@@ -138,7 +138,7 @@ getAside();
            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 centers">
             <input type="text" name="" class="tamaño-form">
            </div>
-           <div class="col-xs-12 col-md-12 pad-monto menos-pad2">             
+           <div class="col-xs-12 col-md-12 pad-monto menos-pad2">
              <p class="text-monto centers">
                Escribe los litros
              </p>
@@ -146,7 +146,7 @@ getAside();
            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 centers">
             <input type="text" name="" class="tamaño-form">
            </div>
-           <div class="col-xs-12 col-md-12 pad-monto">             
+           <div class="col-xs-12 col-md-12 pad-monto">
              <p class="text-monto centers">
                Selecciona los días que quieres fijar
              </p>
@@ -188,11 +188,11 @@ getAside();
               </div>
             </div>
           </div>
-          <!-- fin tabla -->         
+          <!-- fin tabla -->
           <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 centers">
            <input type="text" name="passAdmin" class="pad_diez boton-parametro" placeholder="Contraseña Admin">
           </div>
-          
+
           <div class="form-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
             <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
               <a data-toggle="modal" data-target="#realizar-traspaso" data-whatever="@mdo">

@@ -233,7 +233,7 @@
   text-align:right;
 }
 /*transferir saldo*/
-.scroll{
+.scroll1{
   overflow-y: scroll;
   height:800px;
 }
@@ -306,7 +306,6 @@
   color: #888888;
 }
 .scroll-saldo{
-  overflow-y: scroll;
   height:250px;
 }
 .btn-aceptar-cancelar {

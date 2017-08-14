@@ -18,7 +18,7 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul id="negro" class="sidebar-menu" data-widget="tree">
        <li id="nuno" class="nuno">
-          <a href="index.php">
+          <a class="animsition-link" href="index.php">
             <i class="fa fa-home fa-lg" aria-hidden="true"></i> <span>Home</span>
           </a>
         </li>
@@ -117,3 +117,4 @@
     </section>
     <!-- /.sidebar -->
   </aside>
+

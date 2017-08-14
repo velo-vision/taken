@@ -15,9 +15,9 @@ getAside();
 }
 </style>
 <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+  <div class="content-wrapper ">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
+    <section class="content-header ">
       <h1>
         <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Resumen de Actividad
       </h1>
@@ -26,74 +26,82 @@ getAside();
     <section class="content">
       <!-- Small boxes (Stat box) -->
       <div class="row">
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-aqua">
-            <div class="inner uno">
-            <img src="img/index/img-7.png" class="resumen">
-              <h3>16 17</h3>
-              <p>PRECIO POR LITRO MAGNA</p>
+        <div class="col_third">
+          <div id="div-tanken" class="col-lg-3 col-xs-6 wow fadeInLeft nopadding" data-wow-delay="0.1s">
+            <!-- small box -->
+            <div class="small-box bg-aqua">
+              <div class="inner uno">
+              <img src="img/index/img-7.png" class="resumen">
+                <h3>16 17</h3>
+                <p>PRECIO POR LITRO MAGNA</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-aqua">
-            <div class="inner dos">
-            <img src="img/index/img-7.png" class="resumen">
-              <h3>20 - 21</h3>
-              <p>PRECIO POR LITRO PREMIUM</p>
+      	</div>
+        <div class="col_third">
+          <div id="div-tanken" class="col-lg-3 col-xs-6 wow fadeInLeft nopadding" data-wow-delay="0.2s">
+            <!-- small box -->
+            <div class="small-box bg-aqua">
+              <div class="inner dos">
+              <img src="img/index/img-7.png" class="resumen">
+                <h3>20 - 21</h3>
+                <p>PRECIO POR LITRO PREMIUM</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-aqua">
-            <div class="inner tres">
-            <img src="img/index/img-7.png" class="resumen">
-              <h3>18 - 19</h3>
-              <p>PRECIO POR LITRO DIESEL</p>
+      	</div>
+        <div class="col_third">
+          <div id="div-tanken" class="col-lg-3 col-xs-6 wow fadeInLeft nopadding" data-wow-delay="0.3s">
+            <!-- small box -->
+            <div class="small-box bg-aqua">
+              <div class="inner tres">
+              <img src="img/index/img-7.png" class="resumen">
+                <h3>18 - 19</h3>
+                <p>PRECIO POR LITRO DIESEL</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-aqua">
-            <div class="inner cuatro">
-            <img src="img/index/img-5.png" class="resumen">
-              <h3>80</h3>
-              <p>CUENTAS ACTIVAS</p>
+      	</div>
+        <div class="col_third">
+          <div id="div-tanken" class="col-lg-3 col-xs-6 wow fadeInLeft nopadding" data-wow-delay="0.4s">
+            <!-- small box -->
+            <div class="small-box bg-aqua">
+              <div class="inner cuatro">
+              <img src="img/index/img-5.png" class="resumen">
+                <h3>80</h3>
+                <p>CUENTAS ACTIVAS</p>
+              </div>
             </div>
           </div>
-        </div>
+      	</div>
         <!-- ./col -->
       </div>
       <!-- OTROS 4 -->
       <div class="row">
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-aqua">
-            <div class="inner dos">
-            <img src="img/index/img-1.png" class="resumen">
-              <h3>$3,200,000</h3>
-              <p>SALDO REQUERIDO MENSUAL</p>
+        <div class="col_third">
+          <div id="div-tanken" class="col-lg-3 col-xs-6 wow fadeInLeft nopadding" data-wow-delay="0.4s">
+            <!-- small box -->
+            <div class="small-box bg-aqua">
+              <div class="inner dos">
+              <img src="img/index/img-1.png" class="resumen">
+                <h3>$3,200,000</h3>
+                <p>SALDO REQUERIDO MENSUAL</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-aqua">
-            <div class="inner tres">
-            <img src="img/index/img-11.png" class="resumen" style="opacity: .5;">
-              <h3>$1,000,000</h3>
-              <p>COSTO PROM. DE RECARGAS X USUARIO</p>
+      	</div>
+        <div class="col_third">
+          <div id="div-tanken" class="col-lg-3 col-xs-6 wow fadeInLeft nopadding" data-wow-delay="0.4s">
+            <!-- small box -->
+            <div class="small-box bg-aqua">
+              <div class="inner tres">
+              <img src="img/index/img-11.png" class="resumen" style="opacity: .5;">
+                <h3>$1,000,000</h3>
+                <p>COSTO PROM. DE RECARGAS X USUARIO</p>
+              </div>
             </div>
           </div>
-        </div>
+      	</div>
         <!-- ./col -->
       </div>
       <!-- FIN -->
