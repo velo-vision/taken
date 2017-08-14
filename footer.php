@@ -53,7 +53,9 @@
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <!-- <script src="js/finanzas.js"></script> -->
 <!-- jorge -->
-
+<!-- wow -->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="js/wow-tanken.js"></script>
 <!-- grafica4 -->
   <script src="js/grafica4.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js'></script>
@@ -84,4 +86,3 @@
   <script src="js/index-grafica2.js"></script>
 </body>
 </html>
-
