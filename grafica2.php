@@ -17,7 +17,7 @@ getAside();
     <section class="content size">
       <!-- Small boxes (Stat box) -->
       <div class="row">
-        <div class="col-lg-3 col-xs-6">
+        <div class="col-lg-3 col-xs-6 wow bounceInLeft" data-wow-delay=".2s">
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner once">
@@ -28,7 +28,7 @@ getAside();
           </div>
         </div>
         <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
+        <div class="col-lg-3 col-xs-6 wow bounceInLeft" data-wow-delay=".2s">
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner doce">

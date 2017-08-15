@@ -29,9 +29,8 @@
   <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
    <!-- DataTables -->
    <!-- wow -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-   <link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css'>
-   <link rel="stylesheet" href="css/wow-tanken.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/site.css">
    <!-- fin wow -->
   <link rel="stylesheet" href="bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
