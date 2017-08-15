@@ -27,7 +27,7 @@ getAside();
       <!-- Small boxes (Stat box) -->
       <div class="row">
         <div class="col_third">
-          <div id="div-tanken" class="col-lg-3 col-xs-6 wow fadeInLeft nopadding" data-wow-delay="0.1s">
+          <div id="div-tanken" class="col-lg-3 col-xs-6 " >
             <!-- small box -->
             <div class="small-box bg-aqua">
               <div class="inner uno">
@@ -39,7 +39,7 @@ getAside();
           </div>
       	</div>
         <div class="col_third">
-          <div id="div-tanken" class="col-lg-3 col-xs-6 wow fadeInLeft nopadding" data-wow-delay="0.2s">
+          <div id="div-tanken" class="col-lg-3 col-xs-6" >
             <!-- small box -->
             <div class="small-box bg-aqua">
               <div class="inner dos">
@@ -51,7 +51,7 @@ getAside();
           </div>
       	</div>
         <div class="col_third">
-          <div id="div-tanken" class="col-lg-3 col-xs-6 wow fadeInLeft nopadding" data-wow-delay="0.3s">
+          <div id="div-tanken" class="col-lg-3 col-xs-6 ">
             <!-- small box -->
             <div class="small-box bg-aqua">
               <div class="inner tres">
@@ -63,7 +63,7 @@ getAside();
           </div>
       	</div>
         <div class="col_third">
-          <div id="div-tanken" class="col-lg-3 col-xs-6 wow fadeInLeft nopadding" data-wow-delay="0.4s">
+          <div id="div-tanken" class="col-lg-3 col-xs-6 ">
             <!-- small box -->
             <div class="small-box bg-aqua">
               <div class="inner cuatro">
@@ -79,7 +79,7 @@ getAside();
       <!-- OTROS 4 -->
       <div class="row">
         <div class="col_third">
-          <div id="div-tanken" class="col-lg-3 col-xs-6 wow fadeInLeft nopadding" data-wow-delay="0.4s">
+          <div id="div-tanken" class="col-lg-3 col-xs-6 ">
             <!-- small box -->
             <div class="small-box bg-aqua">
               <div class="inner dos">
@@ -91,7 +91,7 @@ getAside();
           </div>
       	</div>
         <div class="col_third">
-          <div id="div-tanken" class="col-lg-3 col-xs-6 wow fadeInLeft nopadding" data-wow-delay="0.4s">
+          <div id="div-tanken" class="col-lg-3 col-xs-6 ">
             <!-- small box -->
             <div class="small-box bg-aqua">
               <div class="inner tres">

@@ -103,6 +103,11 @@
             <i class="fa fa-cogs fa-lg" aria-hidden="true"></i> <span>Configurar</span>
           </a>
         </li>
+        <li id="ncatorceDos" class="ncatorceDos">
+          <a href="promociones.php">
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i> <span>Promociones</span>
+          </a>
+        </li>
         <li id="nquince" class="nquince">
           <a href="tag.php">
             <i class="fa fa-credit-card" aria-hidden="true"></i> <span>Tag</span>
