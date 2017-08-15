@@ -104,32 +104,3 @@ var chartData = [{
   "year": 2012,
   "value": 1159
 }];
-var lugar = getElementById("divuno");
-
-var chart = AmCharts.makeChart(lugar, {
-  "type": "serial",
-  "theme": "light",
-  "dataProvider": chartData,
-  "trendLines": trendLines,
-  "valueAxes": [{
-    "gridAlpha": 0.07,
-    "position": "left",
-    "title": "Unit failure volume"
-  }],
-  "graphs": [{
-    "title": "value",
-    "type": "smoothedLine",
-    "valueField": "value",
-    "labelColorField": "labelColor",
-    "fillColorsField": "fillColor",
-    "lineThickness": 3,
-    "fillAlphas": 0.3,
-    "labelText": "[[label]]",
-    "labelOffset": 20,
-    "fontSize": 15
-  }],
-  "categoryField": "year",
-  "categoryAxis": {
-    "startOnAxis": true
-  }
-});

@@ -53,7 +53,7 @@ getAside();
           </h3>
         </div>
         <div class="col-md-10 col-md-offset-1">
-          <div id="divuno"></div>
+          <div id="graficados"></div>
 
            <div id="graficaPAA211" style="height: 400px"></div>
         </div>
@@ -80,3 +80,34 @@ getAside();
   <!-- /.content-wrapper -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.0/morris.min.js'></script>
   <?php getFooter(); ?>
+<script type="text/javascript">
+  var lugar = document.getElementById("graficados");
+
+var chart = AmCharts.makeChart(lugar, {
+  "type": "serial",
+  "theme": "light",
+  "dataProvider": chartData,
+  "trendLines": trendLines,
+  "valueAxes": [{
+    "gridAlpha": 0.07,
+    "position": "left",
+    "title": "Unit failure volume"
+  }],
+  "graphs": [{
+    "title": "value",
+    "type": "smoothedLine",
+    "valueField": "value",
+    "labelColorField": "labelColor",
+    "fillColorsField": "fillColor",
+    "lineThickness": 3,
+    "fillAlphas": 0.3,
+    "labelText": "[[label]]",
+    "labelOffset": 20,
+    "fontSize": 15
+  }],
+  "categoryField": "year",
+  "categoryAxis": {
+    "startOnAxis": true
+  }
+});
+</script>
