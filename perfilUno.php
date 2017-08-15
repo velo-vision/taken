@@ -32,7 +32,7 @@ getAside();
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 cuadro">
               <div class="col-lg-12 centrado-usu">
 
-                <img src="img/Chevrolet_logo.jpg" class="circle">
+                <img src="img/Chevrolet_logo.jpg" class="circle wow fadeInDown">
                 <p>CHEVROLET S.A. DE C.V.</p>
                 <P><span>CHEVROLET MOTORS</span></P>
               </div>
@@ -55,7 +55,7 @@ getAside();
                   <section class="content pad_top sinpaddig-perfil pading_cero">
                     <!-- Small boxes (Stat box) -->
                     <div class="row">
-                      <div class="col-lg-4 col-sm-4 col-xs-12">
+                      <div class="col-lg-4 col-sm-4 col-xs-12 wow slideInRight" data-wow-delay=".1s">
                         <!-- small box -->
                         <div class="small-box bg-aqua">
                           <div class="inner uno" style="background: #f36a5a;">
@@ -66,7 +66,7 @@ getAside();
                         </div>
                       </div>
                       <!-- ./col -->
-                      <div class="col-lg-4 col-sm-4 col-xs-12">
+                      <div class="col-lg-4 col-sm-4 col-xs-12 wow slideInRight" data-wow-delay=".2s">
                         <!-- small box -->
                         <div class="small-box bg-aqua">
                           <div class="inner dos" style="background: #e74f5b;">
@@ -77,7 +77,7 @@ getAside();
                         </div>
                       </div>
                       <!-- ./col -->
-                      <div class="col-lg-4 col-sm-4 col-xs-12">
+                      <div class="col-lg-4 col-sm-4 col-xs-12 wow slideInRight" data-wow-delay=".3s">
                         <!-- small box -->
                         <div class="small-box bg-aqua">
                           <div class="inner tres" style="background: #8f44ad;">

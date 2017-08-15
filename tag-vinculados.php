@@ -148,7 +148,7 @@ getAside();
           <div class="form-group col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
             <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
               <a data-toggle="modal" data-target="#bloqueado" data-whatever="@mdo">
-                <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar">Aceptar</button>
+                <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar" data-dismiss="modal" aria-label="Close">Aceptar</button>
               </a>
             </div>
             <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
@@ -227,7 +227,7 @@ getAside();
         <div class="form-group col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
           <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
             <a data-toggle="modal" data-target="#reportado-tag" data-whatever="@mdo">
-              <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar">Aceptar</button>
+              <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar" data-dismiss="modal" aria-label="Close">Aceptar</button>
             </a>
           </div>
           <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
@@ -335,7 +335,7 @@ getAside();
         <div class="form-group col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
           <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
             <a data-toggle="modal" data-target="#editar-aceptar" data-whatever="@mdo">
-              <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar">Aceptar</button>
+              <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar" data-dismiss="modal" aria-label="Close">Aceptar</button>
             </a>
           </div>
           <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">

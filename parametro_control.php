@@ -11,7 +11,7 @@ getAside();
         <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Administrador de Tag / Parametros de control
       </h3>
       <div class="row">
-        <div class="col-lg-3 col-xs-8">
+        <div class="col-lg-3 col-xs-8 wow bounceInLeft" data-wow-delay=".2s">
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner dos">

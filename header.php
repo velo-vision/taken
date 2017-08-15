@@ -30,7 +30,13 @@
   <link rel="stylesheet" href="bower_components/bootstrap-daterangepicker/daterangepicker.css">
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
-   <!-- DataTables -->
+  
+   <!-- wow -->
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/site.css">
+   <!-- fin wow -->
+
+ <!-- DataTables -->
   <link rel="stylesheet" href="bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
   <!-- cheched -->

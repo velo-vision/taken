@@ -25,7 +25,7 @@ getAside();
     <section class="content size margin-select">
       <!-- Small boxes (Stat box) -->
       <div class="row">
-        <div class="col-lg-3 col-xs-6">
+        <div class="col-lg-3 col-xs-6 wow bounceInLeft" data-wow-delay=".2s">
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner once">
@@ -189,7 +189,7 @@ getAside();
           <div class="form-group col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
             <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
               <a data-toggle="modal" data-target="#realizar-traspaso" data-whatever="@mdo">
-                <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar">Aceptar</button>
+                <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar" data-dismiss="modal" aria-label="Close">Aceptar</button>
               </a>
             </div>
             <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
@@ -320,7 +320,7 @@ getAside();
         <div class="form-group col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
           <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
             <a data-toggle="modal" data-target="#realizar-traspaso-realizado" data-whatever="@mdo">
-              <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar">Aceptar</button>
+              <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar" data-dismiss="modal" aria-label="Close">Aceptar</button>
             </a>
           </div>
           <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">

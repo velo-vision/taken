@@ -1141,7 +1141,13 @@ div.tab2 button.active {
     float: none;
     margin: 0 2px;
 }
-
+.tag3 {
+    position: initial;
+    width: 80%;
+    /* float: none; */
+    margin: 10px 10%;
+    /* margin-top: 20px; */
+}
 /*grafica*/
 .grafica1 {
     height: 40vh;

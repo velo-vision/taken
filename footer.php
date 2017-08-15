@@ -53,8 +53,26 @@
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <!-- <script src="js/finanzas.js"></script> -->
 <!-- jorge -->
-<!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src="js/wow-tanken.js"></script> -->
+<!-- wow -->
+<script src="js/wow.js"></script>
+<script>
+  wow = new WOW(
+    {
+      animateClass: 'animated',
+      offset:       100,
+      callback:     function(box) {
+        console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+      }
+    }
+  );
+  wow.init();
+  document.getElementById('moar').onclick = function() {
+    var section = document.createElement('section');
+    section.className = 'section--purple wow fadeInDown';
+    this.parentNode.insertBefore(section, this);
+  };
+</script>
+
 <!-- grafica4 -->
   <script src="js/grafica4.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js'></script>

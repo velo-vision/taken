@@ -26,7 +26,7 @@ getAside();
     <section class="content size">
       <!-- Small boxes (Stat box) -->
       <div class="row">
-        <div class="col-lg-3 col-xs-6">
+        <div class="col-lg-3 col-xs-6 wow bounceInLeft" data-wow-delay=".2s">
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner once">
@@ -37,7 +37,7 @@ getAside();
           </div>
         </div>
         <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
+        <div class="col-lg-3 col-xs-6 wow bounceInLeft" data-wow-delay=".2s">
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner doce">
@@ -119,18 +119,17 @@ getAside();
             </div>
             <!-- /.box -->
           </div>
-          <div class="col-md-12 col-xs-12">
-            PERÍODO
-            <div class="form-group select-tanken tag2">
-              <select class="form-control">
-                <option>30/09/2012 | 30/10/2012</option>r
-                <option>option 2</option>
-                <option>option 3</option>
-                <option>option 4</option>
-                <option>option 5</option>
-              </select>
+          <div class="col-xs-12 col-md-12" style="margin-top: 10px;">
+              PERÍODO
+            <div class="form-group select-tanken tag3">
+              <div class="input-group">
+                <div class="input-group-addon">
+                  <i class="fa fa-calendar"></i>
+                </div>
+                <input type="text" class="form-control pull-right" id="reservation">
+              </div>
             </div>
-            <div class="form-group select-tanken tag2">
+            <div class="form-group select-tanken tag3">
               <select class="form-control">
                 <option>Mapa de estaciones actuales</option>
                 <option>Mapa de mayor cargas</option>
@@ -138,7 +137,7 @@ getAside();
             </div>
           </div>
           <!-- mapa -->
-          <div class="col-md-12" style="margin-top:10px;">
+          <div class="col-md-12" style="margin-top:20px;">
             <div id="mapa" class="container-fluid restaurant-locator">
           </div>
       </div>
