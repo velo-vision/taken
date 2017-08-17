@@ -1100,6 +1100,25 @@ div.promociones button.active {
 div.promociones button.active i{
     color: #fff;
 }
+
+.btn-asigacion{
+    background: #fff;
+    color: #2d9ad5 !important;
+    padding: 7px;
+    border: solid 1px #2d9ad5;
+    margin: 0 0 10px 0;
+    text-align: center !important;
+    width: 205px;
+}
+.btn-asigacion:hover{
+    background: #2d9ad5;
+    color: #fff !important;
+    padding: 7px;
+    border: solid 1px #2d9ad5;
+    margin: 0 0 10px 0;
+    text-align: center !important;
+    width: 205px;
+}
 /*fin*/
 /*medias*/
 @media only screen and (min-width: 1600px) and (max-width: 1700px){
@@ -1291,7 +1310,19 @@ div.promociones button.active i{
     margin-top: 10%;
     height: auto;
 }
+.formatoPromocion #centrado-aqui{
+    text-align: center;
+}
 
+.automatico{
+    margin: 0 auto;
+}
+.automatico:hover{
+    margin: 0 auto;
+}
+.quieto-boton{
+    margin: 20px auto;
+}
 /*fin*/
 }
 @media only screen and (min-width:200px) and (max-width:600px){
@@ -1403,7 +1434,12 @@ div.promociones button {
 }
 .formatoPromocion .titulo {
     font-size: 15px;
-
+}
+.btn-asigacion {
+    width: 100%;
+}
+.completo{
+    width: 100% !important;
 }
 
 /*fin*/

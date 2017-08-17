@@ -55,10 +55,10 @@ getAside();
                 </div>
                 <form  >
                   <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="col-xs-12 col-sm-6 col-md-6 padding-no">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-no">
                       <p>Nombre de la promoción</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 ">
                       <input type="text" name="nom_promo" placeholder="Tanken aniversario">
                     </div>
                   </div>
@@ -66,7 +66,7 @@ getAside();
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                       <p>Vigencia del</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                       <div class="col-xs-12 col-sm-12 col-md-5 padding-no">
                         <input type="date" name="" value="">
                       </div>
@@ -78,35 +78,35 @@ getAside();
                       </div>
                     </div>
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="col-xs-8 col-sm-6 col-md-6 padding-no">
+                  <div class="col-xs-12 col-sm-12 col-md-12 ">
+                    <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 padding-no">
                       <p id="vigencia">Número de usos totales</p>
                     </div>
-                    <div class="col-xs-4 col-sm-6 col-md-6">
+                    <div class="col-xs-4 col-sm-6 col-md-6 col-lg-4">
                       <input type="number" name="numTotal" placeholder="2">
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="col-xs-8 col-sm-6 col-md-6 ">
+                    <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 ">
                       <p id="vigencia">Número de usos por usuario</p>
                     </div>
-                    <div class="col-xs-4 col-sm-6 col-md-6">
+                    <div class="col-xs-4 col-sm-6 col-md-6 col-lg-4">
                       <input type="number" name="numUser" placeholder="2">
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                       <p>Aplica un Código de Cupón</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                       <input type="text" name="cupon" placeholder="GASTAG-1133">
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                       <p>Acciones</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                       <select>
                         <option value="descuento">Descuento</option>
                         <option value="descuento">Descuento</option>
@@ -114,18 +114,18 @@ getAside();
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                       <p>Valor de la acción</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                       <input type="text" name="valorAccion" placeholder="10% Descuento acumulativo">
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                       <p>Condiciones</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                       <select>
                         <option value="Saldo">Saldo promedio</option>
                         <option value="Saldo">Saldo promedio</option>
@@ -134,18 +134,18 @@ getAside();
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                       <p>Valor de la condición</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                       <input type="text" name="valorCondicion" placeholder="$50000">
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                       <p>Adjuntar una imagen</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                       <div class="file-upload">
                         <div class="file-select">
                           <div class="file-select-button" id="fileName"><i class="fa fa-picture-o" aria-hidden="true"></i></div>
@@ -156,10 +156,10 @@ getAside();
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                       <p>Descripción</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                       <textarea placeholder="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."></textarea>
                     </div>
                   </div>
@@ -175,7 +175,82 @@ getAside();
                <!-- fin CONTENIDO -->
            </div>
            <div id="AsignarPromo" class="tabcontent">
-             asdfsdf
+             <!-- CONTENIDO -->
+              <div class="row formatoPromocion">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  <p class="titulo">SEGMENTACIÓN</p>
+                </div>
+                <form  >
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-no">
+                      <p>Estados de México</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                      <select>
+                        <option value="estado1">Estado de México</option>
+                        <option value="estado2">Estado de Puebla</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                      <p>Dias de la semana</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                      <div class="col-xs-12 col-sm-12 col-md-5 col-lg-12 padding-no">
+                        <input type="date" name="" value="">
+                      </div>                      
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 ">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-no">
+                      <p>Horarios</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                      <input type="text" name="numTotal" placeholder="9:00 am a 10:00 pm">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+                      <p>Tipos de Gasolina</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                      <select>
+                        <option value="descuento">Premium</option>
+                        <option value="descuento">Magna</option>
+                      </select>
+                    </div>
+                  </div>                  
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                      <p id="centrado-aqui">Usuarios únicos</p>
+                    </div>
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-6 col-lg-4">
+                      <a data-toggle="modal" data-target="#fijar_tope" data-whatever="@mdo">
+                        <p class="btn-asigacion automatico"><i class="fa fa-file-text-o" aria-hidden="true"></i> SELECCIONAR</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                      <p id="centrado-aqui">Gasolineras participantes</p>
+                    </div>
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-6 col-lg-4">
+                      <a data-toggle="modal" data-target="#fijar_tope" data-whatever="@mdo">
+                        <p class="btn-asigacion automatico"><i class="fa fa-file-text-o" aria-hidden="true"></i> SELECCIONAR</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="col-xs-8 col-xs-offset-2 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
+                      <a data-toggle="modal" data-target="#fijar_tope" data-whatever="@mdo">
+                        <p class="botonActividad completo quieto-boton"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> CONCLUIR PROMOCIÓN</p>
+                      </a>
+                    </div>                         
+                  </div>
+                </form>
+              </div>
+               <!-- fin CONTENIDO -->
            </div>
           <!-- /.box -->
           <!-- fin tablas -->         
