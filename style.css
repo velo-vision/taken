@@ -911,6 +911,7 @@ div.tab2 button.active {
 
 .centrado-btn{
     text-align: center;
+    margin: 25px 0 20px 0;
 }
 .modal-parametros-internos{
     background: #fff;
@@ -919,6 +920,187 @@ div.tab2 button.active {
     margin-top: 10%;
     height: auto;
 }
+
+
+/*Promociones*/
+.formatoPromocion p{
+    color:#4d4d4d;
+    text-align: right;
+    font-weight: 600;
+}
+.formatoPromocion .titulo{
+    text-align: center;
+    margin: 20px 0 15px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.formatoPromocion input[type="text"],input[type="number"], input[type="date"],select,textarea,.file-upload .file-select input[type="file"]{
+    font-weight: 600;
+    padding: 5px 0 5px 10px;
+    margin: 0 0 14px 0;
+    width: 100%;
+    resize: none;
+    color:#4d4d4d;
+}
+.formatoPromocion .botonActividad{
+    width: 220px;
+    text-align: center;
+    color: #fff;
+    border:solid 1px #2d9ad5;
+}
+.formatoPromocion .botonActividad:hover{
+    color: #2d9ad5;
+
+}
+.formatoPromocion textarea{
+    height: 150px;
+    margin: 15px 0 0 0;
+    padding: 10px 0 0 10px;
+}
+.file-upload{
+    display:block;
+    text-align:center;    
+    font-size: 12px;
+}
+.file-upload .file-select{
+    display:block;
+    border: 2px solid #dce4ec;
+    color: #34495e;
+    cursor:pointer;
+    height:40px;
+    line-height:40px;
+    text-align:left;
+    background:#FFFFFF;
+    overflow:hidden;
+    position:relative;
+}
+.file-upload .file-select .file-select-button{
+    background:#dce4ec;
+    padding:0 10px;
+    display:inline-block;
+    height:40px;
+    line-height:40px;
+    float: right;
+}
+.file-upload .file-select .file-select-name{
+    line-height:40px;
+    display:inline-block;
+    padding:0 10px;
+}
+.file-upload .file-select:hover{
+    border-color:#34495e;
+    transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -webkit-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+}
+.file-upload .file-select:hover .file-select-button{
+    background:#34495e;
+    color:#FFF;
+    transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -webkit-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+}
+.file-upload.active .file-select{
+    border-color:#2d9ad5;
+    transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -webkit-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+}
+.file-upload.active .file-select .file-select-button{
+    background:#2d9ad5;
+    color:#FFF;
+    transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -webkit-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+}
+.file-upload .file-select input[type=file]{
+    z-index:100;cursor:pointer;
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+.file-upload .file-select.file-select-disabled{
+    opacity:0.65;
+}
+.file-upload .file-select.file-select-disabled:hover{
+    cursor:default;
+    display:block;
+    border: 2px solid #dce4ec;
+    color: #34495e;
+    cursor:pointer;
+    height:40px;
+    line-height:40px;
+    margin-top:5px;
+    text-align:left;
+    background:#FFFFFF;
+    overflow:hidden;
+    position:relative;
+}
+.file-upload .file-select.file-select-disabled:hover .file-select-button{
+    background:#dce4ec;
+    color:#666666;
+    padding:0 10px;
+    display:inline-block;
+    height:40px;
+    line-height:40px;
+}
+.file-upload .file-select.file-select-disabled:hover .file-select-name{
+    line-height:40px;
+    display:inline-block;
+    padding:0 10px;
+}
+/*taps botneones*/
+
+div.promociones {
+    padding: 0 0 0 30px;
+}
+
+/* Style the buttons inside the tab */
+div.promociones button {
+    color: #969696;
+    text-align: left;
+    border: solid 1px #ddd;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+    background: #fff;
+    width: 100%;
+}
+
+div.promociones button i{
+    color:#969696;
+}
+
+/* Change background color of buttons on hover */
+div.proimociones button:hover, button:focus {
+     color: #2e98d2;
+    cursor: default;
+    background-color: #d5ebf8;
+    /*border: 1px solid #ddd;
+    border-bottom-color: transparent;*/
+    border-left: solid 3px #2e98d2;
+
+}
+
+/* Create an active/current tablink class */
+div.promociones button.active {
+    color: #fff;
+    cursor: default;
+    background-color: #2d9ad5;
+}
+div.promociones button.active i{
+    color: #fff;
+}
+/*fin*/
 /*medias*/
 @media only screen and (min-width: 1600px) and (max-width: 1700px){
 .circle {
@@ -1198,6 +1380,25 @@ div.tab2 button.active {
 .modal-parametros-internos {
     width: 100%;
 }
+/*promociones*/
+div.promociones {
+    padding: 0 5px 0 5px;
+}
+.formatoPromocion #vigencia{
+    text-align: right;
+}
+.formatoPromocion p {
+    text-align: center;
+    font-size: 12px;
+}
+div.promociones button {
+    font-size: 11px;
+}
+.formatoPromocion .titulo {
+    font-size: 15px;
+
+}
+
 /*fin*/
 }
 
