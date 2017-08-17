@@ -4,6 +4,18 @@ getHeader();
 getAside();
 ?>
 
+<style>
+#ndiesisiete a{
+    color: #fff;
+    background: url(img/liston.png) center center no-repeat;
+    background-size: cover;
+}
+.ndiesisiete i{
+  color: #fff !important;
+}
+</style>
+
+
 <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -40,7 +52,7 @@ getAside();
 		        </select>
 	      	</div>
 	      </div>
-          <a data-toggle="modal" data-target="#bloquearr" data-whatever="@mdo">
+          <a data-toggle="modal" data-target="#alta-usuario" data-whatever="@mdo">
             <button class="boton-alta"><i class="fa fa-long-arrow-up" aria-hidden="true"></i> <span class="texto-res"> DAR DE ALTA</span></button>
           </a>
           <a data-toggle="modal" data-target="#reportar-tag" data-whatever="@mdo">
@@ -321,21 +333,21 @@ getAside();
           </button>
         </div>
         <!--COLLAPSER-->
-          <div class="col-md-12 pad-monto padding-bloquear">
+          <div class="col-xs-12 col-md-12 padding-bloquear">
             <p class="text-programar centers">
               Deseas bloquear temporalmente al siguiente usuario
             </p>
           </div>
-          <div class="col-md-12 pad-monto nopadding espacio-bloquear text-bloquear">
-            <div class="col-md-4 centers nopadding border-bloquear">
+          <div class="col-xs-12 col-md-12 nopadding espacio-bloquear text-bloquear">
+            <div class="col-xs-4 col-md-4 centers nopadding border-bloquear">
               <p>Tag Vinculados</p>
               <span>30</span>
             </div>
-            <div class="col-md-4 centers nopadding border-bloquear">
+            <div class="col-xs-4 col-md-4 centers nopadding border-bloquear">
               <p>Saldo Total</p>
               <span>$25,000</span>
             </div>
-            <div class="col-md-4 centers nopadding">
+            <div class="col-xs-4 col-md-4 centers nopadding">
               <p>Ultimo abono</p>
               <span>$70,000</span>
             </div>
@@ -377,29 +389,29 @@ getAside();
          </button>
        </div>
        <!--COLLAPSER-->
-         <div class="col-md-12 pad-monto padding-bloquear">
+         <div class="col-xs-12 col-md-12 padding-bloquear">
            <div class="col-xs-12 col-md-12 centers img-candado">
              <img src="img/candado.png" class="size-candado" alt="">
            </div>
            <p class="text-programar centers">
              El siguiente usuario se bloqueo exitosamente
            </p>
-           <p class="centers">
+           <p class="centers color-sit">
              Lorem Ipsum Dolor Sit S, A, de C.V.
            </p>
          </div>
-         <div class="col-md-12 pad-monto nopadding margin-bloquear">
-           <div class="col-md-4 centers nopadding border-bloquear">
-             <p style="font-weight:600;">Tag Vinculados</p>
-             <p>30</p>
+         <div class="col-md-12 nopadding margin-bloquear text-bloquear">
+           <div class="col-xs-4 col-md-4 centers nopadding border-bloquear">
+             <p>Tag Vinculados</p>
+             <span>30</span>
            </div>
-           <div class="col-md-4 centers nopadding border-bloquear">
-             <p style="font-weight:600;">Saldo Total</p>
-             <p>$25,000</p>
+           <div class="col-xs-4 col-md-4 centers nopadding border-bloquear">
+             <p>Saldo Total</p>
+             <span>$25,000</span>
            </div>
-           <div class="col-md-4 centers nopadding">
-             <p style="font-weight:600;">Ultimo abono</p>
-             <p>$70,000</p>
+           <div class="col-xs-4 col-md-4 centers nopadding">
+             <p>Ultimo abono</p>
+             <span>$70,000</span>
            </div>
          </div>
         <div class="form-group col-sm-12 col-md-12 col-lg-12 padding-tag margin-traspaso">
@@ -411,6 +423,73 @@ getAside();
             </a>
           </div>
         </div>
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!--MODAL Alta usuario-->
+<div class="modal fade" id="alta-usuario" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="alta-usuario col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+       <!-- CONTENIDO -->
+          <div class="row formato-usuario">
+            <div class="col-xs-12 col-md-12 centers">
+              <p class="titulo">ALTA USUARIO</p>
+            </div>
+            <form >
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-4 padding-no">
+                  <p>Nombre / Razón Social</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <input type="text" name="nom_promo" placeholder="Lorem Ipsum Dolor Sit. A. de C.V">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-4 padding-no">
+                  <p>Mail</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <input type="text" name="nom_promo" placeholder="jl.33outlook.com">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-4 padding-no">
+                  <p id="vigencia">Telefono</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <input type="text" name="numTotal" placeholder="55-30-23-45">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-4 padding-no">
+                  <p>Dirección</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <input type="text" name="nom_promo" placeholder="Calle Gral, Antonio León 67, San Miguel Chapultepec ii">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-2 col-md-offset-4">
+                  <a data-toggle="modal" data-target="#fijar_tope" data-whatever="@mdo">
+                    <p class="boton-dar-alta">Dar de alta</p>
+                  </a>
+                </div>
+              </div>
+            </form>
+          </div>
+           <!-- fin CONTENIDO -->
        <!--COLLAPSER-->
      </div>
      </form>
