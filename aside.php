@@ -57,6 +57,11 @@
             <i class="fa fa-file-text-o" aria-hidden="true"></i> <span>Facturación</span>
           </a>
         </li>
+        <li id="ndiesisiete" class="ndiesisiete">
+          <a href="altas-bajas.php">
+            <i class="fa fa-arrows-v" aria-hidden="true"></i> <span>Altas y bajas</span>
+          </a>
+        </li>
         <li id="nsiete" class="nsiete">
           <a href="#">
             <i class="fa fa-university" aria-hidden="true"></i> <span>Datos Bancarios</span>
@@ -122,4 +127,3 @@
     </section>
     <!-- /.sidebar -->
   </aside>
-

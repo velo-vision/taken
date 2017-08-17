@@ -179,6 +179,38 @@ $(function () {
       'ordering'    : true,
       'info'        : false,
       'autoWidth'   : false
+    }),
+    $('#example14').DataTable({ // altas y bajas
+      'paging'      : false,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : false,
+      'autoWidth'   : false
+    }),
+    $('#example15').DataTable({ // altas y bajas
+      'paging'      : false,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : false,
+      'autoWidth'   : false
+    }),
+    $('#example16').DataTable({ // altas y bajas
+      'paging'      : false,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : false,
+      'autoWidth'   : false
+    }),
+    $('#example17').DataTable({ // altas y bajas
+      'paging'      : false,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : false,
+      'autoWidth'   : false
     })
   })
 
