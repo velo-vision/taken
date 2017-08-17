@@ -1224,6 +1224,9 @@ div.promociones button.active i{
     margin-top: 5%;
     height: auto;
 }
+.formatoPromocion #centrado{
+    text-align: center;
+}
 /*fin*/
 }
 
@@ -1381,6 +1384,10 @@ div.promociones button.active i{
     width: 100%;
 }
 /*promociones*/
+
+#noFile span{
+    font-size: 0.9em;
+}
 div.promociones {
     padding: 0 5px 0 5px;
 }
