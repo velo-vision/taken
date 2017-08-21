@@ -353,9 +353,9 @@
 .pad-5{
   padding: 5px !important;
 }
-.margin-traspaso{
+/*.margin-traspaso{
   margin-top:20px;
-}
+}*/
 .margin-contra{
   margin-top:10px;
 }
@@ -472,6 +472,11 @@
 .text-vinculado{
   font-size: 18px;
   color: #55a2da;
+}
+.text-vinculado3 {
+  font-size: 18px;
+  color: #55a2da;
+  padding: 20px 0 10px 0;
 }
 .modal-bloqueado {
   background: white;
@@ -594,7 +599,7 @@
   margin-bottom:20px;
 }
 .padding-bloquear{
-  padding: 0 85px;
+  padding: 0 50px;
 }
 .border-bloquear{
   border-right:1px solid #d8dde0;
@@ -657,7 +662,138 @@
     resize: none;
     color:#4d4d4d;
 }
-
+/*modal alta*/
+.alta {
+    background: white;
+    width: 412px;
+    margin-left: 15%;
+    margin-top: 50%;
+    height: 270px;
+}
+.padding-alta {
+  padding: 0 50px;
+  margin-top: 15px;
+}
+.text-alta{
+  color: #676767;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.color-alta {
+    margin-top: 20px;
+    color: #2f99d5;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.margin-alta1 {
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+/*Desvincular*/
+.modal-desvincular {
+  background: #fff;
+  width: 685px;
+  margin-left: -5%;
+  margin-top: 25%;
+  height: 585px;
+}
+.scroll-saldo3 {
+    height: 300px;
+}
+.margin-admin{
+  margin-top: 30px;
+}
+.padding-desvinculado {
+    padding: 0 150px;
+}
+/*.pad-monto {
+    padding: 0 40px;
+}*/
+/*Tag tag*/
+.modal-vinculado-2 {
+  background: white;
+  width: 390px;
+  margin-left: 15%;
+  margin-top: 50%;
+  height: 255px;
+}
+.pad-monto{
+  padding: 0 40px;
+}
+.pad-monto2{
+  margin-top: 15px;
+}
+.margin-traspaso{
+  margin-top: 15px;
+}
+.alta-usuario-tag {
+  background: white;
+  width: 595px;
+  margin-left: 0%;
+  margin-top: 50%;
+  height: 245px;
+}
+.pad-monto4 {
+    padding: 0 55px;
+}
+.alta-bloquear-tag {
+  background: white;
+  width: 500px;
+  margin-left: 10%;
+  margin-top: 50%;
+  height: 255px;
+}
+.alta-bloqueado-tag {
+    background: white;
+    width: 420px;
+    margin-left: 5%;
+    margin-top: 43%;
+    height: 330px;
+}
+.alta-usuario-gas {
+    background: white;
+    width: 600px;
+    margin-left: 0%;
+    margin-top: 35%;
+    height: 480px;
+}
+.alta-bloquear-gas {
+    background: white;
+    width: 500px;
+    margin-left: 10%;
+    margin-top: 50%;
+    height: 255px;
+}
+.alta-bloqueado-gas {
+    background: white;
+    width: 430px;
+    margin-left: 15%;
+    margin-top: 43%;
+    height: 325px;
+}
+.alta-usuario-terminal {
+    background: white;
+    width: 600px;
+    margin-left: 0%;
+    margin-top: 42%;
+    height: 310px;
+}
+.alta-bloquear-terminal {
+    background: white;
+    width: 485px;
+    margin-left: 10%;
+    margin-top: 50%;
+    height: 255px;
+}
+.alta-bloqueado-terminal {
+    background: white;
+    width: 410px;
+    margin-left: 15%;
+    margin-top: 43%;
+    height: 330px;
+}
 /*****************Medias query********************/
 @media only screen and (min-width:1200px) and (max-width:1400px){
   .vinculado-reportar {
@@ -686,6 +822,10 @@
 }
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+.alta-usuario-tag {
+  width: 360px;
+  margin-left: 17%;
+}
 .alta-usuario {
   height: 490px;
   margin: 30% auto;
@@ -749,6 +889,14 @@
 }
 }
 @media only screen and (min-width:600px) and (max-width:768px){
+.alta-usuario-tag {
+  width: 360px;
+  margin-left: 23%;
+}
+.modal-desvincular {
+  height: 610px;
+  margin-left: 1%;
+}
 .alta-usuario {
   height: 490px;
   margin: 30% auto;
@@ -839,6 +987,43 @@
 }
 }
 @media only screen and (min-width:200px) and (max-width:600px){
+.alta-bloquear-gas {
+  width: 100%;
+  margin-left: 0%;
+}
+.alta-bloqueado-tag {
+  width: 100%;
+  margin-left: 0%;
+}
+.alta-bloquear-tag {
+  width: 100%;
+  margin-left: 0px;
+}
+.pad-monto4 {
+  padding: 35px 40px 0;
+  margin-top: 55%;
+}
+.alta-usuario-tag {
+  width: 100%;
+  margin-left: 0%;
+}
+.modal-vinculado-2 {
+  width: 100%;
+  margin-left: 0%;
+}
+.padding-desvinculado {
+  padding: 0 0 15px;
+}
+.modal-desvincular {
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 0px;
+  height: 610px;
+}
+.alta {
+  width: 100%;
+  margin-left: 0px;
+}
 .alta-bloqueado {
   width: 100%;
   margin-left: 0px;
@@ -962,7 +1147,7 @@
   text-align: center;
 }
 .pad-monto{
-  padding: 30px 35px 0;
+  padding: 40px 35px 0;
 }
 .saldo-right{
   text-align: center;

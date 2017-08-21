@@ -52,14 +52,20 @@
             <li><a href="admin-perfiles.php"><img src="img/index/punto.png"> Agregar Tag</a></li>
           </ul>
         </li>
+        <li class="treeview ncinco" id="ncinco">
+          <a href="#">
+            <i class="fa fa-users" aria-hidden="true"></i> <span>Altas y bajas</span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="tag-vinculados.php"><img src="img/index/punto.png"> Usuarios</a></li>
+            <li><a href="parametro_control.php"><img src="img/index/punto.png"> Tag</a></li>
+            <li><a href="admin-perfiles.php"><img src="img/index/punto.png"> Gasolineras</a></li>
+            <li><a href="admin-perfiles.php"><img src="img/index/punto.png"> Terminales</a></li>
+          </ul>
+        </li>
         <li id="nseis" class="nseis">
           <a href="#">
             <i class="fa fa-file-text-o" aria-hidden="true"></i> <span>Facturación</span>
-          </a>
-        </li>
-        <li id="ndiesisiete" class="ndiesisiete">
-          <a href="altas-bajas.php">
-            <i class="fa fa-arrows-v" aria-hidden="true"></i> <span>Altas y bajas</span>
           </a>
         </li>
         <li id="nsiete" class="nsiete">

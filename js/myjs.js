@@ -183,7 +183,7 @@ $(function () {
     $('#example14').DataTable({ // altas y bajas
       'paging'      : false,
       'lengthChange': false,
-      'searching'   : false,
+      'searching'   : true,
       'ordering'    : true,
       'info'        : false,
       'autoWidth'   : false
@@ -191,7 +191,7 @@ $(function () {
     $('#example15').DataTable({ // altas y bajas
       'paging'      : false,
       'lengthChange': false,
-      'searching'   : false,
+      'searching'   : true,
       'ordering'    : true,
       'info'        : false,
       'autoWidth'   : false
@@ -199,7 +199,7 @@ $(function () {
     $('#example16').DataTable({ // altas y bajas
       'paging'      : false,
       'lengthChange': false,
-      'searching'   : false,
+      'searching'   : true,
       'ordering'    : true,
       'info'        : false,
       'autoWidth'   : false
@@ -207,7 +207,7 @@ $(function () {
     $('#example17').DataTable({ // altas y bajas
       'paging'      : false,
       'lengthChange': false,
-      'searching'   : false,
+      'searching'   : true,
       'ordering'    : true,
       'info'        : false,
       'autoWidth'   : false
@@ -220,11 +220,10 @@ $(function () {
   var filename = $("#chooseFile").val();
   if (/^\s*$/.test(filename)) {
     $(".file-upload").removeClass('active');
-    $("#noFile").text("No file chosen..."); 
+    $("#noFile").text("No file chosen...");
   }
   else {
     $(".file-upload").addClass('active');
-    $("#noFile").text(filename.replace("C:\\fakepath\\", "")); 
+    $("#noFile").text(filename.replace("C:\\fakepath\\", ""));
   }
 });
-

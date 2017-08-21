@@ -55,7 +55,7 @@ getAside();
           <a data-toggle="modal" data-target="#alta-usuario" data-whatever="@mdo">
             <button class="boton-alta"><i class="fa fa-long-arrow-up" aria-hidden="true"></i> <span class="texto-res"> DAR DE ALTA</span></button>
           </a>
-          <a data-toggle="modal" data-target="#reportar-tag" data-whatever="@mdo">
+          <a data-toggle="modal" data-target="#desvincular" data-whatever="@mdo">
             <button class="alta-tag"><i class="fa fa-link" aria-hidden="true"></i> <span class="texto-res"> DESVINCULAR TAG</span></button>
           </a>
 	    </div>
@@ -163,13 +163,13 @@ getAside();
                               <th>
                                 <div class="checkbox checkbox-success" id="seleccionartodos">
                                    <input id="checkTodos" type="checkbox">
-                                   <label for="checkTodos" style="font-weight: 600;">Tag</label>
+                                   <label for="checkTodos" style="font-weight: 600;">ID TAG</label>
                                 </div>
                               </th>
-                              <th>Nombre o alias Vinculados</th>
+                              <th>Usuario</th>
+                              <th>Nombre o alis</th>
                               <th>Vehiculo</th>
-                              <th>Saldo Total</th>
-                              <th>Ultimo abono</th>
+                              <th>Saldo total</th>
                               <th></th>
                            </tr>
                          </thead>
@@ -180,13 +180,20 @@ getAside();
                            	<div class="checkbox checkbox-success">
                                  <input id="<?php echo $x; ?>" type="checkbox" name="option[]">
                                  <label for="<?php echo $x; ?>">123-KV</label>
+                                 <a data-toggle="modal" data-target="#desvincular-tag" data-whatever="@mdo">
+                                   <button type="submit" class="btn-acep" data-dismiss="modal" aria-label="Close">Aceptar</button>
+                                 </a>
                              </div>
                            </th>
-                           <th class="centers">Lorem ipsum Dolor</th>
+                           <th class="centers">Lorem Ipsum Dolor
+                             <a data-toggle="modal" data-target="#numero-tag" data-whatever="@mdo">
+                               <button type="submit" class="btn-acep" data-dismiss="modal" aria-label="Close">Aceptar</button>
+                             </a>
+                           </th>
+                           <th class="centers">Lorem Ipsum Dolor</th>
                            <th class="centers">Chevrolet Sonic LTZ</th>
                            <th class="centers">$25,000</th>
-                           <th class="centers">$70,000</th>
-                           <th class="centers"><a data-toggle="modal" data-target="#bloquear" data-whatever="@mdo"><p class="altas-bloquear"><i class="fa fa-lock" aria-hidden="true"></i> Bloquear</p></a></th>
+                           <th class="centers"><a data-toggle="modal" data-target="#bloquear-2" data-whatever="@mdo"><p class="altas-bloquear"><i class="fa fa-lock" aria-hidden="true"></i> Bloquear</p></a></th>
                          </tr>
                         <?php } ?>
                          </tbody>
@@ -228,16 +235,21 @@ getAside();
                          <tr>
                            <th class="centers">
                            	<div class="checkbox checkbox-success">
-                                 <input id="<?php echo $x; ?>" type="checkbox" name="option[]">
-                                 <label for="<?php echo $x; ?>">Hidrosina</label>
+                               <input id="<?php echo $x; ?>" type="checkbox" name="option[]">
+                               <label for="<?php echo $x; ?>">Hidrosina</label>
+                               <a data-toggle="modal" data-target="#alta-gasolinera" data-whatever="@mdo">
+                                 <button type="submit" class="btn-acep" data-dismiss="modal" aria-label="Close">Aceptar</button>
+                               </a>
                              </div>
                            </th>
-                           <th class="centers">Hidrosina-1234</th>
+                           <th class="centers">
+                             Hidrosina-1234
+                           </th>
                            <th class="centers">300</th>
                            <th class="centers">3000</th>
                            <th class="centers">17 / 16</th>
                            <th class="centers">PREMIUN / MAGNA</th>
-                           <th class="centers"><a data-toggle="modal" data-target="#bloquear" data-whatever="@mdo"><p class="altas-bloquear"><i class="fa fa-lock" aria-hidden="true"></i> Bloquear</p></a></th>
+                           <th class="centers"><a data-toggle="modal" data-target="#bloquear-3" data-whatever="@mdo"><p class="altas-bloquear"><i class="fa fa-lock" aria-hidden="true"></i> Bloquear</p></a></th>
                          </tr>
                         <?php } ?>
                          </tbody>
@@ -281,6 +293,9 @@ getAside();
                            	<div class="checkbox checkbox-success">
                                  <input id="<?php echo $x; ?>" type="checkbox" name="option[]">
                                  <label for="<?php echo $x; ?>">Hidrosina-1234</label>
+                                 <a data-toggle="modal" data-target="#alta-terminal" data-whatever="@mdo">
+                                   <button type="submit" class="btn-acep" data-dismiss="modal" aria-label="Close">Aceptar</button>
+                                 </a>
                              </div>
                            </th>
                            <th class="centers">Hidrosina</th>
@@ -288,7 +303,7 @@ getAside();
                            <th class="centers">100</th>
                            <th class="centers">Activa</th>
                            <th class="centers">$100,000</th>
-                           <th class="centers"><a data-toggle="modal" data-target="#bloquear" data-whatever="@mdo"><p class="altas-bloquear"><i class="fa fa-lock" aria-hidden="true"></i> Bloquear</p></a></th>
+                           <th class="centers"><a data-toggle="modal" data-target="#bloquear-4" data-whatever="@mdo"><p class="altas-bloquear"><i class="fa fa-lock" aria-hidden="true"></i> Bloquear</p></a></th>
                          </tr>
                         <?php } ?>
                          </tbody>
@@ -482,7 +497,7 @@ getAside();
               </div>
               <div class="col-xs-12 col-md-12">
                 <div class="col-xs-12 col-md-2 col-md-offset-4">
-                  <a data-toggle="modal" data-target="#fijar_tope" data-whatever="@mdo">
+                  <a data-toggle="modal" data-target="#alta" data-whatever="@mdo" data-dismiss="modal" aria-label="Close">
                     <p class="boton-dar-alta">Dar de alta</p>
                   </a>
                 </div>
@@ -497,5 +512,834 @@ getAside();
  </div>
 </div>
 <!--MODAL-->
+<!--MODAL DADO DE ALTA-->
+<div class="modal fade" id="alta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="alta col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+         <div class="col-xs-12 col-md-12 padding-alta">
+           <p class="text-alta centers margin-alta">
+             Se dio de alta exitosamente El siguiente usuario
+           </p>
+           <p class="centers color-alta margin-alta1">
+             Lorem Ipsum Dolor Sit S, A, de C.V.
+           </p>
+         </div>
+        <div class="form-group col-sm-12 col-md-12 col-lg-12 padding-tag margin-traspaso">
+          <div class="col-xs-12 col-sm-12 col-md-12 margin-validar center-validar margin-10 centers">
+            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+              <button type="button" class="btn-aceptar-cancelar btn-primary-cancelar" data-dismiss="modal" aria-label="Close">
+                Cerrar
+              </button>
+            </a>
+          </div>
+        </div>
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!--MODAL Desvincular-->
+<div class="modal fade" id="desvincular" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div>
+      <form role="form">
+        <div class="modal-desvincular col-xs-12 col-md-12">
+          <div>
+            <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+              <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+            </button>
+          </div>
+<!--COLLAPSER-->
+          <div class="col-xs-12 col-md-12 padding-desvinculado">
+            <p class="text-alta centers">
+              Selecciona los tags que quieres desvincular
+            </p>
+            <p class="centers color-blue margin-alta1">
+              Lorem Ipsum Dolor Sit S, A, de C.V.
+            </p>
+          </div>
+  <!-- tabla -->
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 scroll-saldo3 mCustomScrollbar ocultar-flow" data-mcs-theme="dark">
+               <div class="box no">
+                 <div class="box-body table-responsive no-padding margin-transfer">
+                   <table id="example5" class="table table-hover">
+                     <thead class="separacion">
+                       <tr>
+                          <th><div class="checkbox checkbox-success" id="seleccionartodos">
+                             <input id="checkTodos" type="checkbox">
+                             <label for="checkTodos">Id de Tag</label>
+                         </div>
+                         </th>
+                          <th>Vehiculo</th>
+                          <th>Saldo Total</th>
+                          <th>Dias Inactivo</th>
+                       </tr>
+                     </thead>
+                     <tbody class="mytabs">
+                    <?php for ($x=1; $x <10 ; $x++) { ?>
+                     <tr>
+                       <th class="centers">
+                       	<div class="checkbox checkbox-success">
+                             <input id="<?php echo $x; ?>" type="checkbox" name="option[]">
+                             <label for="<?php echo $x; ?>">124-KV</label>
+                         </div>
+                       </th>
+                       <th class="centers">Chevrolet Sonic LTZ</th>
+                       <th class="centers">$0</th>
+                       <th class="centers">1</th>
+                     </tr>
+                    <?php } ?>
+                     </tbody>
+                   </table>
+                 </div>
+               </div>
+             </div>
+           </div>
+ <!-- fin tabla -->
+           <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 centers margin-admin">
+            <input type="text" name="passAdmin" class="pad_diez boton-parametro" placeholder="Contraseña Admin">
+           </div>
+           <div class="form-group col-xs-11 col-sm-10 col-md-10 col-lg-10 padding-tag margin-traspaso">
+             <div class="col-xs-7 col-md-7 margin-validar center-validar margin-10 rights">
+               <a data-toggle="modal" data-target="#desvinculado" data-whatever="@mdo">
+                 <button type="submit" class="btn-aceptar-cancelar btn-acep" data-dismiss="modal" aria-label="Close">Aceptar</button>
+               </a>
+             </div>
+             <div class="col-xs-5 col-md-5 margin-validar center-validar margin-10">
+               <a data-toggle="modal" data-target="#" data-whatever="@mdo">
+                 <button type="button" class="btn-aceptar-cancelar btn_cancel" data-dismiss="modal" aria-label="Close">
+                   Cancelar
+                 </button>
+               </a>
+             </div>
+           </div>
+<!--COLLAPSER-->
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!--MODAL-->
+<!--MODAL Desvincular-->
+<div class="modal fade" id="desvinculado" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div>
+      <form role="form">
+        <div class="modal-desvincular col-xs-12 col-md-12">
+          <div>
+            <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+              <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+            </button>
+          </div>
+<!--COLLAPSER-->
+          <div class="col-xs-12 col-md-12 padding-desvinculado">
+            <p class="text-alta centers">
+              Selecciona los tags que quieres desvincular
+            </p>
+            <p class="centers color-blue margin-alta1">
+              Lorem Ipsum Dolor Sit S, A, de C.V.
+            </p>
+          </div>
+  <!-- tabla -->
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 scroll-saldo3 mCustomScrollbar ocultar-flow" data-mcs-theme="dark">
+               <div class="box no">
+                 <div class="box-body table-responsive no-padding margin-transfer">
+                   <table id="example5" class="table table-hover">
+                     <thead class="separacion">
+                       <tr>
+                          <th>Id de Tag</th>
+                          <th>Vehiculo</th>
+                          <th>Saldo Total</th>
+                          <th>Dias Inactivo</th>
+                       </tr>
+                     </thead>
+                     <tbody class="mytabs">
+                    <?php for ($x=1; $x <10 ; $x++) { ?>
+                     <tr>
+                       <th class="centers">124-KV</th>
+                       <th class="centers">Chevrolet Sonic LTZ</th>
+                       <th class="centers">$0</th>
+                       <th class="centers">1</th>
+                     </tr>
+                    <?php } ?>
+                     </tbody>
+                   </table>
+                 </div>
+               </div>
+             </div>
+           </div>
+ <!-- fin tabla -->
+           <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 centers margin-admin">
+            <input type="text" name="passAdmin" class="pad_diez boton-parametro" placeholder="Contraseña Admin">
+           </div>
+           <div class="form-group col-xs-11 col-sm-10 col-md-10 col-lg-10 padding-tag margin-traspaso">
+             <div class="col-xs-7 col-md-7 margin-validar center-validar margin-10 rights">
+               <a data-toggle="modal" data-target="#tope_fijado" data-whatever="@mdo">
+                 <button type="submit" class="btn-aceptar-cancelar btn-acep" data-dismiss="modal" aria-label="Close">Aceptar</button>
+               </a>
+             </div>
+             <div class="col-xs-5 col-md-5 margin-validar center-validar margin-10">
+               <a data-toggle="modal" data-target="#" data-whatever="@mdo">
+                 <button type="button" class="btn-aceptar-cancelar btn_cancel" data-dismiss="modal" aria-label="Close">
+                   Cancelar
+                 </button>
+               </a>
+             </div>
+           </div>
+<!--COLLAPSER-->
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!--MODAL-->
+<!--MODAL desvincular-tag------------------------------------------------------------->
+<div class="modal fade" id="desvincular-tag" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="modal-vinculado-2 col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+         <div class="col-md-12 pad-monto">
+           <p class="text-programar centers">
+             A continuación se desvinculara el id del tag
+           </p>
+           <p class="text-vinculado centers">
+             123-KV
+           </p>
+         </div>
+        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 centers margin-contra">
+         <input type="text" name="" class="tamaño-form" placeholder="Contraseña: Admin">
+        </div>
+        <div class="form-group col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
+          <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
+            <a data-toggle="modal" data-target="#tag-desvinculado" data-whatever="@mdo">
+              <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar" data-dismiss="modal" aria-label="Close">Aceptar</button>
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
+            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+              <button type="button" class="btn-aceptar-cancelar btn-primary-cancelar" data-dismiss="modal" aria-label="Close">
+                Cancelar
+              </button>
+            </a>
+          </div>
+        </div>
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!--MODAL tag-desvinculado -->
+<div class="modal fade" id="tag-desvinculado" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="modal-vinculado-2 col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+         <div class="col-md-12 pad-monto pad-monto2">
+           <p class="text-programar centers">
+             Se a desvinculara el id del tag correctamente
+           </p>
+           <p class="text-vinculado3 centers">
+             123-KV
+           </p>
+         </div>
+        <div class="form-group col-xs-12 col-md-12 padding-tag margin-traspaso">
+          <div class="col-xs-12 col-sm-12 margin-validar center-validar margin-10 centers">
+            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+              <button type="button" class="btn-aceptar-cancelar btn-primary-cancelar" data-dismiss="modal" aria-label="Close">
+                Cancelar
+              </button>
+            </a>
+          </div>
+        </div>
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!--MODAL Alta tag-->
+<div class="modal fade" id="numero-tag" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="alta-usuario-tag col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+       <!-- CONTENIDO -->
+          <div class="row formato-usuario">
+            <div class="col-xs-12 col-md-12 centers">
+              <p class="titulo">ALTA DE TAG</p>
+            </div>
+            <form >
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-4 padding-no">
+                  <p>Número de tag</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <input type="text" name="nom_promo" placeholder="Hidro-1234-5678">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-2 col-md-offset-4">
+                  <a data-toggle="modal" data-target="#alta-exitosa" data-whatever="@mdo" data-dismiss="modal" aria-label="Close">
+                    <p class="boton-dar-alta">Dar de alta</p>
+                  </a>
+                </div>
+              </div>
+            </form>
+          </div>
+           <!-- fin CONTENIDO -->
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!--MODAL alta-exitosa -->
+<div class="modal fade" id="alta-exitosa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="modal-vinculado col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+         <div class="col-md-12 pad-monto4">
+           <p class="text-programar centers">
+             Se dio de alta exitosamente la tag
+           </p>
+           <p class="text-vinculado centers">
+             hidro 1234-5678
+           </p>
+         </div>
+        <div class="form-group col-sm-12 col-md-12 padding-tag margin-traspaso">
+          <div class="col-xs-12 col-sm-12 margin-validar center-validar margin-10 centers">
+            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+              <!-- <button type="submit" class="btn-aceptar-cancelar btn-primary-cancelar">Cancelar</button> -->
+              <button type="button" class="btn-aceptar-cancelar btn-primary-cancelar" data-dismiss="modal" aria-label="Close">
+                Cancelar
+              </button>
+            </a>
+          </div>
+        </div>
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!--MODAL bloquear segundo tag-->
+<div class="modal fade" id="bloquear-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="alta-bloquear-tag col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+       <div class="col-md-12 pad-monto">
+         <p class="text-programar centers">
+           Deseas bloquear temporalmente al siguiente tag
+         </p>
+         <p class="text-vinculado centers">
+           123-KV
+         </p>
+       </div>
+        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 centers margin-contra">
+         <input type="text" name="" class="tamaño-form" placeholder="Contraseña: Admin">
+        </div>
+        <div class="form-group col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
+          <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
+            <a data-toggle="modal" data-target="#bloqueado-2" data-whatever="@mdo">
+              <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar" data-dismiss="modal" aria-label="Close">Aceptar</button>
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
+            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+              <!-- <button type="submit" class="btn-aceptar-cancelar btn-primary-cancelar">Cancelar</button> -->
+              <button type="button" class="btn-aceptar-cancelar btn-primary-cancelar" data-dismiss="modal" aria-label="Close">
+                Cancelar
+              </button>
+            </a>
+          </div>
+        </div>
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!-- 3 -->
+<!--MODAL bloqueado-->
+<div class="modal fade" id="bloqueado-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="alta-bloqueado-tag col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+         <div class="col-xs-12 col-md-12 padding-bloquear">
+           <div class="col-xs-12 col-md-12 centers img-candado">
+             <img src="img/candado.png" class="size-candado" alt="">
+           </div>
+           <p class="text-programar centers">
+             El siguiente tag se bloqueo exitosamente
+           </p>
+           <p class="centers color-sit">
+             123-KV
+           </p>
+         </div>
+        <div class="form-group col-sm-12 col-md-12 col-lg-12 padding-tag margin-traspaso">
+          <div class="col-xs-12 col-sm-12 col-md-12 margin-validar center-validar margin-10 centers">
+            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+              <button type="button" class="btn-aceptar-cancelar btn-primary-cancelar" data-dismiss="modal" aria-label="Close">
+                Cerrar
+              </button>
+            </a>
+          </div>
+        </div>
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!-- gasolineria -->
+<!--MODAL bloquear gasolineria-->
+<div class="modal fade" id="bloquear-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="alta-bloquear-gas col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+       <div class="col-md-12 pad-monto">
+         <p class="text-programar centers">
+           Deseas bloquear temporalmente al siguiente tag
+         </p>
+         <p class="text-vinculado centers">
+           Hidrosina
+         </p>
+       </div>
+        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 centers margin-contra">
+         <input type="text" name="" class="tamaño-form" placeholder="Contraseña: Admin">
+        </div>
+        <div class="form-group col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
+          <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
+            <a data-toggle="modal" data-target="#bloqueado-3" data-whatever="@mdo">
+              <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar" data-dismiss="modal" aria-label="Close">Aceptar</button>
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
+            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+              <!-- <button type="submit" class="btn-aceptar-cancelar btn-primary-cancelar">Cancelar</button> -->
+              <button type="button" class="btn-aceptar-cancelar btn-primary-cancelar" data-dismiss="modal" aria-label="Close">
+                Cancelar
+              </button>
+            </a>
+          </div>
+        </div>
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!--MODAL gasolineria bloqueado-->
+<div class="modal fade" id="bloqueado-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="alta-bloqueado-gas col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+         <div class="col-xs-12 col-md-12 padding-bloquear">
+           <div class="col-xs-12 col-md-12 centers img-candado">
+             <img src="img/candado.png" class="size-candado" alt="">
+           </div>
+           <p class="text-programar centers">
+             El siguiente tag se bloqueo exitosamente
+           </p>
+           <p class="centers color-sit">
+             Hidrosina
+           </p>
+         </div>
+        <div class="form-group col-sm-12 col-md-12 col-lg-12 padding-tag margin-traspaso">
+          <div class="col-xs-12 col-sm-12 col-md-12 margin-validar center-validar margin-10 centers">
+            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+              <button type="button" class="btn-aceptar-cancelar btn-primary-cancelar" data-dismiss="modal" aria-label="Close">
+                Cerrar
+              </button>
+            </a>
+          </div>
+        </div>
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!-- Alta gasolinera -->
+<!--MODAL Alta usuario-->
+<div class="modal fade" id="alta-gasolinera" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="alta-usuario-gas col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+       <!-- CONTENIDO -->
+          <div class="row formato-usuario">
+            <div class="col-xs-12 col-md-12 centers">
+              <p class="titulo">ALTA GASOLINERA</p>
+            </div>
+            <form >
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-4 padding-no">
+                  <p>Grupo Gasolinero</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <input type="text" name="nom_promo" placeholder="Hidrosina">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-4 padding-no">
+                  <p>Id de gasolinera</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <input type="text" name="nom_promo" placeholder="Hidrosina-67">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-4 padding-no">
+                  <p id="vigencia">Nombre / Razón Social</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <input type="text" name="numTotal" placeholder="Hidrosina S.A. de C.V">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-4 padding-no">
+                  <p>Mail</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <input type="text" name="nom_promo" placeholder="jl_33outlook.com">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-4 padding-no">
+                  <p>Teléfono</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <input type="text" name="nom_promo" placeholder="55-30-23-45">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-4 padding-no">
+                  <p>Dirección</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <input type="text" name="nom_promo" placeholder="Calle Gral. Antonio León 67, San Miguel Chapultepec II Seccion">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-2 col-md-offset-4">
+                  <a data-toggle="modal" data-target="#alta-gasolinera-exitosa" data-whatever="@mdo" data-dismiss="modal" aria-label="Close">
+                    <p class="boton-dar-alta">Dar de alta</p>
+                  </a>
+                </div>
+              </div>
+            </form>
+          </div>
+           <!-- fin CONTENIDO -->
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!--MODAL DADO DE ALTA-->
+<div class="modal fade" id="alta-gasolinera-exitosa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="alta col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+         <div class="col-xs-12 col-md-12 padding-alta">
+           <p class="text-alta centers margin-alta">
+             Se dio de alta exitosamente la gasolinera
+           </p>
+           <p class="centers color-alta margin-alta1">
+             Hidrosina-67
+           </p>
+         </div>
+        <div class="form-group col-sm-12 col-md-12 col-lg-12 padding-tag margin-traspaso">
+          <div class="col-xs-12 col-sm-12 col-md-12 margin-validar center-validar margin-10 centers">
+            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+              <button type="button" class="btn-aceptar-cancelar btn-primary-cancelar" data-dismiss="modal" aria-label="Close">
+                Cerrar
+              </button>
+            </a>
+          </div>
+        </div>
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!-- 4 -->
+<!--MODAL bloquear Terminales-->
+<div class="modal fade" id="bloquear-4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="alta-bloquear-terminal col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+       <div class="col-md-12 pad-monto">
+         <p class="text-programar centers">
+           Deseas bloquear temporalmente la siguiente terminal
+         </p>
+         <p class="text-vinculado centers">
+           a26ab725-1152
+         </p>
+       </div>
+        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 centers margin-contra">
+         <input type="text" name="" class="tamaño-form" placeholder="Contraseña: Admin">
+        </div>
+        <div class="form-group col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
+          <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
+            <a data-toggle="modal" data-target="#bloqueado-terminal" data-whatever="@mdo">
+              <button type="submit" class="btn-aceptar-cancelar btn-primary-aceptar" data-dismiss="modal" aria-label="Close">Aceptar</button>
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
+            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+              <!-- <button type="submit" class="btn-aceptar-cancelar btn-primary-cancelar">Cancelar</button> -->
+              <button type="button" class="btn-aceptar-cancelar btn-primary-cancelar" data-dismiss="modal" aria-label="Close">
+                Cancelar
+              </button>
+            </a>
+          </div>
+        </div>
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!--MODAL Terminales bloqueado-->
+<div class="modal fade" id="bloqueado-terminal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="alta-bloqueado-terminal col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+         <div class="col-xs-12 col-md-12 padding-bloquear">
+           <div class="col-xs-12 col-md-12 centers img-candado">
+             <img src="img/candado.png" class="size-candado" alt="">
+           </div>
+           <p class="text-programar centers">
+             El siguiente terminal se bloqueo exitosamente
+           </p>
+           <p class="centers color-sit">
+             a26ab725-1152
+           </p>
+         </div>
+        <div class="form-group col-sm-12 col-md-12 col-lg-12 padding-tag margin-traspaso">
+          <div class="col-xs-12 col-sm-12 col-md-12 margin-validar center-validar margin-10 centers">
+            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+              <button type="button" class="btn-aceptar-cancelar btn-primary-cancelar" data-dismiss="modal" aria-label="Close">
+                Cerrar
+              </button>
+            </a>
+          </div>
+        </div>
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!-- alta terminal -->
+<!--MODAL Alta usuario-->
+<div class="modal fade" id="alta-terminal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="alta-usuario-terminal col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+       <!-- CONTENIDO -->
+          <div class="row formato-usuario">
+            <div class="col-xs-12 col-md-12 centers">
+              <p class="titulo">ALTA TERMINAL</p>
+            </div>
+            <form >
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-4 padding-no">
+                  <p>ID de Gasolinera</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <input type="text" name="nom_promo" placeholder="Hidrosina-67">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-4 padding-no">
+                  <p>Numero de Teminal</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <input type="text" name="nom_promo" placeholder="a26ab725-1152">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-2 col-md-offset-4">
+                  <a data-toggle="modal" data-target="#alta-terminal-exitosa" data-whatever="@mdo" data-dismiss="modal" aria-label="Close">
+                    <p class="boton-dar-alta">Dar de alta</p>
+                  </a>
+                </div>
+              </div>
+            </form>
+          </div>
+           <!-- fin CONTENIDO -->
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<!--MODAL DADO DE ALTA-->
+<div class="modal fade" id="alta-terminal-exitosa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div>
+     <form role="form">
+     <div class="alta col-md-12">
+       <div>
+         <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+           <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+         </button>
+       </div>
+       <!--COLLAPSER-->
+         <div class="col-xs-12 col-md-12 padding-alta">
+           <p class="text-alta centers margin-alta">
+             Se dio de alta exitosamente la terminal
+           </p>
+           <p class="centers color-alta margin-alta1">
+             a26ab725-1152
+           </p>
+         </div>
+        <div class="form-group col-sm-12 col-md-12 col-lg-12 padding-tag margin-traspaso">
+          <div class="col-xs-12 col-sm-12 col-md-12 margin-validar center-validar margin-10 centers">
+            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+              <button type="button" class="btn-aceptar-cancelar btn-primary-cancelar" data-dismiss="modal" aria-label="Close">
+                Cerrar
+              </button>
+            </a>
+          </div>
+        </div>
+       <!--COLLAPSER-->
+     </div>
+     </form>
+   </div>
+ </div>
+</div>
+<!--MODAL-->
+<script>
+  function activarcasilla(check){
+  if(document.x.check.checked==true){
+  document.x.b1.style.visibility="visible";
+  }else{
+  document.x.b1.style.visibility="hidden";
+  }
+  }
+</script>
+<form name="x">
+<input name="check" type="checkbox" id="check" value="checkbox" onclick="activarcasilla(this)">
+&nbsp;<input name="b1" type="submit" value="enviar" style="visibility:hidden;">
+</form>
   <!-- /.content-wrapper -->
 <?php getFooter(); ?>
