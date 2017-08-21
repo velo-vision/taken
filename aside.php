@@ -57,10 +57,10 @@
             <i class="fa fa-users" aria-hidden="true"></i> <span>Altas y bajas</span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="tag-vinculados.php"><img src="img/index/punto.png"> Usuarios</a></li>
-            <li><a href="parametro_control.php"><img src="img/index/punto.png"> Tag</a></li>
-            <li><a href="admin-perfiles.php"><img src="img/index/punto.png"> Gasolineras</a></li>
-            <li><a href="admin-perfiles.php"><img src="img/index/punto.png"> Terminales</a></li>
+            <li><a href="usuarios-alta.php"><img src="img/index/punto.png"> Usuarios</a></li>
+            <li><a href="usuarios-tags.php"><img src="img/index/punto.png"> Tag</a></li>
+            <li><a href="usuarios-gasolineras.php"><img src="img/index/punto.png"> Gasolineras</a></li>
+            <li><a href="usuarios-terminales.php"><img src="img/index/punto.png"> Terminales</a></li>
           </ul>
         </li>
         <li id="nseis" class="nseis">
