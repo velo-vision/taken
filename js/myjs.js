@@ -211,6 +211,14 @@ $(function () {
       'ordering'    : true,
       'info'        : false,
       'autoWidth'   : false
+    }),
+     $('#example18').DataTable({ // altas y bajas
+      'paging'      : false,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : false,
+      'autoWidth'   : false
     })
   })
 
