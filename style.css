@@ -1379,6 +1379,10 @@ div.promociones button.active i{
 .quieto-boton{
     margin: 20px auto;
 }
+.formatoPromocion .botonActividad {
+    margin: 15px auto;
+}
+
 /*fin*/
 }
 @media only screen and (min-width:200px) and (max-width:600px){
@@ -1510,7 +1514,9 @@ div.promociones button {
 .completo{
     width: 100% !important;
 }
-
+.formatoPromocion .botonActividad {
+    margin: 15px auto;
+}
 /*fin*/
 }
 
