@@ -824,6 +824,23 @@
 .img-100{
   width:100%;
 }
+.pad-promocion{
+  padding: 0 31%;
+}
+.text-programar1{
+  color: #676767;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.margin-101{
+  margin-top: 25px;
+}
+.pad-promo{
+  padding: 0 45px;
+}
 /*****************Medias query********************/
 @media only screen and (min-width:1200px) and (max-width:1400px){
   .vinculado-reportar {
@@ -1017,6 +1034,18 @@
 }
 }
 @media only screen and (min-width:200px) and (max-width:600px){
+.margin-5{
+  margin-top: 20px;
+}
+.cent{
+  margin: 0 auto !important;
+}
+.pad-promo {
+  padding: 0px;
+}
+.border-promocion {
+  margin: 0 auto;
+}
 .padding-seleccionar{
   padding:0 10%;
 }

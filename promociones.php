@@ -225,19 +225,19 @@ getAside();
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                       <p id="centrado-aqui">Usuarios únicos</p>
                     </div>
-                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-0 col-md-6 col-lg-4">
+                    <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-6 col-lg-4 centers">
                       <a data-toggle="modal" data-target="#Usuario_unico" data-whatever="@mdo">
-                        <p class="btn-asigacion1 automatico"><span id="usuario_U"><i class="fa fa-file-text-o" aria-hidden="true"></i>  SELECCIONAR</span></p>
+                        <p class="btn-asigacion1 automatico cent"><span id="usuario_U"><i class="fa fa-file-text-o" aria-hidden="true"></i>  SELECCIONAR</span></p>
                       </a>
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 margin-5">
                       <p id="centrado-aqui">Gasolineras participantes</p>
                     </div>
-                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-0 col-md-6 col-lg-4">
+                    <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-6 col-lg-4 centers">
                       <a data-toggle="modal" data-target="#Gasolinera_unico" data-whatever="@mdo">
-                        <p class="btn-asigacion1 automatico"><span id="gasolinera"><i class="fa fa-file-text-o" aria-hidden="true"></i> SELECCIONAR</span></p>
+                        <p class="btn-asigacion1 automatico cent"><span id="gasolinera"><i class="fa fa-file-text-o" aria-hidden="true"></i> SELECCIONAR</span></p>
                       </a>
                     </div>
                   </div>
@@ -291,7 +291,7 @@ getAside();
            </div>
            <!-- tabla -->
           <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 scroll-saldo mCustomScrollbar ocultar-flow" data-mcs-theme="dark" style="padding: 0 45px;">
+            <div class="col-xs-12 col-sm-12 col-md-12 scroll-saldo mCustomScrollbar ocultar-flow pad-promo" data-mcs-theme="dark">
               <div class="box no">
                  <div class="box-body table-responsive no-padding margin-transfer">
               <table id="example5" class="table table-hover">
@@ -330,7 +330,7 @@ getAside();
           </div>
           <!-- fin tabla -->
           <div class="form-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
-            <div class="col-xs-6 col-sm-5 margin-validar center-validar margin-10" style="text-align:right;">
+            <div class="col-xs-6 col-sm-5 margin-validar center-validar margin-10 rights">
               <a data-toggle="modal" data-target="#select_user" data-whatever="@mdo">
                 <button type="submit" class="btn-aceptar-cancelar btn-acep" data-dismiss="modal" aria-label="Close">Aceptar</button>
               </a>
@@ -489,7 +489,7 @@ getAside();
           </div>
           <!-- fin tabla -->
           <div class="form-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
-            <div class="col-xs-6 col-sm-5 margin-validar center-validar margin-10" style="text-align:right">
+            <div class="col-xs-6 col-sm-5 margin-validar center-validar margin-10 rights">
               <a data-toggle="modal" data-target="#select_gasolinera" data-whatever="@mdo">
                 <button type="submit" class="btn-aceptar-cancelar btn-acep" data-dismiss="modal" aria-label="Close">Aceptar</button>
               </a>
@@ -588,22 +588,20 @@ getAside();
          </div>
          <!--COLLAPSER-->
            <div class="col-xs-12 col-md-12 pad-monto menos-pad">
-             <p class="text-programar centers">
+             <p class="text-programar1 centers">
               SE GENERÓ LA SIGUIENTE PROMOCIÓN
              </p>
            </div>
-
            <!-- tabla -->
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 pad-promocion">
               <div class="col-md-12 centers border-promocion">
                 <img src="img/imagen.jpg" alt="" class="img-100">
                 <p class="text-10">10%</p>
                 <p class="centers">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet</p>
               </div>
             </div>
-            <div class="form-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-lg-12 padding-tag margin-traspaso sinmargin_lef">
-              <div class="col-xs-12 col-sm-6 col-lg-12 margin-validar center-validar margin-10 centrado_btn_modal">
+            <div class="form-group col-xs-12 col-md-12 padding-tag margin-traspaso centers">
+              <div class="col-xs-12 col-md-12 center-validar margin-101">
                 <a data-toggle="modal" data-target="#" data-whatever="@mdo">
                   <button type="button" class="btn-aceptar-cancelar btn_cancel" data-dismiss="modal" aria-label="Close" onclick="TextDos()">
                     CERRAR
@@ -611,7 +609,6 @@ getAside();
                 </a>
               </div>
             </div>
-          </div>
           <!-- fin tabla -->
 
          <!--COLLAPSER-->
