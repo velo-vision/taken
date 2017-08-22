@@ -1070,7 +1070,8 @@ div.promociones button {
     border: solid 1px #ddd;
     outline: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 5px 10px;
+    font-size: 12px;
     transition: 0.3s;
     background: #fff;
     width: 100%;
@@ -1501,7 +1502,7 @@ div.promociones {
     font-size: 12px;
 }
 div.promociones button {
-    font-size: 11px;
+    font-size: 10px;
 }
 .formatoPromocion .titulo {
     font-size: 15px;

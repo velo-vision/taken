@@ -40,7 +40,7 @@ getAside();
               <i class="fa fa-shopping-bag" aria-hidden="true"></i> CREAR PROMOCIÓN
             </button>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3  padding-no">
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2  padding-no">
             <button class="tablinks2 perfil-n" onclick="promociones(event, 'AsignarPromo')">
               <i class="fa fa-users" aria-hidden="true"></i> ASIGNAR PROMOCIÓN
             </button>
