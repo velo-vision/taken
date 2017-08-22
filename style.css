@@ -959,7 +959,7 @@ div.tab2 button.active {
 }
 .file-upload{
     display:block;
-    text-align:center;    
+    text-align:center;
     font-size: 12px;
 }
 .file-upload .file-select{
@@ -1119,11 +1119,29 @@ div.promociones button.active i{
     text-align: center !important;
     width: 205px;
 }
+.btn-asigacion1{
+    background: #fff;
+    color: #2d9ad5 !important;
+    padding: 7px;
+    border: solid 1px #2d9ad5;
+    margin: 0 0 10px 0;
+    text-align: center !important;
+    width: 205px;
+}
+.btn-asigacion1:hover{
+    background: #2d9ad5;
+    color: #fff !important;
+    padding: 7px;
+    border: solid 1px #2d9ad5;
+    margin: 0 0 10px 0;
+    text-align: center !important;
+    width: 205px;
+}
 /*promociones */
-.modal_parametros_promocion{
+.modal_parametros_promocion {
     background: #fff;
     width: 820px;
-    margin: 15% auto 0px;
+    margin: 30% -20% 0;
     height: auto;
 }
 .margin-aumento{
@@ -1208,6 +1226,12 @@ div.promociones button.active i{
 }
 
 @media only screen and (min-width:768px) and (max-width:992px){
+.modal_parametros_promocion {
+  background: #fff;
+  width: -webkit-fill-available;
+  margin: 0;
+  height: auto;
+}
 .small-box h3 {
     font-size: 33px;
 }
@@ -1272,6 +1296,16 @@ div.promociones button.active i{
 }
 
 @media only screen and (min-width:600px) and (max-width:768px){
+.modal_parametros_promocion2 {
+    background: #fff;
+    width: 500px;
+    margin: 115px 10% 0;
+    height: auto;
+}
+.modal_parametros_promocion {
+  width: 100%;
+  margin: 0;
+}
 .small-box h3 {
     font-size: 30px;
 }
@@ -1348,6 +1382,16 @@ div.promociones button.active i{
 /*fin*/
 }
 @media only screen and (min-width:200px) and (max-width:600px){
+.modal_parametros_promocion2 {
+  background: #fff;
+  width: 100%;
+  margin: 0;
+  height: auto;
+}
+.modal_parametros_promocion {
+  width: 100%;
+  margin: 0;
+}
 .small-box h3 {
     font-size: 25px;
 }
@@ -1460,6 +1504,9 @@ div.promociones button {
 .btn-asigacion {
     width: 100%;
 }
+/*.btn-asigacion1 {
+    width: 100%;
+}*/
 .completo{
     width: 100% !important;
 }

@@ -149,7 +149,7 @@ getAside();
                       <div class="file-upload">
                         <div class="file-select">
                           <div class="file-select-button" id="fileName"><i class="fa fa-picture-o" aria-hidden="true"></i></div>
-                          <div class="file-select-name" id="noFile"><span>subir imagén en formato .jpg, .png o gif no mayor a 2mb.</span></div> 
+                          <div class="file-select-name" id="noFile"><span>subir imagén en formato .jpg, .png o gif no mayor a 2mb.</span></div>
                           <input type="file" name="chooseFile" id="chooseFile">
                         </div>
                       </div>
@@ -168,7 +168,7 @@ getAside();
                       <a href="#">
                         <p class="botonActividad">SEGMENTAR PROMOCIÓN</p>
                       </a>
-                    </div>                         
+                    </div>
                   </div>
                 </form>
               </div>
@@ -199,7 +199,7 @@ getAside();
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-no">
                         <input type="date" name="" value="">
-                      </div>                      
+                      </div>
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 ">
@@ -220,14 +220,14 @@ getAside();
                         <option value="descuento">Magna</option>
                       </select>
                     </div>
-                  </div>                  
+                  </div>
                   <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                       <p id="centrado-aqui">Usuarios únicos</p>
                     </div>
                     <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-0 col-md-6 col-lg-4">
                       <a data-toggle="modal" data-target="#Usuario_unico" data-whatever="@mdo">
-                        <p class="btn-asigacion automatico"><span id="usuario_U"><i class="fa fa-file-text-o" aria-hidden="true"></i>  SELECCIONAR</span></p>
+                        <p class="btn-asigacion1 automatico"><span id="usuario_U"><i class="fa fa-file-text-o" aria-hidden="true"></i>  SELECCIONAR</span></p>
                       </a>
                     </div>
                   </div>
@@ -237,7 +237,7 @@ getAside();
                     </div>
                     <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-0 col-md-6 col-lg-4">
                       <a data-toggle="modal" data-target="#Gasolinera_unico" data-whatever="@mdo">
-                        <p class="btn-asigacion automatico"><span id="gasolinera"><i class="fa fa-file-text-o" aria-hidden="true"></i> SELECCIONAR</span></p>
+                        <p class="btn-asigacion1 automatico"><span id="gasolinera"><i class="fa fa-file-text-o" aria-hidden="true"></i> SELECCIONAR</span></p>
                       </a>
                     </div>
                   </div>
@@ -246,7 +246,7 @@ getAside();
                       <a data-toggle="modal" data-target="#terminar_promocion" data-whatever="@mdo">
                         <p class="botonActividad completo quieto-boton"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> CONCLUIR PROMOCIÓN</p>
                       </a>
-                    </div>                         
+                    </div>
                   </div>
                 </form>
               </div>
@@ -268,31 +268,22 @@ getAside();
          </div>
          <!--COLLAPSER-->
            <div class="col-xs-12 col-md-12 pad-monto menos-pad">
-             <p class="text-programar centers">
+             <p class="text-programar centers padding-seleccionar">
               SELECCIONAR LOS USUARIOS QUE DESEAS ASIGNAR A LA PROMOCIÓN
-             </p>             
+             </p>
            </div>
            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 centers">
-            <input type="text" name="" class="tamaño-form" placeholder="BUSCAR..">
+            <input type="text" name="" class="tamaño-form3" placeholder=" BUSCAR..">
            </div>
            <div class="col-xs-12 col-md-12 pad-monto menos-pad2 margin-aumento">
-            <div class="col-md-6 col-lg-3 col-lg-offset-3">
-            <!-- Date range -->
-              <!-- <div class="form-group calendario_fechas">
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="reservation" placeholder="Fecha">
-                </div>
-              </div> -->
-              <select>
+            <div class="col-md-6 col-lg-4 col-lg-offset-2">
+              <select class="border-azul">
                 <option value="descuento">FECHA</option>
                 <option value="descuento">FECHAS</option>
               </select>
             </div>
-            <div class="col-md-6 col-lg-3">
-              <select>
+            <div class="col-md-6 col-lg-4">
+              <select class="border-azul">
                 <option value="saldo">SALDO TOTAL</option>
                 <option value="saldo">SALDO TOTAL</option>
               </select>
@@ -300,20 +291,21 @@ getAside();
            </div>
            <!-- tabla -->
           <div class="row">
-            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo mCustomScrollbar ocultar-flow" data-mcs-theme="dark">
+            <div class="col-xs-12 col-sm-12 col-md-12 scroll-saldo mCustomScrollbar ocultar-flow" data-mcs-theme="dark" style="padding: 0 45px;">
               <div class="box no">
                  <div class="box-body table-responsive no-padding margin-transfer">
               <table id="example5" class="table table-hover">
                 <thead class="separacion">
                   <tr>
-                     <th><div class="checkbox checkbox-success" id="seleccionartodos">
+                     <th>
+                       <div class="checkbox checkbox-success" id="seleccionartodos">
                         <input id="checkTodos" type="checkbox">
                         <label for="checkTodos">Nombre De La Empresa</label>
-                    </div>
+                        </div>
                     </th>
                      <th>Última Recarga</th>
                      <th>Saldo Total</th>
-                     <th>Tags Activas</th>                    
+                     <th>Tags Activas</th>
                   </tr>
                 </thead>
                 <tbody class="mytabs">
@@ -327,7 +319,7 @@ getAside();
                   </th>
                   <th class="centers">30/09/2017</th>
                   <th class="centers">$10,000</th>
-                  <th class="centers">1</th>                  
+                  <th class="centers">1</th>
                 </tr>
                <?php } ?>
                 </tbody>
@@ -338,10 +330,7 @@ getAside();
           </div>
           <!-- fin tabla -->
           <div class="form-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
-            <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
-              <!-- <a data-toggle="modal" data-target="#tope_fijado" data-whatever="@mdo">
-                <p class="botonActividad"><i class="fa fa-sliders rotar" aria-hidden="true"></i> FIJAR TOPE</p>
-              </a> -->
+            <div class="col-xs-6 col-sm-5 margin-validar center-validar margin-10" style="text-align:right;">
               <a data-toggle="modal" data-target="#select_user" data-whatever="@mdo">
                 <button type="submit" class="btn-aceptar-cancelar btn-acep" data-dismiss="modal" aria-label="Close">Aceptar</button>
               </a>
@@ -378,9 +367,9 @@ getAside();
            <div class="col-xs-12 col-md-12 pad-monto menos-pad">
              <p class="text-programar centers">
               SE ASIGNARON LO SIGUIENTES USUARIOS  PARA LA PROMOCIÓN
-             </p>             
+             </p>
            </div>
-           
+
            <!-- tabla -->
           <div class="row">
             <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo mCustomScrollbar ocultar-flow" data-mcs-theme="dark">
@@ -389,8 +378,8 @@ getAside();
               <table id="example5" class="table table-hover">
                 <thead class="separacion">
                   <tr>
-                     <th class="centers">Nombre De La Empresa
-                    </th>                                       
+                     <th class="centers no-border">Nombre De La Empresa
+                    </th>
                   </tr>
                 </thead>
                 <tbody class="mytabs">
@@ -398,7 +387,7 @@ getAside();
                 <tr>
                   <th class="centers">
                     Sambum S.a de C.V
-                  </th>                                   
+                  </th>
                 </tr>
                <?php } ?>
                 </tbody>
@@ -408,8 +397,8 @@ getAside();
             </div>
           </div>
           <!-- fin tabla -->
-          <div class="form-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-lg-12 padding-tag margin-traspaso sinmargin_lef">            
-            <div class="col-xs-12 col-sm-6 col-lg-12 margin-validar center-validar margin-10 centrado_btn_modal">
+          <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-tag margin-traspaso sinmargin_lef">
+            <div class="col-xs-12 col-sm-12 col-lg-12 margin-validar center-validar margin-10 centrado_btn_modal centers">
               <a data-toggle="modal" data-target="#" data-whatever="@mdo">
                 <button type="button" class="btn-aceptar-cancelar btn_cancel" data-dismiss="modal" aria-label="Close" onclick="cambioTExt()">
                   CERRAR
@@ -438,37 +427,28 @@ getAside();
            </button>
          </div>
          <!--COLLAPSER-->
-           <div class="col-xs-12 col-md-12 pad-monto menos-pad">
-             <p class="text-programar centers">
-              SELECCIONAR LAS GASOLINERAS QUE DESEAS ASIGNAR LA PROMOCIÓN
-             </p>             
-           </div>
-           <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 centers">
-            <input type="text" name="" class="tamaño-form" placeholder="BUSCAR..">
-           </div>
-           <div class="col-xs-12 col-md-12 pad-monto menos-pad2 margin-aumento">
-            <div class="col-md-6 col-lg-3 col-lg-offset-3">
-            <!-- Date range -->
-              <!-- <div class="form-group calendario_fechas">
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="reservation" placeholder="Fecha">
-                </div>
-              </div> -->
-              <select>
-                <option value="descuento">FECHA</option>
-                <option value="descuento">FECHAS</option>
-              </select>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <select>
-                <option value="saldo">SALDO TOTAL</option>
-                <option value="saldo">SALDO TOTAL</option>
-              </select>
-            </div>
-           </div>
+         <div class="col-xs-12 col-md-12 pad-monto menos-pad">
+           <p class="text-programar centers padding-seleccionar">
+            SELECCIONAR LAS GASOLINERAS QUE DESEAS ASIGNAR LA PROMOCIÓN
+           </p>
+         </div>
+         <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 centers">
+          <input type="text" name="" class="tamaño-form3" placeholder=" BUSCAR..">
+         </div>
+         <div class="col-xs-12 col-md-12 pad-monto menos-pad2 margin-aumento">
+          <div class="col-md-6 col-lg-4 col-lg-offset-2">
+            <select class="border-azul">
+              <option value="descuento">FECHA</option>
+              <option value="descuento">FECHAS</option>
+            </select>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <select class="border-azul">
+              <option value="saldo">SALDO TOTAL</option>
+              <option value="saldo">SALDO TOTAL</option>
+            </select>
+          </div>
+         </div>
            <!-- tabla -->
           <div class="row">
             <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo mCustomScrollbar ocultar-flow" data-mcs-theme="dark">
@@ -484,7 +464,7 @@ getAside();
                     </th>
                      <th>Fecha</th>
                      <th>Monto Promedio</th>
-                     <th>Litros Vendidos</th>                    
+                     <th>Litros Vendidos</th>
                   </tr>
                 </thead>
                 <tbody class="mytabs">
@@ -498,7 +478,7 @@ getAside();
                   </th>
                   <th class="centers">30/09/2017</th>
                   <th class="centers">$10,000</th>
-                  <th class="centers">3000</th>                  
+                  <th class="centers">3000</th>
                 </tr>
                <?php } ?>
                 </tbody>
@@ -509,10 +489,7 @@ getAside();
           </div>
           <!-- fin tabla -->
           <div class="form-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 padding-tag margin-traspaso">
-            <div class="col-xs-6 col-sm-6 margin-validar center-validar margin-10">
-              <!-- <a data-toggle="modal" data-target="#tope_fijado" data-whatever="@mdo">
-                <p class="botonActividad"><i class="fa fa-sliders rotar" aria-hidden="true"></i> FIJAR TOPE</p>
-              </a> -->
+            <div class="col-xs-6 col-sm-5 margin-validar center-validar margin-10" style="text-align:right">
               <a data-toggle="modal" data-target="#select_gasolinera" data-whatever="@mdo">
                 <button type="submit" class="btn-aceptar-cancelar btn-acep" data-dismiss="modal" aria-label="Close">Aceptar</button>
               </a>
@@ -551,9 +528,9 @@ getAside();
            <div class="col-xs-12 col-md-12 pad-monto menos-pad">
              <p class="text-programar centers">
               SE ASIGNARON LO SIGUIENTES USUARIOS  PARA LA PROMOCIÓN
-             </p>             
+             </p>
            </div>
-           
+
            <!-- tabla -->
           <div class="row">
             <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo mCustomScrollbar ocultar-flow" data-mcs-theme="dark">
@@ -562,8 +539,8 @@ getAside();
               <table id="example18" class="table table-hover">
                 <thead class="separacion">
                   <tr>
-                     <th class="centers">Nombre De La Empresa
-                    </th>                                       
+                     <th class="centers no-border">Nombre De La Empresa
+                    </th>
                   </tr>
                 </thead>
                 <tbody class="mytabs">
@@ -571,7 +548,7 @@ getAside();
                 <tr>
                   <th class="centers">
                     Sambum S.a de C.V
-                  </th>                                   
+                  </th>
                 </tr>
                <?php } ?>
                 </tbody>
@@ -581,8 +558,8 @@ getAside();
             </div>
           </div>
           <!-- fin tabla -->
-          <div class="form-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-lg-12 padding-tag margin-traspaso sinmargin_lef">            
-            <div class="col-xs-12 col-sm-6 col-lg-12 margin-validar center-validar margin-10 centrado_btn_modal">
+          <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-tag margin-traspaso sinmargin_lef">
+            <div class="col-xs-12 col-sm-12 col-lg-12 margin-validar center-validar margin-10 centrado_btn_modal centers">
               <a data-toggle="modal" data-target="#" data-whatever="@mdo">
                 <button type="button" class="btn-aceptar-cancelar btn_cancel" data-dismiss="modal" aria-label="Close" onclick="TextDos()">
                   CERRAR
@@ -613,40 +590,30 @@ getAside();
            <div class="col-xs-12 col-md-12 pad-monto menos-pad">
              <p class="text-programar centers">
               SE GENERÓ LA SIGUIENTE PROMOCIÓN
-             </p>             
+             </p>
            </div>
-           
+
            <!-- tabla -->
           <div class="row">
-            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 scroll-saldo mCustomScrollbar ocultar-flow" data-mcs-theme="dark">
-              <div class="col-md-12">
-                <div class="col-md-12">
-                  <i class="fa fa-picture-o" aria-hidden="true"></i>
-                </div>
-                <div class="col-md-12">
-                  <p>10%</p>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes</p>
-                </div>
-                <div>
-                  <a data-toggle="modal" data-target="#" data-whatever="@mdo">
-                <button type="button" class="btn-aceptar-cancelar btn_cancel" data-dismiss="modal" aria-label="Close">
-                  CERRAR
-                </button>
-              </a>
-                </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <div class="col-md-12 centers border-promocion">
+                <img src="img/imagen.jpg" alt="" class="img-100">
+                <p class="text-10">10%</p>
+                <p class="centers">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet</p>
+              </div>
+            </div>
+            <div class="form-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-lg-12 padding-tag margin-traspaso sinmargin_lef">
+              <div class="col-xs-12 col-sm-6 col-lg-12 margin-validar center-validar margin-10 centrado_btn_modal">
+                <a data-toggle="modal" data-target="#" data-whatever="@mdo">
+                  <button type="button" class="btn-aceptar-cancelar btn_cancel" data-dismiss="modal" aria-label="Close" onclick="TextDos()">
+                    CERRAR
+                  </button>
+                </a>
               </div>
             </div>
           </div>
           <!-- fin tabla -->
-          <div class="form-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-lg-12 padding-tag margin-traspaso sinmargin_lef">            
-            <div class="col-xs-12 col-sm-6 col-lg-12 margin-validar center-validar margin-10 centrado_btn_modal">
-              <a data-toggle="modal" data-target="#" data-whatever="@mdo">
-                <button type="button" class="btn-aceptar-cancelar btn_cancel" data-dismiss="modal" aria-label="Close" onclick="TextDos()">
-                  CERRAR
-                </button>
-              </a>
-            </div>
-          </div>
+
          <!--COLLAPSER-->
        </div>
        </form>

@@ -59,7 +59,7 @@
           <ul class="treeview-menu">
             <li><a href="usuarios-alta.php"><img src="img/index/punto.png"> Usuarios</a></li>
             <li><a href="usuarios-tags.php"><img src="img/index/punto.png"> Tag</a></li>
-            <li><a href="usuarios-gasolineras.php"><img src="img/index/punto.png"> Gasolineras</a></li>
+            <li><a href="usuarios-gasolinera.php"><img src="img/index/punto.png"> Gasolineras</a></li>
             <li><a href="usuarios-terminales.php"><img src="img/index/punto.png"> Terminales</a></li>
           </ul>
         </li>
