@@ -115,9 +115,12 @@ getAside();
                 </p>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-lg-offset-2 margin-circulo">
-                <div class=" col-xs-12 col-sm-12 col-md-12">
-                  <a href="#"><span class="añadir-gasolinera"><img src="img/gas.png" alt="">Añadir Gasolinera</span></a>
+                <div class=" col-xs-12 col-sm-12 col-md-12" style="text-align:right;">
+                  <a data-toggle="modal" data-target="#agregar-gasolinera" data-whatever="@mdo">
+                    <button class="boton-alta" data-dismiss="modal" aria-label="Close"><span class="texto-res"><img src="img/gas.png" alt=""> Añadir Gasolinera</span></button>
+                  </a>
                 </div>
+
               </div>
             </div>
           <!-- tablas -->
@@ -167,95 +170,133 @@ getAside();
           <!-- /.box -->
           <!-- fin tablas -->
         </section>
-
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 separacion-tag sin-padding">
-          <div class="col-xs-12 col-sm-12 col-md-12">
-            <h3 class="size-titulo">
-              <i class="fa fa-sort-asc rotar color-azul" aria-hidden="true"></i> Volumen de Venta por Tipo de Gasolina
-            </h3>
-          </div>
-          <div class="col-md-12">
-            <div class="col-xs-12 col-sm-6 col-md-6 margin-fecha centers">
-              <div class="form-group">
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control" id="reservation">
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 no-pad">
-              <div class="grafica-color">
-                <p class="grafica-fecha">30/09/2012</p>
-                <div class="col-md-12">
-                  <p><span class="color-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Diesel</p>
-                  <p><span class="color-2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Gasolina Premium</p>
-                  <p><span class="color-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Gasoline Magna</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row grafica-center">
-            <!-- Left col -->
-            <div class="col-md-10 col-md-offset-1">
-              <canvas id="canvas" class="height-grafica"></canvas>
-            </div>
-            <!-- /.Left col -->
-          </div>
-        </div>
-
       </div>
-
       <!-- /.row (main row) -->
     </section>
     <!-- /.content -->
   </div>
-  <script>
-      // var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
-      var lineChartData = {
-        labels : ["Lorem Ipsum","Lorem Ipsum","Lorem Ipsum","Lorem Ipsum","Lorem Ipsum","Lorem Ipsum"],
-        datasets : [
-          {
-            label: "My First dataset",
-            fillColor : "rgba(239,81,63,0.7)",
-            strokeColor : "rgba(127,215,197,1)",
-            pointColor : "rgba(127,215,197,1)",
-            pointStrokeColor : "#fff",
-            pointHighlightFill : "#fff",
-            pointHighlightStroke : "rgba(127,215,197,1)",
-            data : [17000,27000,24000,19000,19000,30000,37000]
-          },
-          {
-            label: "My Second dataset",
-            fillColor : "rgba(155,211,79,0.7)",
-            strokeColor : "rgba(197,162,212,1)",
-            pointColor : "rgba(197,162,212,1)",
-            pointStrokeColor : "#fff",
-            pointHighlightFill : "#fff",
-            pointHighlightStroke : "rgba(197,162,212,1)",
-            data : [36000,28000,16000,16000,24000,25000,16000]
-          },
-          {
-            label: "My Second dataset",
-            fillColor : "rgba(31,186,225,0.7)",
-            strokeColor : "rgba(197,162,212,1)",
-            pointColor : "rgba(197,162,212,1)",
-            pointStrokeColor : "#fff",
-            pointHighlightFill : "#fff",
-            pointHighlightStroke : "rgba(243,106,90,1)",
-            data : [8000,7500,7600,3000,4000,7600,7500]
-          }
-        ]
 
-      }
-
-    window.onload = function(){
-      var ctx = document.getElementById("canvas").getContext("2d");
-      window.myLine = new Chart(ctx).Line(lineChartData, {
-        responsive: true
-      });
-    }
-    </script>
+  <!--MODAL Alta usuario-->
+  <div class="modal fade" id="agregar-gasolinera" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+     <div>
+       <form role="form">
+       <div class="alta-usuario-gas col-md-12">
+         <div>
+           <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+             <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+           </button>
+         </div>
+         <!--COLLAPSER-->
+         <!-- CONTENIDO -->
+            <div class="row formato-usuario">
+              <div class="col-xs-12 col-md-12 centers">
+                <p class="titulo">ALTA GASOLINERA</p>
+              </div>
+              <form >
+                <div class="col-xs-12 col-md-12">
+                  <div class="col-xs-12 col-md-4 padding-no">
+                    <p>Grupo Gasolinero</p>
+                  </div>
+                  <div class="col-xs-12 col-md-7">
+                    <input type="text" name="nom_promo" placeholder="Hidrosina">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-12">
+                  <div class="col-xs-12 col-md-4 padding-no">
+                    <p>Id de gasolinera</p>
+                  </div>
+                  <div class="col-xs-12 col-md-7">
+                    <input type="text" name="nom_promo" placeholder="Hidrosina-67">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-12">
+                  <div class="col-xs-12 col-md-4 padding-no">
+                    <p id="vigencia">Nombre / Razón Social</p>
+                  </div>
+                  <div class="col-xs-12 col-md-7">
+                    <input type="text" name="numTotal" placeholder="Hidrosina S.A. de C.V">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-12">
+                  <div class="col-xs-12 col-md-4 padding-no">
+                    <p>Mail</p>
+                  </div>
+                  <div class="col-xs-12 col-md-7">
+                    <input type="text" name="nom_promo" placeholder="jl_33outlook.com">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-12">
+                  <div class="col-xs-12 col-md-4 padding-no">
+                    <p>Teléfono</p>
+                  </div>
+                  <div class="col-xs-12 col-md-7">
+                    <input type="text" name="nom_promo" placeholder="55-30-23-45">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-12">
+                  <div class="col-xs-12 col-md-4 padding-no">
+                    <p>Dirección</p>
+                  </div>
+                  <div class="col-xs-12 col-md-7">
+                    <input type="text" name="nom_promo" placeholder="Calle Gral. Antonio León 67, San Miguel Chapultepec II Seccion">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-12">
+                  <div class="col-xs-12 col-md-2 col-md-offset-4">
+                    <a data-toggle="modal" data-target="#agregar-gasolinera-exitosa" data-whatever="@mdo" data-dismiss="modal" aria-label="Close">
+                      <p class="boton-dar-alta">Dar de alta</p>
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+             <!-- fin CONTENIDO -->
+         <!--COLLAPSER-->
+       </div>
+       </form>
+     </div>
+   </div>
+  </div>
+  <!--MODAL-->
+  <!--MODAL DADO DE ALTA-->
+  <div class="modal fade" id="agregar-gasolinera-exitosa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+     <div>
+       <form role="form">
+       <div class="alta col-md-12">
+         <div>
+           <button type="button" class="close pad-5" data-dismiss="modal" aria-label="Close">
+             <img src="img/modal/cerrar1.png" alt="The Wedding Board">
+           </button>
+         </div>
+         <!--COLLAPSER-->
+           <div class="col-xs-12 col-md-12 padding-alta">
+             <div class="col-md-12 centers">
+               <img src="img/gasolina.jpg" alt="" width="100px">
+             </div>
+             <p class="text-alta centers margin-alta">
+               Se agrego exitosamente la gasolinera
+             </p>
+             <p class="centers color-alta margin-alta1">
+               pemex-291038402
+             </p>
+           </div>
+          <div class="form-group col-sm-12 col-md-12 col-lg-12 padding-tag margin-traspaso">
+            <div class="col-xs-12 col-sm-12 col-md-12 margin-validar center-validar margin-15 centers">
+              <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+                <button type="button" class="btn-aceptar-cancelar btn-primary-cancelar" data-dismiss="modal" aria-label="Close">
+                  Cerrar
+                </button>
+              </a>
+            </div>
+          </div>
+         <!--COLLAPSER-->
+       </div>
+       </form>
+     </div>
+   </div>
+  </div>
+  <!--MODAL-->
   <!-- /.content-wrapper -->
   <?php getFooter(); ?>
